@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "layer": "methodology",
+  "document": "dream_series_analysis",
+  "description": "How to analyze not just individual dreams but sequences of dreams over time. This is the app's core competitive advantage — no human journal or therapist can search and pattern-match across hundreds of entries as efficiently.",
+  "principles": [
+    {
+      "id": "series_principle_spiral",
+      "name": "The Spiral, Not the Line",
+      "description": "Dream series don't progress linearly. They spiral — returning to the same themes at deeper levels. The app must recognize circumambulation: 'the water dream has appeared seven times. The first three times the water was murky. The last two times it was clear. This isn't repetition — it's deepening.'"
+    },
+    {
+      "id": "series_principle_psyche_agenda",
+      "name": "The Psyche Has Its Own Agenda",
+      "description": "A dream series reveals what the unconscious is WORKING ON, regardless of what the ego thinks the issue is. If the user is journaling about career anxiety but their dreams keep featuring childhood homes, the psyche is working on something older and deeper. Trust the dream series over the waking narrative."
+    },
+    {
+      "id": "series_principle_turning_points",
+      "name": "Turning Points Are Diagnostic",
+      "description": "The most important data points in a dream series are the SHIFTS — when a recurring symbol changes quality, when a new figure appears for the first time, when the emotional tone of a theme reverses. These turning points often correspond to waking-life integration events."
+    }
+  ],
+  "tracking_dimensions": [
+    {
+      "id": "dimension_symbol_frequency",
+      "name": "Symbol Frequency Tracking",
+      "description": "Track how often specific symbols appear across entries. High-frequency symbols are the psyche's current vocabulary — what it's thinking about most.",
+      "method": "Count symbol appearances per time period (weekly, monthly). Flag symbols that appear 3+ times in a 30-day window.",
+      "output_example": "Water has appeared in 8 of your last 20 entries. Houses in 6. Shadow figures in 5.",
+      "insight_framework": "Frequency reveals preoccupation. The unconscious returns to what it hasn't finished processing."
+    },
+    {
+      "id": "dimension_symbol_evolution",
+      "name": "Symbol Evolution Tracking",
+      "description": "Track how the QUALITY of a recurring symbol changes over time. This is the app's most powerful feature — the ability to show that murky water has been gradually clearing, that the pursuer has been getting less threatening, that the house has been gaining new rooms.",
+      "method": "For each high-frequency symbol, track its variation (from symbols.json) across appearances. Map the trajectory.",
+      "output_example": "Your water dreams over the past three months: murky pool (March 3) → dark river (March 18) → calm lake (April 5) → clear stream (April 22) → swimming in clear ocean (May 8). The water is clearing and you're getting more comfortable in it.",
+      "insight_framework": "Symbol evolution tracks individuation. Murky → clear = unconscious becoming conscious. Threatening → neutral = Shadow integrating. Small → vast = the psyche expanding.",
+      "evolution_patterns": [
+        {
+          "pattern": "threatening_to_neutral",
+          "meaning": "Shadow integration progressing — what was feared is being accepted",
+          "concept": "shadow"
+        },
+        {
+          "pattern": "murky_to_clear",
+          "meaning": "Unconscious content becoming conscious — clarity emerging",
+          "concept": "integration"
+        },
+        {
+          "pattern": "small_to_vast",
+          "meaning": "Psychic expansion — the ego's awareness of the Self is growing",
+          "concept": "self"
+        },
+        {
+          "pattern": "wild_to_tamed",
+          "meaning": "Instinctual energy being integrated — the wild horse becomes the ridden horse",
+          "concept": "individuation"
+        },
+        {
+          "pattern": "distant_to_near",
+          "meaning": "What was projected is being reclaimed — the Anima/Animus is moving closer",
+          "concept": "anima_animus"
+        },
+        {
+          "pattern": "broken_to_repaired",
+          "meaning": "Psychic structure being rebuilt — the damaged house gaining new rooms",
+          "concept": "ego"
+        },
+        {
+          "pattern": "fragmented_to_whole",
+          "meaning": "Integration progressing — scattered elements coming together into mandala/wholeness",
+          "concept": "self"
+        }
+      ]
+    },
+    {
+      "id": "dimension_figure_development",
+      "name": "Figure Development Tracking",
+      "description": "Track how dream figures evolve across entries. Shadow figures that become less threatening. Anima/Animus figures that become more developed (Eve → Helen → Mary → Sophia). Wise Old Man figures that appear at critical junctures. Child figures that emerge after integration work.",
+      "method": "Tag each figure with archetypal identification and developmental stage. Track across entries.",
+      "output_example": "Male figures in your dreams over the past two months: angry stranger → confrontational figure who spoke → figure who walked beside you → figure who gave you something. This progression tracks Animus development from threat to guide.",
+      "insight_framework": "Figure evolution is the most direct measure of archetypal development. The app can map figure evolution onto Anima/Animus stages and Shadow integration stages."
+    },
+    {
+      "id": "dimension_emotional_arc",
+      "name": "Emotional Arc Tracking",
+      "description": "Track the prevailing emotional tone of dreams over time. A sustained period of anxiety dreams followed by a shift to calmer imagery is diagnostic. A sudden appearance of numinous/sacred emotion in an otherwise neutral dream series signals Self activation.",
+      "method": "Tag each entry with dominant emotional tone. Map across time. Look for shifts.",
+      "emotional_categories": [
+        "anxiety / fear",
+        "anger / rage",
+        "sadness / grief",
+        "joy / elation",
+        "peace / calm",
+        "numinous / sacred / awe",
+        "confusion / disorientation",
+        "neutral / observational"
+      ],
+      "output_example": "Your dream tone has shifted over the past six weeks: predominantly anxious (March) → mixed anxiety and anger (early April) → grief (late April) → calm with moments of unexpected beauty (May). This arc follows the alchemical stages.",
+      "insight_framework": "Map emotional arc to alchemical stages: sustained darkness (nigredo) → clarity beginning (albedo) → warmth (citrinitas) → fullness (rubedo)."
+    },
+    {
+      "id": "dimension_narrative_structure",
+      "name": "Narrative Structure Tracking",
+      "description": "Track what types of dream structures predominate. A person whose dreams are all confrontations is in Shadow work. A person whose dreams are all journeys is in active individuation. A person whose dreams are static scenes may be in a consolidation phase.",
+      "method": "Classify each dream by structure type (from dream-analysis-protocol.json). Track proportions over time.",
+      "output_example": "Six months ago, 70% of your dreams were pursuit/confrontation. Now 60% are journeys and explorations. Your psyche has moved from defense to adventure."
+    },
+    {
+      "id": "dimension_alchemical_mapping",
+      "name": "Alchemical Stage Mapping",
+      "description": "Map the overall dream series to the alchemical stages. Look for the macro-arc: is this person in a nigredo (darkness, decomposition), albedo (clarification), citrinitas (embodiment), or rubedo (integration) phase? The alchemical model is the most powerful longitudinal lens.",
+      "method": "Combine symbol evolution + emotional arc + figure development into an alchemical stage assessment. Update monthly or when sufficient data accumulates.",
+      "indicators": {
+        "nigredo": "Predominance of darkness, death, decay, destruction, black imagery, threatening figures, anxiety. The old order is decomposing.",
+        "albedo": "Clarity emerging from darkness. Water clearing. Figures becoming more differentiated. Emotional tone shifting from fear to clarity. The moon (reflected light) appearing.",
+        "citrinitas": "Warmth, gold, sunrise imagery. Figures becoming cooperative. Emotional tone warming. New rooms being discovered. Integration events in waking life.",
+        "rubedo": "Mandala imagery, sacred marriage, wholeness symbols, numinous experiences. Formerly split elements coming together. The circle completing."
+      },
+      "output_example": "Based on the overall trajectory of your dream journal over the past four months, your psyche appears to be moving from albedo into early citrinitas. The initial darkness has cleared, and you're beginning to embody the insights rather than just understanding them."
+    },
+    {
+      "id": "dimension_synchronicity_log",
+      "name": "Synchronicity Tracking",
+      "description": "When users tag waking events that correspond to dream content, track these connections. Clusters of synchronicity often indicate active Self engagement — the inner and outer worlds are in close correspondence.",
+      "method": "User manually tags entries as 'synchronicity' when a dream symbol appears in waking life. App tracks frequency and clustering.",
+      "output_example": "You've noted three synchronicities in the past two weeks, all involving water imagery. When synchronicities cluster around a specific symbol, that symbol is especially charged right now."
+    }
+  ],
+  "milestone_detection": {
+    "description": "The app should automatically flag significant dream series milestones — moments that deserve the user's attention.",
+    "milestones": [
+      {
+        "id": "milestone_first_lucid",
+        "name": "First Lucid Moment",
+        "trigger": "The dreamer reports being aware they were dreaming",
+        "significance": "Consciousness has extended INTO the unconscious. The ego-Self axis is strengthening."
+      },
+      {
+        "id": "milestone_shadow_turn",
+        "name": "The Shadow Turn",
+        "trigger": "The dreamer stops running from a pursuing figure and turns to face them",
+        "significance": "Shadow confrontation initiated. Often a turning point in the entire dream series."
+      },
+      {
+        "id": "milestone_new_room",
+        "name": "First New Room",
+        "trigger": "The dreamer discovers an unknown room in a familiar house",
+        "significance": "Psychic expansion. The personality is growing larger than the ego knew."
+      },
+      {
+        "id": "milestone_anima_animus_dialogue",
+        "name": "First Dialogue with Anima/Animus",
+        "trigger": "The dreamer speaks with (not just encounters) a compelling opposite-gender figure",
+        "significance": "Relationship with the inner Other is developing. Anima/Animus work has entered a new stage."
+      },
+      {
+        "id": "milestone_mandala",
+        "name": "First Mandala / Wholeness Image",
+        "trigger": "Spontaneous circular, quaternary, or mandala imagery appears",
+        "significance": "The Self is becoming visible. Individuation is producing its characteristic symbol."
+      },
+      {
+        "id": "milestone_water_clearing",
+        "name": "The Water Clears",
+        "trigger": "Previously murky water becomes clear in a dream",
+        "significance": "Unconscious material that was opaque is becoming transparent to consciousness."
+      },
+      {
+        "id": "milestone_death_and_birth",
+        "name": "Death Followed by Birth",
+        "trigger": "A death dream is followed within a few entries by a birth or child dream",
+        "significance": "The death-rebirth cycle completing. The psyche has died to its old form and something new is emerging."
+      },
+      {
+        "id": "milestone_guide_appears",
+        "name": "The Guide Appears",
+        "trigger": "A Wise Old Man/Woman figure appears for the first time",
+        "significance": "The psyche's deeper wisdom is becoming available. Often appears when the ego has exhausted its own resources."
+      }
+    ]
+  },
+  "reporting_cadence": {
+    "description": "Periodic pattern reports follow the ART structure — Acknowledge what's been happening, Relate it to the larger trajectory, Transition with a question about where the dreamer goes from here.",
+    "weekly": {
+      "trigger": "3+ entries in a week",
+      "art_model": {
+        "acknowledge": "Name the week's dominant theme or symbol: 'This week, water appeared in three of your four dreams.'",
+        "relate": "Connect it briefly: 'Water showing up this consistently usually means your psyche is working on something emotional — feelings that are running below the surface of your daily awareness.'",
+        "transition": "One question: 'What's been stirring in you this week that you haven't had words for yet?'"
+      },
+      "length": "3-5 sentences total."
+    },
+    "monthly": {
+      "trigger": "End of each calendar month with 8+ entries",
+      "art_model": {
+        "acknowledge": "Name the month's patterns: recurring symbols, emotional arc, figure development. 'This month, your dreams moved from pursuit to exploration. The figure who was chasing you in early March is now someone you walk beside.'",
+        "relate": "Connect to the developmental trajectory: 'That shift — from being pursued to walking together — tracks something depth psychology takes very seriously. What was threatening is becoming companionable. Whatever you were running from, some part of you has started to integrate it.'",
+        "transition": "One question about the next month: 'As this figure becomes less threatening, what do you think it's been trying to bring you all along?'"
+      },
+      "length": "A short paragraph. Conversational, not clinical."
+    },
+    "quarterly": {
+      "trigger": "Every 3 months with 20+ entries",
+      "art_model": {
+        "acknowledge": "Name the quarter's arc with specificity: 'Three months ago, your dreams were predominantly dark — basements, murky water, nighttime scenes. Over the past month, light has been returning. Dawn imagery. Clear water. Open skies.'",
+        "relate": "Connect to the alchemical or developmental trajectory: 'That progression — from darkness toward light, from confusion toward clarity — maps to what depth psychology calls the transition from nigredo to albedo. In simpler terms: the hard part of the transformation — the breaking down — seems to be giving way to the clearing. You're starting to see into what was opaque.'",
+        "transition": "One question about the larger journey: 'Looking back at these three months as a chapter in your inner life, what would you title it?'"
+      },
+      "length": "Two short paragraphs."
+    },
+    "annual": {
+      "trigger": "One year of journaling with 50+ entries",
+      "art_model": {
+        "acknowledge": "Name the year's story — the full arc, the turning points, the milestones: 'A year ago, you dreamed of locked doors and pursuit. Six months in, the doors started opening. Now you dream of houses with rooms you didn't know existed. Your dream vocabulary has changed — and that means YOU have changed.'",
+        "relate": "Connect to the individuation journey: 'The story your dreams have been telling this year is a story of expansion. You started in a small, defended space and your inner world has been growing — sometimes painfully, sometimes with wonder. In the language of depth psychology, that's individuation: becoming more of who you actually are.'",
+        "transition": "One question that honors the year and opens the next: 'If you could speak to the version of yourself who recorded that first dream a year ago, what would you want them to know about where the journey leads?'"
+      },
+      "length": "The most premium deliverable. Two-three paragraphs. Worth printing.",
+      "note": "The annual report is the app's most shareable output. It should pass the screenshot test at the highest level — something someone would frame, not just forward."
+    }
+  }
+}

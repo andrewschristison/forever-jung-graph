@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "layer": "contextual_frameworks",
+  "document": "body_populations_contemplative",
+  "body_dream_connections": {
+    "description": "The body is not separate from the psyche — it IS the psyche in material form. Physical states influence dream content, and dream content can reflect physical conditions the ego hasn't consciously registered. This section bridges the physiological and psychological dimensions of dreaming.",
+    "sleep_architecture": {
+      "description": "Dreams occur primarily during REM sleep, but non-REM dreams also occur and differ in character. Understanding basic sleep architecture helps the app distinguish between different qualities of dream content.",
+      "stages": [
+        {
+          "stage": "NREM Stage 1-2",
+          "dream_quality": "Brief, fragmentary, thought-like. More like drifting thoughts than narrative dreams.",
+          "interpretation_note": "Fragments from early sleep stages may not carry the symbolic weight of full REM dreams. But fragments can be seeds."
+        },
+        {
+          "stage": "NREM Stage 3 (Deep Sleep)",
+          "dream_quality": "Rare but possible. Night terrors occur here — distinct from nightmares. Less visual, more primal fear.",
+          "interpretation_note": "Night terrors (waking in terror with no dream recall) are physiological, not symbolic. They don't respond to dream analysis. If a user reports them frequently, suggest sleep medicine evaluation."
+        },
+        {
+          "stage": "REM Sleep",
+          "dream_quality": "Vivid, narrative, emotional, symbolic. The dreams the app primarily analyzes.",
+          "interpretation_note": "REM dreams are the psyche's primary creative output. They intensify in the second half of the night — the last dream before waking is often the most developed."
+        },
+        {
+          "stage": "Hypnagogic (falling asleep)",
+          "dream_quality": "Vivid images, faces, voices. Brief, intense, often surprising.",
+          "interpretation_note": "Hypnagogic imagery is a direct window into the unconscious — the ego hasn't fully stepped aside yet but the unconscious is already presenting. These deserve logging even though they're brief."
+        },
+        {
+          "stage": "Hypnopompic (waking up)",
+          "dream_quality": "Images and feelings that persist into waking. The dream 'leaking' into consciousness.",
+          "interpretation_note": "Hypnopompic content is often the most emotionally vivid because the ego is re-engaging while the dream is still present. The app's voice capture targets this moment."
+        }
+      ]
+    },
+    "physical_influences": [
+      {
+        "id": "body_medication",
+        "name": "Medication Effects",
+        "description": "Many medications significantly alter dream content, frequency, and intensity.",
+        "medications": [
+          {
+            "type": "SSRIs/SNRIs",
+            "effect": "Often suppress REM sleep initially, then produce vivid rebound dreams. Withdrawal can produce extremely vivid, intense dreams for weeks."
+          },
+          {
+            "type": "Beta-blockers",
+            "effect": "Can produce vivid, sometimes disturbing dreams, especially propranolol."
+          },
+          {
+            "type": "Melatonin",
+            "effect": "Increases dream vividness and recall. May intensify both positive and negative dream content."
+          },
+          {
+            "type": "Cannabis",
+            "effect": "Suppresses REM sleep during use. Cessation produces intense REM rebound — extremely vivid, often overwhelming dreams."
+          },
+          {
+            "type": "Alcohol",
+            "effect": "Suppresses REM in first half of night, produces fragmented, often anxiety-laden dreams in second half. Recovery from alcohol dependence produces intense dream rebound."
+          },
+          {
+            "type": "Nicotine patches",
+            "effect": "When worn overnight, can produce extremely vivid, sometimes bizarre dreams."
+          }
+        ],
+        "app_guidance": "During onboarding, ask about current medications. When medication changes occur, note that dream intensity changes may be pharmacological rather than psychological. Don't ignore the content — even medication-influenced dreams can carry meaning — but calibrate the intensity attribution."
+      },
+      {
+        "id": "body_illness",
+        "name": "Illness and the Body",
+        "description": "Physical illness can produce diagnostic dream content — the body communicating through the dream channel what it can't communicate through conscious awareness.",
+        "patterns": [
+          "Fever dreams: Intensely vivid, often bizarre, sometimes terrifying. The body's inflammation producing psychic inflammation.",
+          "Prodromal dreams: Dreams that seem to anticipate illness — dreaming of the body part that will later become symptomatic. Jung documented cases of this. Whether predictive or early-detection, it's worth noting.",
+          "Chronic illness dreams: Ongoing physical conditions often produce their own dream vocabulary — the body's experience woven into the psyche's nightly narrative.",
+          "Pain-influenced dreams: Physical pain during sleep gets incorporated into dream content, often transformed symbolically."
+        ],
+        "app_guidance": "If a user reports dreams with persistent body-focused imagery (especially involving specific organs or body regions), it may be worth mentioning — gently — that the body sometimes communicates through dreams. 'Some people find that body-focused dreams are worth mentioning to their doctor, especially if they're persistent.' Never diagnose."
+      },
+      {
+        "id": "body_hormonal",
+        "name": "Hormonal Cycles",
+        "description": "Hormonal changes significantly affect dream content and intensity.",
+        "patterns": [
+          "Menstrual cycle: Dreams often intensify premenstrually. Many people report more vivid, emotional, or archetypal dreams in the luteal phase. Menstruation dreams carry specific symbolic weight — blood, cycles, release.",
+          "Pregnancy: Profoundly altered dream life — vivid, intense, often featuring babies, water, animals, and body transformation. Pregnancy dreams deserve dedicated attention as a category.",
+          "Menopause: Often accompanied by intense, sometimes disturbing dreams as the hormonal landscape shifts fundamentally.",
+          "Puberty: The dramatic hormonal changes of adolescence produce correspondingly dramatic dream content — often the first truly vivid dreams a person remembers."
+        ],
+        "app_guidance": "Offer optional cycle tracking integration. Don't assume or ask about hormonal status — let users self-identify patterns. When they do, the app can correlate dream intensity with cycle phase."
+      }
+    ],
+    "plain_language": "Your body and your dreams are not separate systems — they're one system communicating through two channels. Medications, illness, hormonal cycles, and physical states all influence what you dream. The app helps you notice these connections without over-interpreting them.",
+    "depth_tier": 2
+  },
+  "special_populations": {
+    "description": "The knowledge graph's default framework assumes an adult of typical neurology engaging voluntarily in self-reflection. But not all users fit that profile. These adaptations ensure the app serves diverse populations without defaulting to a one-size-fits-all model.",
+    "adaptations": [
+      {
+        "id": "pop_children",
+        "name": "Children's Dreams (Ages 5-12)",
+        "description": "Children using the app (with parental involvement) need a fundamentally different approach.",
+        "adaptations": [
+          "NO Jungian jargon — ever. Children get stories, not concepts.",
+          "NO deep interpretation — children's egos are still forming and can't process depth psychology.",
+          "YES to symbol naming: 'Lots of kids dream about being chased. It usually means there's a big feeling you're running from. What big feeling have you had lately?'",
+          "YES to reassurance: 'Monsters in dreams are normal. Even grownups have them. They're not real — but the feelings they carry are.'",
+          "YES to creative expression: 'Can you draw the monster? What would you say to it if you could?'",
+          "The parent/guardian is the primary audience. The child's dream is shared through the parent's lens.",
+          "NEVER interpret children's dreams in ways that could burden them with adult psychological weight."
+        ],
+        "depth_tier": "Locked to tier 1. No tier 2 or 3 concepts for children."
+      },
+      {
+        "id": "pop_adolescents",
+        "name": "Adolescent Dreamers (Ages 13-19)",
+        "description": "Adolescents are doing enormous psychological work — first Persona construction, first Shadow encounters, first Anima/Animus activation, identity formation. Their dreams are often vivid and important.",
+        "adaptations": [
+          "Respect autonomy — adolescents need to feel the app is THEIRS, not their parents'.",
+          "Use plain language but don't dumb it down — adolescents can handle concepts if they're well-explained.",
+          "Identity dreams are central: 'Who am I?' is THE adolescent question and their dreams address it directly.",
+          "Social dynamics matter more: friend dreams, school dreams, social anxiety dreams are the primary territory.",
+          "First romantic dreams deserve particular gentleness — the Anima/Animus is activating for the first time.",
+          "Body image dreams are common and sensitive — handle with care.",
+          "Privacy is paramount — if an adolescent is using the app, their data is theirs. Parents should not have access without explicit consent."
+        ]
+      },
+      {
+        "id": "pop_elderly",
+        "name": "Elderly Dreamers (Ages 70+)",
+        "description": "Elderly dreamers bring decades of dream history and a unique relationship to the final threshold.",
+        "adaptations": [
+          "Respect the lifetime of inner work that precedes the app.",
+          "Dreams of the deceased are especially common and carry particular weight.",
+          "Life review dreams are central — the psyche is integrating an entire life.",
+          "Don't impose developmental urgency — the elderly dreamer's relationship with time is different.",
+          "Preparation dreams (for death) deserve absolute reverence. Never pathologize. Never impose religious or secular frameworks. Follow the dreamer's own language.",
+          "Accessibility considerations: larger text, simpler navigation, voice-first is especially important for those with vision or dexterity limitations."
+        ]
+      },
+      {
+        "id": "pop_neurodivergent",
+        "name": "Neurodivergent Dreamers",
+        "description": "Autism spectrum, ADHD, and other neurological differences can produce distinctive dream patterns and engagement styles.",
+        "adaptations": [
+          "Autistic dreamers may have highly structured, detail-rich dreams with less typical emotional processing. Don't assume 'lack of emotion' means 'lack of depth.'",
+          "ADHD dreamers may produce rapid, fragmented, intensely vivid dream narratives. The fragmentation may be structural, not symbolic.",
+          "Sensory processing differences affect dream content — hypersensitivity or hyposensitivity carries into the dream world.",
+          "Literal thinking styles may struggle with symbolic interpretation. Meet the dreamer where they are — some people think concretely and that's valid.",
+          "Don't pathologize neurodivergent dream patterns by measuring them against neurotypical standards.",
+          "The app should never assume neurotypical processing as the default."
+        ]
+      },
+      {
+        "id": "pop_trauma_survivors",
+        "name": "Trauma Survivors",
+        "description": "People with histories of trauma — PTSD, complex trauma, childhood abuse, assault — have dream lives that require specific care.",
+        "adaptations": [
+          "ALWAYS maintain the nightmare vs. trauma flashback distinction. Trauma flashbacks require specialized professional treatment.",
+          "Don't push dream engagement faster than the dreamer is ready for. Trauma survivors may need to just LOG dreams for months before engaging with analysis.",
+          "Active imagination with threatening figures should be offered with caution — for trauma survivors, 'facing the pursuer' can be re-traumatizing if the pursuer represents a real abuser.",
+          "Safety in the app experience is non-negotiable: the dreamer controls the pace, the depth, and the content they engage with.",
+          "Recommend trauma-informed therapists as partners in the work, not as replacements for the app.",
+          "Kalsched's distinction between archetypal dreams and trauma dreams is clinically essential here."
+        ]
+      }
+    ]
+  },
+  "contemplative_practice": {
+    "description": "The relationship between contemplative practice (meditation, prayer, mindfulness, yoga, breathwork) and dream life. Sustained contemplative practice often deepens and clarifies dream content — and dream work can deepen contemplative practice. They are complementary paths to the same center.",
+    "meditation_and_dreams": {
+      "effects": [
+        "Increased dream recall — meditators consistently report remembering more dreams.",
+        "Increased dream vividness — sustained attention practice carries into the dream state.",
+        "Increased lucidity — mindfulness practice is the strongest predictor of spontaneous lucid dreams.",
+        "Deeper archetypal content — long-term meditators report dreams with more numinous, transpersonal quality.",
+        "Reduced nightmare frequency but increased nightmare SIGNIFICANCE — the dreams that come are fewer but more important.",
+        "Dreams that mirror meditative experiences — mandala imagery, dissolution experiences, witnessing consciousness."
+      ],
+      "jungian_connection": "Meditation strengthens the ego-Self axis by practicing the ego's decentering. The ego learns to observe rather than react. This capacity carries into dreams — the dreamer becomes a more skilled witness of the unconscious.",
+      "plain_language": "If you meditate regularly, you'll likely notice your dreams becoming more vivid, more memorable, and more meaningful. The attention you practice on the cushion works on your dreams even while you're asleep."
+    },
+    "prayer_and_dreams": {
+      "description": "In many spiritual traditions, dreams are a primary channel for divine communication. The app should honor this framework without imposing or dismissing it.",
+      "traditions": [
+        "Christian: Dreams as divine guidance (Genesis, Daniel, Matthew). Dream incubation in early Christianity.",
+        "Islamic: Istikhara — the prayer for guidance that specifically seeks a dream response. True dreams (ru'ya) as one of forty-six parts of prophethood.",
+        "Jewish: Talmudic dream interpretation. 'A dream that is not interpreted is like a letter that is not read.'",
+        "Hindu: Dreams as windows into karma and dharma. The dreaming self as one of four states of consciousness (Mandukya Upanishad).",
+        "Buddhist: Dream yoga as a path to recognizing the dreamlike nature of all experience."
+      ],
+      "app_guidance": "During onboarding, if a user identifies a spiritual framework, the app should honor their language. A Christian dreamer who says 'God spoke to me in a dream' should not be reframed into Jungian terminology against their will. The Jungian lens is offered as an enrichment, not a replacement for the dreamer's own cosmology."
+    },
+    "breathwork_and_dreams": {
+      "description": "Breathwork practices (holotropic breathwork, pranayama, Wim Hof) can produce dream-like states while awake and can alter subsequent dream content.",
+      "app_guidance": "Entries described as breathwork visions should be tagged differently from sleep dreams but analyzed with the same symbolic tools. The psyche's language is the same regardless of the entry point."
+    },
+    "depth_tier": 2,
+    "plain_language": "Meditation, prayer, breathwork, and other contemplative practices all deepen your dream life. The attention you bring to your inner world during the day carries into the night. If you have a practice, let us know — it helps us understand your dream patterns in context."
+  }
+}

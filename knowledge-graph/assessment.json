@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "layer": "assessment",
+  "description": "Guided reflection framework for identifying active archetypes. Not a personality test: a snapshot of which archetypal energies are most alive right now.",
+  "design_principles": [
+    "Archetypes are ACTIVE, not fixed. Today's dominant archetype may recede in six months.",
+    "The assessment is a spoken guided reflection, not a multiple-choice quiz.",
+    "Users discover 2-3 primary active archetypes and 1-2 secondary ones.",
+    "The assessment establishes a baseline. Dream journaling over time reveals shifts.",
+    "Framing: 'These are the patterns most alive in your psyche right now', not 'this is who you are.'"
+  ],
+  "assessment_archetypes": [
+    "shadow",
+    "persona",
+    "anima_animus",
+    "hero",
+    "wise_old_man",
+    "trickster",
+    "child",
+    "self",
+    "mother",
+    "puer_aeternus",
+    "senex",
+    "great_mother"
+  ],
+  "reflection_prompts": [
+    {
+      "id": "prompt_current_struggle",
+      "prompt": "What's the central struggle in your life right now? Don't overthink it; just say what comes.",
+      "surfaces": [
+        "shadow",
+        "hero",
+        "persona"
+      ],
+      "scoring_logic": "Conflict with others → Shadow. Threshold/leap required → Hero. Identity confusion → Persona."
+    },
+    {
+      "id": "prompt_recurring_dream",
+      "prompt": "If you have a recurring dream, or a dream that's stuck with you, describe it briefly.",
+      "surfaces": [
+        "shadow",
+        "anima_animus",
+        "child",
+        "self"
+      ],
+      "scoring_logic": "Threatening figures → Shadow, except where the dream replays a real event: trauma replay is not scored as symbolic material. Compelling figures who fascinate, disturb, or complete you, whatever their gender or yours → Inner Other (Anima/Animus). Children or birth → Child. Mandalas/circles/wholeness → Self."
+    },
+    {
+      "id": "prompt_strong_reaction",
+      "prompt": "Think of someone who really gets under your skin. What quality in them bothers you most?",
+      "surfaces": [
+        "shadow",
+        "projection"
+      ],
+      "scoring_logic": "The named quality is a likely Shadow indicator; intensity of reaction often correlates with projection strength."
+    },
+    {
+      "id": "prompt_role_identity",
+      "prompt": "When someone asks 'who are you,' what do you say first? And does that answer feel true or performed?",
+      "surfaces": [
+        "persona",
+        "self",
+        "hero"
+      ],
+      "scoring_logic": "Role-first answer + feels true → healthy Persona. Role-first + feels performed → Persona over-identification. Struggle to answer → possible Self emergence."
+    },
+    {
+      "id": "prompt_new_beginnings",
+      "prompt": "Is there something new trying to emerge in your life, something you can feel but can't quite name yet?",
+      "surfaces": [
+        "child",
+        "hero",
+        "individuation"
+      ],
+      "scoring_logic": "Clear sense of emerging newness → Child active. Sense of call + resistance → Hero threshold. Vague but persistent pull → early individuation."
+    },
+    {
+      "id": "prompt_mentor_relationship",
+      "prompt": "Is there someone (alive or dead, real or fictional) whose wisdom guides you? What did they give you?",
+      "surfaces": [
+        "wise_old_man",
+        "anima_animus",
+        "self"
+      ],
+      "scoring_logic": "Strong mentor attachment → Wise Old Man active. Romantic/creative figure → possible Anima/Animus. No single figure, sense of inner guidance → Self."
+    },
+    {
+      "id": "prompt_disruption",
+      "prompt": "When was the last time something went 'wrong' and turned out to be exactly right?",
+      "surfaces": [
+        "trickster",
+        "self",
+        "enantiodromia"
+      ],
+      "scoring_logic": "Easy recall + appreciation for the reversal → Trickster active. Difficulty with the question → possible Persona rigidity."
+    },
+    {
+      "id": "prompt_completion_longing",
+      "prompt": "What feels missing? Not practically, deep down. What would make you feel whole?",
+      "surfaces": [
+        "anima_animus",
+        "self",
+        "shadow"
+      ],
+      "scoring_logic": "Another person / relationship → Anima/Animus projection. Abstract wholeness → Self longing. 'I don't know' + emotional charge → Shadow territory."
+    }
+  ],
+  "output_structure": {
+    "primary_archetypes": "2-3 archetypes scored as most active",
+    "secondary_archetypes": "1-2 archetypes present but less dominant",
+    "dormant_archetypes": "Archetypes with minimal current activation (these may emerge in dreams)",
+    "individuation_stage_estimate": "Based on which archetypes are active, a preliminary sense of where the user is in the individuation process",
+    "watch_for": "Specific dream symbols or themes to pay attention to, based on active archetypes"
+  },
+  "reassessment": {
+    "trigger": "After 30 journal entries, or if the system detects significant symbol pattern shifts",
+    "method": "Automated comparison of early vs. recent symbol patterns, with optional re-reflection",
+    "framing": "Your archetypal landscape has shifted. Here's what's changed..."
+  }
+}

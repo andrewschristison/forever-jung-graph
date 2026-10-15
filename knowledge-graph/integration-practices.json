@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0",
+  "layer": "practices",
+  "document": "integration_practices",
+  "description": "Concrete methods for working with dream content beyond reading the analysis. These practices turn the app from 'interesting mirror' to 'tool that changes your life.' Each practice is keyed to specific archetypes and developmental stages.",
+  "practice_principles": [
+    "Practices are invitations, not prescriptions. The user chooses what resonates.",
+    "Every practice should be doable in 5-15 minutes. Accessibility over ambition.",
+    "Practices should be offered contextually, based on the dream's content and the user's developmental stage.",
+    "The app tracks which practices the user engages with and can learn their preferences over time."
+  ],
+  "practices": [
+    {
+      "id": "practice_dream_dialogue",
+      "name": "Dream Figure Dialogue",
+      "type": "active_imagination",
+      "description": "Return to the dream in imagination and speak directly to a figure from the dream. Ask them: What do you want? What do you have to tell me? Why are you here? Record their responses, speaking them aloud into the app. This is Jung's active imagination method adapted for voice journaling.",
+      "when_to_offer": "When a compelling, threatening, or mysterious figure appeared in the dream and the dreamer seems emotionally engaged.",
+      "guided_prompts": [
+        "Close your eyes and bring back the image of [figure]. See them as vividly as you can. Now ask them: What do you want from me?",
+        "If [figure] could say one thing you've never let yourself hear, what would it be?",
+        "What would happen if you stopped running from [figure] and sat down with them?"
+      ],
+      "keyed_to": [
+        "shadow",
+        "anima_animus",
+        "wise_old_man",
+        "trickster"
+      ],
+      "contraindications": "Do not offer if the dream figure appears to be a trauma replay rather than a symbol. Do not offer if the user seems distressed or destabilized.",
+      "tags": [
+        "active_imagination",
+        "foundational"
+      ],
+      "art_introduction": {
+        "acknowledge": "The [figure] who appeared in your dream: they had presence. Something about them felt important.",
+        "relate": "There's a way to continue this encounter while you're awake. You bring them back in your imagination, and you ask them directly: what do you want? What do you need me to know? The answers often surprise you, because they come from a part of yourself that your conscious mind doesn't normally hear from.",
+        "transition": "Want to try it now? Close your eyes, see them again, and ask your question."
+      }
+    },
+    {
+      "id": "practice_symbol_drawing",
+      "name": "Symbol Drawing / Image Making",
+      "type": "creative_expression",
+      "description": "Draw, paint, or sketch the most vivid image from the dream. Not art: EXPRESSION. The quality doesn't matter. The act of giving the dream image a physical form outside the psyche is itself integrative. The image becomes an object you can look at, contemplate, and dialogue with.",
+      "when_to_offer": "When a dream contained a vivid, charged visual image: a symbol, a landscape, a figure, a mandala.",
+      "guided_prompts": [
+        "Take whatever drawing material you have and spend 5 minutes giving the [image] a physical form. Don't worry about skill; just let your hand follow the image.",
+        "Draw what you SAW, then draw what you FELT. They may be different images.",
+        "If this dream were a single image on a card, what would the card look like?"
+      ],
+      "keyed_to": [
+        "self",
+        "shadow",
+        "active_imagination",
+        "mandala"
+      ],
+      "tags": [
+        "creative_expression"
+      ],
+      "art_introduction": {
+        "acknowledge": "That image, [specific image from dream]: it stayed vivid. You can still see it.",
+        "relate": "Sometimes giving a dream image a physical form outside your head is itself a kind of integration. Not art, just expression. Pen, paper, whatever you have. The act of drawing it moves it from the invisible to the visible.",
+        "transition": "Take five minutes. Draw what you saw, or what you felt. Don't worry about how it looks."
+      }
+    },
+    {
+      "id": "practice_body_scan",
+      "name": "Dream Body Scan",
+      "type": "embodiment",
+      "description": "After recording a dream, scan your body for where the dream still lives physically. Where do you feel the dream? Chest, throat, stomach, hands, jaw? The body holds dream content that the mind processes differently. Naming where the dream lives in your body anchors it in embodied awareness rather than just intellectual understanding.",
+      "when_to_offer": "After any emotionally charged dream. Especially useful for dreams involving body symbols (wounds, illness, pregnancy, paralysis).",
+      "guided_prompts": [
+        "Take a breath and scan your body. Where does this dream live right now? Where do you feel it?",
+        "Put your hand on the place in your body that responded most to this dream. What does that area want to tell you?",
+        "If the feeling in your [body part] could speak, what would it say?"
+      ],
+      "keyed_to": [
+        "sensation",
+        "shadow",
+        "complexes",
+        "great_mother"
+      ],
+      "tags": [
+        "embodiment"
+      ],
+      "art_introduction": {
+        "acknowledge": "This dream carried a lot of physical energy: [specific body reference from dream].",
+        "relate": "Dreams live in the body as much as the mind. Right now, somewhere in your body, this dream is still resonating: a tension, a warmth, a heaviness. Naming where it lives anchors the dream in something concrete.",
+        "transition": "Take a breath and scan your body. Where does this dream live right now?"
+      }
+    },
+    {
+      "id": "practice_free_association",
+      "name": "Free Association Chain",
+      "type": "exploration",
+      "description": "Take the dream's most charged symbol and gather associations that stay tethered to it. Say what comes, then return to the image: what else is water for you? Water → deep, back to water. Water → my grandmother's lake, back to water. Jung called this directed association: circling the image, rather than chaining away from it, reveals the personal connections that give the universal symbol its individual meaning.",
+      "when_to_offer": "When a dream contains a symbol with strong emotional charge and the personal meaning isn't immediately clear.",
+      "guided_prompts": [
+        "Starting with [symbol], say the first thing that comes to mind. Then the next. And the next. Don't filter; just follow the chain. I'll record it.",
+        "When you think of [symbol], what's the FIRST memory that surfaces? Not the most important: the first.",
+        "If [symbol] were a person, who would it be? If it were a time in your life, when?"
+      ],
+      "keyed_to": [
+        "personal_unconscious",
+        "complexes",
+        "shadow"
+      ],
+      "tags": [
+        "exploration",
+        "foundational"
+      ],
+      "art_introduction": {
+        "acknowledge": "The [symbol] in this dream has a real charge to it. There's something personal in how it landed for you.",
+        "relate": "The universal meaning of [symbol] is one thing. But YOUR relationship to it (your personal associations, your memories): that's where the real meaning lives. Sometimes following the chain of association reveals what the dream is actually about.",
+        "transition": "Starting with [symbol], say the first thing that comes to mind. Then the next. Don't filter; just follow the chain."
+      }
+    },
+    {
+      "id": "practice_dream_reentry",
+      "name": "Dream Re-Entry / Completion",
+      "type": "active_imagination",
+      "description": "For dreams that ended abruptly or unresolved: return to the dream in imagination and allow it to continue. What happens next? Let the unconscious complete what it started. This is especially powerful for pursuit dreams that never resolved, conversations that were interrupted, or journeys that stopped midway.",
+      "when_to_offer": "When a dream ended at a cliffhanger: an unresolved confrontation, an interrupted conversation, an abandoned journey.",
+      "guided_prompts": [
+        "Go back to the moment where the dream ended. You're standing at [last scene]. Now let the dream continue. What happens next?",
+        "You were about to [action] when the dream ended. Finish the action now. What do you find?",
+        "The [figure] was about to speak when you woke up. Let them speak now. What do they say?"
+      ],
+      "keyed_to": [
+        "hero",
+        "shadow",
+        "anima_animus",
+        "individuation"
+      ],
+      "contraindications": "Do not offer if the dream appears to be a trauma replay rather than symbolic material. Do not offer if the user seems distressed or destabilized.",
+      "tags": [
+        "active_imagination"
+      ],
+      "art_introduction": {
+        "acknowledge": "The dream ended right when it was getting somewhere. You were about to [action] and then, you woke up.",
+        "relate": "Unfinished dreams are invitations. The psyche started something and left the ending for you to discover. You can go back (while awake, in your imagination) and let the dream continue from where it stopped.",
+        "transition": "Go back to that moment. You're standing where the dream ended. Now let it keep going. What happens next?"
+      }
+    },
+    {
+      "id": "practice_letter_to_figure",
+      "name": "Letter to a Dream Figure",
+      "type": "reflective_writing",
+      "description": "Write (or speak) a letter to a figure from your dream. Address them directly. Tell them what you felt, what you want, what you're afraid of. Then, crucially, let them respond. Write their letter back to you. This externalized dialogue often produces startling insights because the 'other voice' draws on unconscious material.",
+      "when_to_offer": "When a dream figure has been recurring, or when a single figure was especially charged.",
+      "guided_prompts": [
+        "Speak a message to [figure]. Start with: 'I want you to know that...'",
+        "Now let [figure] respond. Don't think about it; just let them speak through you. Start with: 'What I need you to understand is...'",
+        "Is there something you need to ask [figure] that you've been afraid to ask?"
+      ],
+      "keyed_to": [
+        "shadow",
+        "anima_animus",
+        "mother",
+        "senex"
+      ],
+      "contraindications": "Do not offer if the figure appears to be a real person from a traumatic event rather than a symbol. Do not offer if the user seems distressed or destabilized.",
+      "tags": [
+        "reflective_writing"
+      ],
+      "art_introduction": {
+        "acknowledge": "The [figure] in this dream has been showing up, and there seems to be something unspoken between you.",
+        "relate": "Sometimes the most powerful thing you can do with a dream figure is write them a letter. Tell them what you felt, what you want, what you're afraid of. And then, let them write back. Their voice draws on a part of you that the letter-writing part doesn't normally hear from.",
+        "transition": "Start with: 'I want you to know that...' and see where it goes."
+      }
+    },
+    {
+      "id": "practice_opposite_perspective",
+      "name": "Perspective Flip",
+      "type": "exploration",
+      "description": "Retell the dream from the perspective of another figure IN the dream. If you were chased by a monster, tell the story from the monster's perspective. What does the monster want? Why is it chasing? What does the world look like from its eyes? This practice immediately activates the subject-level interpretation and often produces Shadow insights.",
+      "when_to_offer": "When a dream featured a strong polarization: dreamer vs. antagonist, pursuer vs. pursued, watcher vs. watched.",
+      "guided_prompts": [
+        "Tell this dream again, but this time, you're the [other figure]. You're the one who [their action]. What's your experience?",
+        "You're the [monster/pursuer/antagonist]. Why are you doing what you're doing? What do you need?",
+        "If the [figure] were telling someone about this dream, what would THEY say happened?"
+      ],
+      "keyed_to": [
+        "shadow",
+        "projection",
+        "integration"
+      ],
+      "contraindications": "Do not offer if the antagonist appears to be a real person from a traumatic event; narrating from that perspective can re-traumatize. Do not offer if the user seems distressed or destabilized.",
+      "tags": [
+        "exploration",
+        "foundational"
+      ],
+      "art_introduction": {
+        "acknowledge": "In this dream, there was a clear split: you and [other figure], facing each other across a divide.",
+        "relate": "Here's something worth trying: tell the dream again, but from THEIR perspective. You're the [figure] now. Why are you doing what you're doing? What do you see? When you tell the story from the other side, you often discover that the 'enemy' has a reason you hadn't considered, because they represent a part of you that has its own logic.",
+        "transition": "Start over. This time, you're the [figure]. What's your experience of this dream?"
+      }
+    },
+    {
+      "id": "practice_waking_ritual",
+      "name": "Morning Dream Ritual",
+      "type": "ritual",
+      "description": "A 2-minute practice for immediately upon waking: before checking your phone or starting your day, speak the dream aloud. The act of vocalization while still in the hypnagogic state captures dream content that evaporates within minutes. The app's voice capture IS this ritual.",
+      "when_to_offer": "During onboarding: establish this as the foundational practice.",
+      "guided_prompts": [
+        "Before you do anything else, press record and speak the dream. Don't organize it. Don't interpret. Just tell what happened.",
+        "Start with the feeling. 'I woke up feeling ___. In the dream, ___.'",
+        "Even if you only remember a fragment (a color, a feeling, a single image), speak it. Fragments are dreams too."
+      ],
+      "keyed_to": [
+        "ego",
+        "personal_unconscious",
+        "compensation"
+      ],
+      "tags": [
+        "ritual",
+        "foundational",
+        "daily"
+      ],
+      "art_introduction": {
+        "acknowledge": "You're building a practice here, and the most important moment is the first one of the day.",
+        "relate": "Dream content evaporates within minutes of waking. The voice capture (speaking the dream before you do anything else) isn't just convenient. It's the act that moves the dream from the night world to the day world. It's the bridge.",
+        "transition": "Tomorrow morning: before you check your phone, before you get out of bed, press record and speak."
+      }
+    },
+    {
+      "id": "practice_shadow_inventory",
+      "name": "Shadow Inventory",
+      "type": "self_reflection",
+      "description": "A periodic practice (monthly or quarterly): list the qualities in others that trigger your strongest reactions, both positive and negative. For each, ask: 'Where does this quality live in me?' This is systematic projection withdrawal and is the most direct Shadow work available outside therapy.",
+      "when_to_offer": "Monthly, or when the dream series shows heavy projection themes (recurring threatening figures, idealized figures).",
+      "guided_prompts": [
+        "Name three people who really get under your skin right now. For each: what quality in them bothers you most? Now: where does that quality live, even slightly, in you?",
+        "Name someone you deeply admire. What quality do you admire most? Now: where is that quality in you that you haven't claimed?",
+        "Look at your dream figures from this month. For each threatening or compelling figure: what are they carrying that belongs to you?"
+      ],
+      "keyed_to": [
+        "shadow",
+        "golden_shadow",
+        "projection",
+        "persona"
+      ],
+      "tags": [
+        "self_reflection",
+        "foundational",
+        "periodic"
+      ],
+      "art_introduction": {
+        "acknowledge": "Your dreams this month have been populated with figures who push your buttons: people who trigger something strong in you.",
+        "relate": "There's a practice for this: name three people who really get under your skin right now. For each one, ask: what quality in them bothers me most? And then the hard part: where does that quality live in ME, even slightly? The strong reaction is always the clue. What we can't stand in others is often what we can't face in ourselves.",
+        "transition": "Start with the person who irritates you most. What quality in them makes your skin crawl?"
+      }
+    },
+    {
+      "id": "practice_circumambulation_review",
+      "name": "Circumambulation Review",
+      "type": "pattern_reflection",
+      "description": "A quarterly practice: review the past 3 months of dream journal entries looking for the spiral. What themes have recurred? How have they changed? What new themes have appeared? What's been resolved? This is meta-reflection: using the journal's tracking to see the larger pattern that individual entries can't reveal.",
+      "when_to_offer": "After 30+ entries, quarterly thereafter.",
+      "guided_prompts": [
+        "Looking back at three months of entries: what image or theme kept coming back? How did it change each time it appeared?",
+        "What dream from this quarter surprised you most? What did it show you that you weren't expecting?",
+        "If your dream journal from this quarter were a story, what would the title be? What chapter are you in?"
+      ],
+      "keyed_to": [
+        "circumambulation",
+        "individuation",
+        "self"
+      ],
+      "tags": [
+        "pattern_reflection",
+        "periodic"
+      ],
+      "art_introduction": {
+        "acknowledge": "You've been journaling for [time period] now. That's enough material for your psyche's larger pattern to become visible.",
+        "relate": "Growth doesn't move in a straight line; it spirals. The themes that keep coming back aren't signs of being stuck. They're signs of deepening. Looking back at three months of dreams and asking 'what's the story here?' reveals a narrative your individual entries couldn't show.",
+        "transition": "Looking at this quarter of dreams: if they were a chapter in a book about your inner life, what would the title be?"
+      }
+    },
+    {
+      "id": "practice_gratitude_to_unconscious",
+      "name": "Acknowledging the Dream",
+      "type": "ritual",
+      "description": "After analysis, a simple closing practice: acknowledge the dream as a gift from the unconscious. 'Thank you for showing me this.' This isn't mysticism; it's establishing a conscious posture of receptivity toward the unconscious. Jungian analysts have long observed that people who treat their dreams with respect tend to receive richer dreams. The unconscious responds to attention.",
+      "when_to_offer": "After any analysis, especially deep dives.",
+      "guided_prompts": [
+        "Take a moment to acknowledge what your dream showed you tonight. Even if you don't fully understand it yet, it was given for a reason.",
+        "Is there something from this dream you want to carry into your day?",
+        "What's one thing this dream showed you that your waking mind hadn't considered?"
+      ],
+      "keyed_to": [
+        "self",
+        "ego",
+        "compensation"
+      ],
+      "tags": [
+        "ritual",
+        "daily",
+        "closing"
+      ],
+      "art_introduction": {
+        "acknowledge": "You've spent some real time with this dream tonight.",
+        "relate": "There's something worth doing before we close: acknowledging the dream. Not analyzing it further, just thanking it. The psyche responds to attention. People who treat their dreams with respect tend to receive richer dreams. It's not mystical; it's relational. You're building a relationship with your own depths.",
+        "transition": "Is there something from this dream you want to carry into your day?"
+      }
+    },
+    {
+      "id": "practice_somatic_movement",
+      "name": "Dream Movement",
+      "type": "embodiment",
+      "description": "For dreams with strong physical content (being chased, flying, falling, dancing, fighting), let the body express what the dream contained. Stand up. Let your body move the way it moved in the dream. Run in place if you were running. Reach if you were reaching. The body processes dream content through movement in ways the mind can't access verbally.",
+      "when_to_offer": "When a dream was intensely physical: action dreams, body dreams, chase dreams, dance dreams.",
+      "guided_prompts": [
+        "Stand up for a moment. Let your body remember how it felt in the dream. What movement wants to happen?",
+        "In the dream, you were [running/falling/reaching/fighting]. Let your body do a version of that movement right now, slowly and deliberately. What do you notice?",
+        "What part of your body is most awake from this dream? Let that part lead a movement."
+      ],
+      "keyed_to": [
+        "sensation",
+        "shadow",
+        "hero",
+        "great_mother"
+      ],
+      "contraindications": "Do not offer if the dream appears to be a trauma replay; physically re-enacting such a scene can activate it. Do not offer if the user seems distressed or destabilized.",
+      "tags": [
+        "embodiment"
+      ],
+      "art_introduction": {
+        "acknowledge": "This dream was intensely physical: the [running/falling/reaching/fighting] had real energy in it.",
+        "relate": "The body processes dream content in ways words can't reach. Letting your body move the way it moved in the dream (even briefly, even symbolically) completes something the dream started. The body remembers what the mind summarizes.",
+        "transition": "Stand up for a moment. Let your body remember how it felt in the dream. What movement wants to happen?"
+      }
+    }
+  ],
+  "delivery_philosophy": {
+    "description": "When offering an integration practice, follow ART: Acknowledge the dream content that prompted the suggestion, Relate the practice to the dreamer's specific experience, then Transition into the doing. The practice should feel like a natural next step from the analysis, not a clinical prescription.",
+    "art_model": {
+      "acknowledge": "Name the specific dream element that makes this practice relevant: 'The figure who spoke to you tonight: their words landed somewhere deep.'",
+      "relate": "Connect the practice to the dreamer's experience: 'There's a practice where you can continue that conversation: go back to the figure while you're awake and ask what else they have to say. It's not imagining things. It's letting the part of you they represent finish what it started.'",
+      "transition": "Invite into the doing: 'Would you like to try it? Close your eyes, bring them back, and ask: what did you mean?'"
+    },
+    "anti_patterns": [
+      "Prescribing a practice without connecting it to the specific dream: 'You should try active imagination' (generic and clinical)",
+      "Offering a practice when the dreamer hasn't signaled readiness",
+      "Stacking multiple practices. One at a time, tied to specific dream content",
+      "Making the practice feel like homework rather than invitation"
+    ]
+  }
+}

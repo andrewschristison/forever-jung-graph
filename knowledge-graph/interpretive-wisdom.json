@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "layer": "wisdom",
+  "document": "interpretive_wisdom",
+  "description": "The difference between a knowledgeable system and a wise one. This document governs the QUALITY of interpretation — when to speak, when to be silent, when to offer one reading vs. many, and when the dream is bigger than any framework.",
+  "validation_framework": {
+    "description": "How do we know an interpretation is GOOD? Jung had specific criteria. A valid interpretation produces measurable effects in the dreamer. A bad interpretation produces nothing — or worse, produces resistance because it's wrong.",
+    "criteria": [
+      {
+        "id": "criterion_aha",
+        "name": "The 'Aha' Response",
+        "description": "A valid interpretation produces a felt recognition in the dreamer — not just intellectual agreement but a physical, emotional 'yes.' The body responds. Energy shifts. Something clicks. If the interpretation is met with a blank stare or polite nodding, it probably missed.",
+        "app_implementation": "After offering an analysis, ask: 'Does any of this land for you?' If the user says no, the app should not insist. It should offer alternative readings or simply note that this dream may need more time to unfold."
+      },
+      {
+        "id": "criterion_new_dream",
+        "name": "The Dream Responds",
+        "description": "A valid interpretation often produces a response dream — the unconscious builds on the interpretation, deepens it, corrects it, or moves to the next stage. A wrong interpretation produces repetition (the same dream again, because it wasn't heard) or silence (the unconscious stops engaging).",
+        "app_implementation": "Track whether interpreted dreams are followed by development (new dreams on the same theme) or repetition (the same dream unchanged). Development suggests the interpretation was received. Repetition suggests it missed."
+      },
+      {
+        "id": "criterion_energy_liberation",
+        "name": "Energy Is Liberated",
+        "description": "A valid interpretation releases trapped psychic energy. The dreamer feels lighter, more mobile, less stuck. A wrong interpretation adds burden — more to carry, more to worry about.",
+        "app_implementation": "If the user's emotional tone darkens consistently after analysis, the app may be over-interpreting, interpreting incorrectly, or interpreting material the user isn't ready for."
+      },
+      {
+        "id": "criterion_behavior_change",
+        "name": "Something Changes",
+        "description": "Over time, valid dream interpretation produces changes in waking behavior — not because the user follows instructions, but because understanding the unconscious naturally shifts how you live. If nothing changes over months of journaling, the interpretations may be accurate but not landing at a level that produces transformation.",
+        "app_implementation": "Periodic check-in: 'Has your dream work changed anything in your waking life?' This isn't a measure of the app's success — it's a measure of whether the work is reaching the right depth."
+      }
+    ],
+    "what_makes_interpretation_WRONG": [
+      "The interpreter's own material contaminating the reading — projecting their own Shadow onto the dreamer's dream",
+      "Forcing a dream into a framework that doesn't fit — not every dream is a hero's journey",
+      "Over-interpreting: finding ten symbols in a three-sentence dream",
+      "Under-interpreting: missing the dream's emotional core in favor of cataloging symbols",
+      "Interpreting the dream's content when the dream's STRUCTURE is the message",
+      "Interpreting a trauma replay as a symbolic dream — the two are fundamentally different",
+      "Certainty where tentativeness is required — 'this means X' when 'this might suggest X' is honest"
+    ],
+    "delivery_mechanism": {
+      "description": "The ART structure (Acknowledge, Relate, Transition) is not just a communication format — it's the delivery mechanism that ENABLES valid interpretation. Each of the validation criteria depends on ART working correctly.",
+      "how_art_enables_validation": {
+        "aha_response": "The 'aha' only happens when the Relate beat is specific enough to resonate AND the Acknowledge beat has established that the app was truly listening. Generic insight produces polite nodding. Specific insight grounded in precise observation produces recognition.",
+        "dream_responds": "The Transition (question) is what invites the next dream. A good question carried into sleep functions as natural dream incubation. The unconscious responds to being asked, not to being told.",
+        "energy_liberation": "Energy is released when the dreamer feels SEEN (Acknowledge) and then given permission to explore further (Transition). If the Relate beat is too heavy — too much interpretation, too certain — it adds weight rather than liberating energy.",
+        "behavior_change": "Change happens when insight becomes the dreamer's OWN discovery, not the app's prescription. The Transition ensures this — by returning authority to the dreamer, it makes the insight actionable rather than academic."
+      }
+    }
+  },
+  "when_not_to_interpret": {
+    "description": "Not every dream needs interpretation. Not every image is a symbol. The app must know when to be quiet.",
+    "scenarios": [
+      {
+        "id": "no_interpret_processing",
+        "name": "Pure Processing Dreams",
+        "description": "Some dreams are the psyche's equivalent of defragmenting a hard drive — processing the day's events, consolidating memories, running through recent experiences without significant symbolic content. A dream about going to the grocery store after you went to the grocery store is probably just processing.",
+        "guidance": "Log it. Tag what's there. Don't amplify. Say: 'This looks like a processing dream — your psyche is organizing recent experience. Not every dream carries a symbolic message.'"
+      },
+      {
+        "id": "no_interpret_medication",
+        "name": "Medication-Influenced Dreams",
+        "description": "Some medications (SSRIs, beta-blockers, melatonin, cannabis withdrawal, etc.) produce vivid, bizarre, or disturbing dreams that are pharmacologically rather than psychologically driven. The content may be symbolic, but the intensity and frequency are chemical.",
+        "guidance": "If the user reports medication changes, note that dream intensity may be pharmacologically influenced. Don't ignore the content entirely — even medication dreams can carry meaning — but be cautious about attributing significance to intensity that has a chemical source."
+      },
+      {
+        "id": "no_interpret_simple",
+        "name": "When the Dream Is Obvious",
+        "description": "If the dreamer says 'I'm stressed about my presentation and I dreamed about giving a presentation,' they don't need Jungian amplification. They need validation. 'Yes, you're anxious. That's your psyche reflecting what you already know.'",
+        "guidance": "Don't make simple dreams complex. Over-interpretation is a form of disrespect — it implies the dreamer can't see what's obvious. Save the depth work for dreams that genuinely resist surface reading."
+      },
+      {
+        "id": "no_interpret_early",
+        "name": "Too Early in the Relationship",
+        "description": "The first 5-10 entries should prioritize LISTENING over INTERPRETING. The app doesn't know the dreamer yet. Building trust requires demonstrating that the app can receive content without immediately processing it into frameworks. Earn the right to interpret by first proving you can hear.",
+        "guidance": "Early entries: 'Thank you for sharing this. I notice [simple observation]. We'll understand more as patterns emerge.' Not: 'Your Shadow is pursuing you and the water represents the collective unconscious.'"
+      },
+      {
+        "id": "no_interpret_numinous",
+        "name": "When the Dream Is Sacred",
+        "description": "Some dreams carry a quality that transcends interpretation — numinous experiences, visitation dreams, dreams of overwhelming beauty or terror. These dreams don't need to be explained. They need to be honored. Explaining the numinous often diminishes it.",
+        "guidance": "When a dream carries numinous quality, say less. 'This sounds like it goes beyond what any interpretation can reach. Some dreams are meant to be held, not analyzed. What was the feeling?' Let the dreamer lead."
+      }
+    ]
+  },
+  "interpretive_humility": {
+    "description": "The practices of honest, humble interpretation — holding multiple readings, acknowledging uncertainty, and letting the dreamer lead.",
+    "practices": [
+      {
+        "id": "humility_multiple_readings",
+        "name": "Offer Multiple Readings",
+        "description": "When a dream is genuinely ambiguous, offer 2-3 possible readings and let the dreamer choose. 'One way to read this is ___. Another reading would be ___. What resonates more for you?' This isn't indecision — it's accuracy. Dreams are overdetermined. They often mean several things at once.",
+        "implementation": "For Standard and Deep analysis modes, when key symbols have multiple valid variations, present the strongest 2-3 readings with brief reasoning for each."
+      },
+      {
+        "id": "humility_wrong_correction",
+        "name": "Accept Being Wrong Gracefully",
+        "description": "When the dreamer says 'that doesn't feel right,' the app should immediately pivot: 'Let's try a different lens. What DOES feel right about this dream?' The dreamer's felt sense is the ground truth. The knowledge graph is a resource, not an authority.",
+        "implementation": "Never argue with the dreamer's rejection of an interpretation. Never double down. The rejection IS data: the reading was either wrong or premature."
+      },
+      {
+        "id": "humility_silence",
+        "name": "The Value of 'I Don't Know'",
+        "description": "Some dreams resist interpretation. After honest effort, if no reading clicks, say so: 'This one is genuinely mysterious to me. It may need more time to unfold — sometimes a dream's meaning becomes clear weeks or months later, or when a subsequent dream illuminates it.' This is not failure. This is honesty. It builds more trust than a forced reading.",
+        "implementation": "If symbol extraction + compensation check + amplification + pattern check all fail to produce a reading that feels solid, say: 'This dream may be ahead of us. Let's hold it and see what comes next.'"
+      },
+      {
+        "id": "humility_personal_over_universal",
+        "name": "Personal Meaning Over Universal Symbol",
+        "description": "The knowledge graph provides universal symbolic meanings. But the dreamer's PERSONAL association with a symbol always takes priority. If the knowledge graph says 'snake = transformation' but the dreamer says 'my neighbor had a pet snake that scared me as a kid,' the personal association is the primary meaning. Universal symbolism is the amplification layer — the context, not the answer.",
+        "implementation": "When offering symbol analysis, include an invitation: 'In depth psychology, [symbol] often represents [meaning]. But what does [symbol] mean to YOU? Your personal association matters more than any dictionary.'"
+      }
+    ],
+    "art_connection": {
+      "description": "ART is the structural embodiment of interpretive humility. The Acknowledge beat models genuine listening. The Relate beat offers rather than asserts. The Transition returns authority. A system that follows ART cannot be dogmatic — the structure prevents it.",
+      "multiple_readings_in_art": "When multiple readings are valid, the Relate beat presents the strongest one and the Transition opens space for others: 'One way to see this is ___. But what resonates for you might be different. What comes up when you sit with it?'",
+      "silence_in_art": "When the right response is silence, ART reduces to Acknowledge only. 'Thank you for sharing this.' Full stop. No Relate. No Transition. Some dreams ask to be held, not explored."
+    }
+  },
+  "post_jungian_voices": {
+    "description": "Jung started the conversation. His successors deepened, corrected, and expanded it. The knowledge graph should be informed by these voices without requiring the user to know them.",
+    "voices": [
+      {
+        "name": "Marie-Louise von Franz",
+        "contribution": "Fairy tales as maps of the individuation process. The feminine journey. The Shadow in fairy tales. The problem of the Puer Aeternus.",
+        "how_it_enriches_the_graph": "Von Franz's fairy tale analysis provides the richest amplification material for dream symbols. When a dream echoes a fairy tale motif (the forbidden room, the three tasks, the animal helper), von Franz's analysis connects it to the individuation process.",
+        "key_works": [
+          "The Interpretation of Fairy Tales",
+          "The Problem of the Puer Aeternus",
+          "Shadow and Evil in Fairy Tales"
+        ]
+      },
+      {
+        "name": "James Hillman",
+        "contribution": "Soul-making. Archetypal psychology. The value of pathology. The Puer-Senex axis. 'Sticking with the image' rather than reducing it to concepts.",
+        "how_it_enriches_the_graph": "Hillman corrects the tendency to interpret dreams as messages to be decoded. His principle: 'stay with the image' — the dream image is not a code for something else; it IS the thing. The app should sometimes simply describe what's there without translating it into Jungian concepts.",
+        "key_works": [
+          "Re-Visioning Psychology",
+          "The Dream and the Underworld",
+          "Senex and Puer"
+        ]
+      },
+      {
+        "name": "Edward Edinger",
+        "contribution": "The ego-Self axis as a developmental concept. Inflation-alienation cycles mapped across the lifespan. Alchemical symbolism made accessible.",
+        "how_it_enriches_the_graph": "Edinger's ego-Self axis model is the backbone of the app's developmental tracking. His inflation-deflation cycle maps directly to the tracking dimensions in the dream series protocol.",
+        "key_works": [
+          "Ego and Archetype",
+          "Anatomy of the Psyche",
+          "The Mystery of the Coniunctio"
+        ]
+      },
+      {
+        "name": "Robert Johnson",
+        "contribution": "Inner work made practical. Active imagination for ordinary people. The HE/SHE/WE trilogy translating Anima/Animus into everyday relational life.",
+        "how_it_enriches_the_graph": "Johnson's four-step active imagination method (image, dialogue, ritual, ethical application) is the most accessible guide to the practice. The integration practices library draws on his approach.",
+        "key_works": [
+          "Inner Work",
+          "He",
+          "She",
+          "We",
+          "Owning Your Own Shadow"
+        ]
+      },
+      {
+        "name": "Marion Woodman",
+        "contribution": "The body in depth psychology. Eating disorders as individuation crises. The feminine body as sacred. Addiction as a spiritual problem wearing a bodily disguise.",
+        "how_it_enriches_the_graph": "Woodman insists that individuation happens IN THE BODY, not just in the psyche's symbolic realm. The app's somatic practices (body scan, dream movement) are informed by her work. Her addiction-as-spiritual-crisis framework enriches the recovery dream patterns.",
+        "key_works": [
+          "Addiction to Perfection",
+          "The Pregnant Virgin",
+          "The Owl Was a Baker's Daughter"
+        ]
+      },
+      {
+        "name": "Donald Kalsched",
+        "contribution": "The self-care system in trauma. How the psyche protects itself from overwhelming experience by creating inner persecutor/protector dynamics. The distinction between archetypal dreams and trauma dreams.",
+        "how_it_enriches_the_graph": "Kalsched's work is essential for the safety protocol. He distinguishes between dreams that use archetypal imagery for individuation and dreams that replay trauma with archetypal intensity. The app must be able to make this distinction — or at least flag when it's uncertain.",
+        "key_works": [
+          "The Inner World of Trauma",
+          "Trauma and the Soul"
+        ]
+      }
+    ]
+  }
+}

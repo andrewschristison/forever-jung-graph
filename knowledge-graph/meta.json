@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "knowledge_graph_version": "5.0.0-production",
+  "last_updated": "2026-10-15",
+  "author": "Andrew Christison",
+  "license": "CC BY-NC-SA 4.0 (data and companion text); see https://github.com/andrewschristison/forever-jung-graph",
+  "totals": {
+    "concepts": 51,
+    "symbols": 90,
+    "frameworks": 7,
+    "narrative_stages": 68,
+    "bridge_mappings": 33,
+    "myth_entries": 18,
+    "myth_individual_stories": 36,
+    "traditions_represented": 33,
+    "files": 17
+  },
+  "philosophy": {
+    "epigraph": "In myths and fairy tales, as in dreams, the psyche tells its own story, and the interplay of the archetypes is revealed in its natural setting as 'formation, transformation / the eternal Mind's eternal recreation.'",
+    "source": {
+      "author": "C. G. Jung",
+      "essay": "The Phenomenology of the Spirit in Fairytales",
+      "publication": "The Archetypes and the Collective Unconscious",
+      "volume": "Collected Works, Vol. 9, Part 1",
+      "paragraph": 400,
+      "originally_published": 1945,
+      "revised": 1948,
+      "inner_quotation": "Goethe, Faust, Part 2"
+    },
+    "orientation": "This knowledge graph exists to help people witness the psyche's own storytelling. It is not diagnostic. It does not pathologize. It illuminates the archetypal patterns already at work in dreams, reflections, and lived experience — making visible what the psyche is already doing."
+  },
+  "files": [
+    {
+      "file": "meta.json",
+      "purpose": "Version, philosophy, architecture, inventory"
+    },
+    {
+      "file": "concepts.json",
+      "purpose": "51 Jungian concepts with plain-language accessibility, depth tiers, and contested flags"
+    },
+    {
+      "file": "symbols.json",
+      "purpose": "90 dream symbols with recognition terms, variations, and plain-language meanings"
+    },
+    {
+      "file": "frameworks.json",
+      "purpose": "7 narrative frameworks (68 total stages) with psychological function annotations"
+    },
+    {
+      "file": "bridge.json",
+      "purpose": "33 cross-reference mappings between Jungian concepts and narrative frameworks"
+    },
+    {
+      "file": "myths.json",
+      "purpose": "18 story references, 36 stories, 33 tradition labels"
+    },
+    {
+      "file": "assessment.json",
+      "purpose": "8 guided reflection prompts for archetypal profiling"
+    },
+    {
+      "file": "analysis-protocol.json",
+      "purpose": "10-step dream analysis methodology with 4 analysis modes"
+    },
+    {
+      "file": "series-protocol.json",
+      "purpose": "Longitudinal tracking: 6 dimensions, 8 milestones, reporting cadence"
+    },
+    {
+      "file": "dream-patterns.json",
+      "purpose": "Specialized patterns: recovery, grief, lifespan, relationships, lucid, nightmares, recurring"
+    },
+    {
+      "file": "integration-practices.json",
+      "purpose": "12 practices across 5 types for working with dream content"
+    },
+    {
+      "file": "integrity.json",
+      "purpose": "Therapeutic boundaries, ethical commitments, Jung's limitations, referral framework"
+    },
+    {
+      "file": "interpretive-wisdom.json",
+      "purpose": "Validation framework, interpretive humility, post-Jungian voices"
+    },
+    {
+      "file": "contextual-frameworks.json",
+      "purpose": "Body-dream connections, special populations, contemplative practice"
+    },
+    {
+      "file": "living-system.json",
+      "purpose": "System prompt, onboarding journey, voice library, dream incubation"
+    },
+    {
+      "file": "user-facing-features.json",
+      "purpose": "Browsable dictionary spec, dream telling methodology, story analyzer"
+    },
+    {
+      "file": "schema-normalization.json",
+      "purpose": "Canonical schemas, cross-reference manifest, validation rules"
+    }
+  ],
+  "architecture": {
+    "knowledge": "concepts, symbols, frameworks, bridge, myths, assessment",
+    "methodology": "analysis-protocol, series-protocol, integration-practices",
+    "human_terrain": "dream-patterns (recovery, grief, lifespan, relationships, lucid, nightmares, recurring)",
+    "wisdom": "interpretive-wisdom",
+    "accessibility": "Merged into concepts and symbols as plain_language, depth_tier, contested, first_encounter_phrase fields",
+    "integrity": "integrity (boundaries + Jung's limitations unified)",
+    "context": "contextual-frameworks (body, populations, contemplative)",
+    "system": "living-system (prompt, onboarding, voice, incubation)",
+    "user_facing": "user-facing-features (dictionary, dream telling, story analyzer)",
+    "technical": "schema-normalization (schemas, validation, merge order)"
+  },
+  "concept_categories": {
+    "archetype": 16,
+    "structure": 11,
+    "process": 17,
+    "typology": 7
+  },
+  "symbol_categories": {
+    "element": 4,
+    "space": 11,
+    "figure": 5,
+    "creature": 12,
+    "object": 13,
+    "action": 7,
+    "body": 8,
+    "transition": 4,
+    "color": 7,
+    "number": 6,
+    "scenario": 10,
+    "atmosphere": 3
+  },
+  "completeness_audit": {
+    "concepts_with_plain_language": 51,
+    "concepts_with_depth_tier": 51,
+    "concepts_with_in_practice": 51,
+    "concepts_with_recognition_patterns": 51,
+    "concepts_with_related_symbols": 50,
+    "concepts_with_jung_sources": 51,
+    "concepts_with_relationships": 39,
+    "symbols_with_plain_language": 90,
+    "symbols_with_recognition_terms": 90,
+    "total_concepts": 51,
+    "total_symbols": 90
+  },
+  "traditions_note": "traditions_represented counts unique tradition labels across the 36 stories; distinct cultures number fewer (labels like 'Greek epic' and 'Greek mythology' both appear)."
+}

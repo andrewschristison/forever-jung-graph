@@ -1,0 +1,817 @@
+{
+  "schema_version": "1.0",
+  "layer": "bridge",
+  "description": "Cross-reference mappings between Jungian depth psychology and narrative frameworks. Each mapping is an argued connection: not an equation but an illumination. The bridge layer is the editorial core of the knowledge graph.",
+  "total_count": 33,
+  "strength_distribution": {
+    "strong": 20,
+    "moderate": 9,
+    "suggestive": 4
+  },
+  "mappings": [
+    {
+      "id": "persona_ordinary_world",
+      "jungian_concept": "persona",
+      "framework_elements": [
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_ordinary_world"
+        },
+        {
+          "framework": "harmon_story_circle",
+          "stage": "h_you"
+        },
+        {
+          "framework": "freytag_pyramid",
+          "stage": "f_exposition"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ki"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_opening_image"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Ordinary World IS Persona territory. Every story begins where the hero has adapted: the life that works, the mask that fits, the identity that functions. The Persona is the opening image of the psyche's story. What makes this mapping deep: the Ordinary World isn't just 'normal life.' It's the specific adaptation that will prove insufficient. The crack in the Persona is the story's engine.",
+      "in_dreams": "Dreams set in familiar environments (your house, your workplace, your neighborhood) that begin to feel wrong, uncanny, or insufficient. The dream is saying: your ordinary world is no longer working.",
+      "tags": [
+        "strong_mapping",
+        "foundational",
+        "universal"
+      ]
+    },
+    {
+      "id": "individuation_call_to_adventure",
+      "jungian_concept": "individuation",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "call_to_adventure"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_call_to_adventure"
+        },
+        {
+          "framework": "harmon_story_circle",
+          "stage": "h_need"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_catalyst"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Call to Adventure is individuation announcing itself. Something in the psyche says: this adaptation is done. You've outgrown this life. The call isn't always dramatic; sometimes it's a persistent feeling that something is missing, a restlessness that won't resolve, a dream that won't let you go. Campbell described the call as beginning with an apparent blunder, a seeming chance event that reveals an unsuspected world. Psychologically, the blunder is the unconscious breaking through the Persona's defenses.",
+      "in_dreams": "Dreams of invitations, messages, strangers arriving, doors opening, journeys beginning: any image that says 'it's time.' Also dreams of disruption: earthquakes, floods, or breakdowns that force movement.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "ego_resistance_refusal",
+      "jungian_concept": "ego",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "refusal_of_call"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_refusal"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_debate"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Refusal is the ego's legitimate resistance to transformation. The ego knows (correctly) that individuation will cost something. The current identity will die. Relationships may change. The comfortable world will be disrupted. The refusal isn't cowardice. It's the ego accurately assessing the price. The question is whether the price of NOT changing has become higher.",
+      "in_dreams": "Dreams of paralysis, inability to move, hiding, procrastinating, missing flights or trains: the psyche showing you your own resistance.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "wise_old_man_mentor",
+      "jungian_concept": "wise_old_man",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "meeting_mentor"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_mentor"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Mentor IS the Wise Old Man/Woman archetype externalized. Gandalf, Obi-Wan, Morpheus, Haymitch: every mentor figure in every story is carrying this archetype. The crucial insight: the mentor appears when the hero is stuck, offering exactly what's needed but not doing the work for them. The inner Wise Old Man works the same way: wisdom appears in dreams or sudden insight precisely when the ego's own resources are exhausted.",
+      "in_dreams": "Dreams featuring teachers, guides, elderly figures, or authority figures who offer objects, advice, or direction. Also animals that guide (the fairy tale helper) and inner voices that provide unexpected clarity.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "shadow_ordeal",
+      "jungian_concept": "shadow",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "road_of_trials"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_ordeal"
+        },
+        {
+          "framework": "harmon_story_circle",
+          "stage": "h_take"
+        },
+        {
+          "framework": "freytag_pyramid",
+          "stage": "f_climax"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_all_is_lost"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Ordeal in every narrative framework is Shadow confrontation wearing story clothes. The dragon the hero fights IS the Shadow: the thing you most fear to face, which guards the treasure you most need. Every 'all is lost' moment, every climactic confrontation, every moment of maximum darkness in a story is the psyche dramatizing what Shadow confrontation feels like: you face the worst thing, and the worst thing turns out to be you. The treasure behind the dragon is always the gold in the Shadow.",
+      "in_dreams": "Dreams of confrontation, combat, facing monsters or threatening figures, being tested to the limit, moments of pure fear followed by unexpected transformation. The being-chased dream that finally turns into a standing-your-ground dream.",
+      "tags": [
+        "strong_mapping",
+        "foundational",
+        "central"
+      ]
+    },
+    {
+      "id": "anima_animus_goddess",
+      "jungian_concept": "anima_animus",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "meeting_goddess"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "temptation"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_b_story"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Campbell's 'Meeting with the Goddess' and 'Woman as Temptress' are the Anima/Animus encounter split into its two faces: the soul-image as life-giving source, and the soul-image as distraction from the path. Snyder's B Story (usually a love story) carries the same function: the relationship subplot IS the Anima/Animus work happening alongside the ego's hero quest. The deepest insight: the B Story often provides the key to the A Story. The Anima/Animus holds what the dominant function lacks.",
+      "in_dreams": "Dreams featuring compelling figures of the gender you're attracted to: figures who guide, seduce, challenge, or transform. Romantic dreams that feel more significant than ordinary attraction. Creative dreams where inspiration comes from a personified source.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "ego_dissolution_belly_of_whale",
+      "jungian_concept": "ego",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "belly_of_whale"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_dark_night"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Belly of the Whale is total ego dissolution: being swallowed by the process. The hero is inside the adventure now, not directing it. The ego doesn't run this part. The Dark Night of the Soul is the same experience from the inside: the moment between ego death and rebirth where everything is uncertain and you can't see the way forward. This is the nigredo in alchemy: the necessary blackening before new life.",
+      "in_dreams": "Dreams of being swallowed, trapped, imprisoned, enclosed in darkness, underwater, or inside a space you can't escape. Also dreams of complete disorientation: no landmarks, no direction, no identity anchors.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "senex_atonement_father",
+      "jungian_concept": "senex",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "atonement_father"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Atonement with the Father is the hero's reckoning with the Senex: the ruling principle, the old order, the authority that shaped the world the hero is now questioning. 'Atonement' literally means 'at-one-ment': becoming one with the father's power rather than being crushed or controlled by it. The hero doesn't kill the father. The hero integrates the father's authority as their own.",
+      "in_dreams": "Dreams of confronting father figures, bosses, judges, kings, or institutional authorities. Also dreams of inheriting, receiving a crown, or being given responsibility by an authority figure.",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "self_apotheosis",
+      "jungian_concept": "self",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "apotheosis"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "ultimate_boon"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "master_two_worlds"
+        },
+        {
+          "framework": "harmon_story_circle",
+          "stage": "h_find"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_reward"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Every narrative climax of achievement, revelation, or transcendence is the ego touching the Self. Apotheosis, the Ultimate Boon, the Reward: these are moments where consciousness briefly contacts the wholeness it's been seeking. The crucial Jungian insight: these moments are temporary. The hero must then return. Inflation is the danger: mistaking a peak experience of the Self for a permanent state.",
+      "in_dreams": "Mandala imagery, numinous experiences, moments of unexpected wholeness or peace, mountaintop visions, golden light, sacred spaces: any dream imagery that carries a sense of the holy.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "integration_return_elixir",
+      "jungian_concept": "integration",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "freedom_to_live"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_return_elixir"
+        },
+        {
+          "framework": "harmon_story_circle",
+          "stage": "h_change"
+        },
+        {
+          "framework": "freytag_pyramid",
+          "stage": "f_denouement"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_final_image"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ketsu"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Return with the Elixir is integration made narrative. The hero brings back what was gained: not as a trophy but as a transformation that benefits the community. In psychological terms: the insight, the new capacity, the integrated Shadow material must be lived in the ordinary world. The elixir is not knowledge. It's a changed life. Kishōtenketsu's Ketsu achieves the same function without conflict: reconciliation through recognition of hidden unity.",
+      "in_dreams": "Dreams of homecoming, bringing gifts, teaching others, planting seeds, building something new in familiar territory. Also dreams where the ordinary world looks different: same house, but the light has changed.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "enantiodromia_reversal",
+      "jungian_concept": "enantiodromia",
+      "framework_elements": [
+        {
+          "framework": "freytag_pyramid",
+          "stage": "f_climax"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ten"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_midpoint"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "Narrative reversals (the climax, the twist, the midpoint shift) are structural expressions of enantiodromia. Something that was going one way suddenly goes the opposite way. False victory becomes real defeat. Comedy becomes tragedy. The world inverts. Kishōtenketsu's Ten is the subtlest version: not a violent reversal but an unexpected juxtaposition that reframes everything. The psyche uses this structure constantly in dreams.",
+      "in_dreams": "Dreams where the tone suddenly shifts: a pleasant scene becomes threatening, or a nightmare resolves into peace. Dreams of reversal: the pursuer becomes the pursued, the teacher becomes the student, inside becomes outside.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "trickster_comedy",
+      "jungian_concept": "trickster",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_comedy"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ten"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "Comedy is the Trickster's native genre. Mistaken identity, confusion, reversal, the fool who turns out to be wise: these are all Trickster operations. Kishōtenketsu's twist serves a similar function: introducing the unexpected element that disrupts the established pattern and forces a new synthesis. The Trickster doesn't confront the old order. It undermines it through play, accident, and absurdity.",
+      "in_dreams": "Absurd dreams, humorous dreams, dreams where rules don't apply, dreams of disguise and mistaken identity, dreams where something ridiculous happens and it turns out to matter.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "compensation_twist",
+      "jungian_concept": "compensation",
+      "framework_elements": [
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ten"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_sho"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "Kishōtenketsu's structure IS compensation made narrative. The development phase (Shō) is amplification: exploring what is. The twist (Ten) is compensation: the unconscious introducing what the conscious development missed. The reconciliation (Ketsu) is integration. This makes Kishōtenketsu the most psychologically Jungian framework, despite having no Western psychological framing. Dreams often follow this structure rather than the Western conflict model.",
+      "in_dreams": "Dreams that don't feel like stories but feel like juxtapositions: seemingly unrelated scenes placed next to each other, waiting for the dreamer to find the connection. These dreams resist conflict-based interpretation and respond better to a Kishōtenketsu reading.",
+      "tags": [
+        "moderate_mapping",
+        "important_alternative"
+      ]
+    },
+    {
+      "id": "puer_fun_and_games",
+      "jungian_concept": "puer_aeternus",
+      "framework_elements": [
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_fun_and_games"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "refusal_return"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "Snyder's Fun and Games is pure Puer territory: the joyful exploration before consequences arrive. The promise of possibility, the play before the price. Campbell's Refusal of the Return is the Puer's temptation in its mature form: why go back to ordinary life when you've tasted transcendence? Both are the archetype of eternal youth saying: stay here, in potential, in play, in the special world. The Hero's answer is to carry the boon home anyway.",
+      "in_dreams": "Dreams of play, freedom, adventure without consequences, flying, exploration of beautiful new spaces: dreams that feel wonderful and may indicate either genuine liberation or Puer inflation. Context and pattern determine which.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "circumambulation_spiral",
+      "jungian_concept": "circumambulation",
+      "framework_elements": [
+        {
+          "framework": "harmon_story_circle",
+          "stage": "h_change"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_sho"
+        }
+      ],
+      "mapping_type": "metaphor",
+      "strength": "suggestive",
+      "description": "Harmon's Story Circle is literally a circle: the hero returns to where they started, changed. This IS circumambulation in miniature: one revolution around the center, ending where you began but deeper. Each episode of a series is another revolution. Kishōtenketsu's development phase (Shō) is circumambulatory: exploring the subject from multiple angles rather than driving toward climax. Both model the psyche's natural movement.",
+      "in_dreams": "Recurring dreams that shift subtly over time: the same house with new rooms, the same road with different weather, the same figure saying different things. The spiral is the app's core pattern-tracking value.",
+      "tags": [
+        "suggestive_mapping"
+      ]
+    },
+    {
+      "id": "complexes_bad_guys",
+      "jungian_concept": "complexes",
+      "framework_elements": [
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_bad_guys"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_tests"
+        }
+      ],
+      "mapping_type": "metaphor",
+      "strength": "suggestive",
+      "description": "When 'bad guys close in,' it's often complexes activating: old patterns triggered by the new growth. The tests, allies, and enemies of Act Two are the ego encountering its own complexes projected onto the new world. Each enemy is a complex; each ally is an integrated resource. The drama of the story is the drama of complex activation and integration.",
+      "in_dreams": "Dreams where multiple threatening figures converge, where problems pile up, where the dreamer feels surrounded. Anxiety dreams where everything goes wrong at once can be one face of complex activation.",
+      "tags": [
+        "suggestive_mapping"
+      ]
+    },
+    {
+      "id": "tragedy_failed_individuation",
+      "jungian_concept": "shadow",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_tragedy"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Tragedy is individuation refused or failed. The 'tragic flaw' is Shadow material the hero cannot or will not integrate. Macbeth's ambition, Hamlet's paralysis, Gatsby's illusion: each is a Shadow quality that, unintegrated, destroys the personality. Tragedy is what happens when the hero stays in refusal. The story still unfolds (the unconscious still demands its due) but without integration, the only resolution is destruction.",
+      "in_dreams": "Nightmares that repeat without resolution, or dreams of collapse and ruin, can sometimes be read as the psyche rehearsing a pattern that wants attention. (Repetitive nightmares that replay a real event are a different thing entirely and are not symbolic material to interpret.)",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "child_rebirth_plot",
+      "jungian_concept": "child",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_rebirth"
+        },
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_rags_to_riches"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_resurrection"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Rebirth plots and rags-to-riches plots are both Child archetype stories: something new and genuine emerges from beneath what was dead, calcified, or hidden. Vogler's Resurrection is the moment the hero is reborn as something new. The Child archetype is the engine: the irreducible potential that survives even the worst death and emerges renewed. Every Resurrection beat is a birth.",
+      "in_dreams": "Dreams of babies, new growth, spring, dawn, finding something precious in rubble, a child appearing after a death dream. These are the psyche's rebirth signals.",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "transcendent_function_resolution",
+      "jungian_concept": "transcendent_function",
+      "framework_elements": [
+        {
+          "framework": "freytag_pyramid",
+          "stage": "f_denouement"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ketsu"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_break_into_three"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Every genuine narrative resolution is the transcendent function in action: a third option that neither the protagonist's conscious desire nor the antagonist's opposition could have predicted. Snyder's Break into Three is the most explicit: the insight from the B Story (the Anima/Animus subplot) provides the key that neither the hero nor the villain had. Kishōtenketsu's reconciliation is the transcendent function in its purest form: unity discovered through juxtaposition, not forced through conflict.",
+      "in_dreams": "The dream that resolves a waking dilemma by presenting neither option A nor option B, but a symbol that contains both. The image that settles a tension you'd been unable to think your way through.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "golden_shadow_rags_to_riches",
+      "jungian_concept": "golden_shadow",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_rags_to_riches"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Rags to Riches plot is the golden shadow's story: the hero who doesn't know their true worth, who has been living beneath their actual potential, who discovers that the riches (the golden shadow) were always there, just hidden, denied, or projected. Cinderella's beauty was always there. David's courage was always there. The golden shadow isn't acquired; it's reclaimed.",
+      "in_dreams": "Dreams of discovering treasure in your own house, finding money in your own pockets, realizing you possess a skill you'd denied. The golden shadow dream is the most hopeful dream there is.",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "mother_complex_ordinary_world",
+      "jungian_concept": "mother_complex",
+      "framework_elements": [
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_ordinary_world"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "refusal_of_call"
+        }
+      ],
+      "mapping_type": "metaphor",
+      "strength": "moderate",
+      "description": "The Ordinary World is often the mother complex's territory: the place of safety, belonging, and stasis. The hero's Refusal of the Call is frequently the mother complex speaking: 'don't go, it's dangerous, stay where it's safe.' Every hero's journey begins with separating from the Mother, which is separating from the mother complex. The call to adventure is the call to leave home, literally and psychologically.",
+      "in_dreams": "Dreams of being unable to leave a house, being called back by mother figures, finding the door locked from inside. The mother complex keeps the hero in the Ordinary World.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "father_complex_atonement",
+      "jungian_concept": "father_complex",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "atonement_father"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_finale"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Atonement with the Father is literally confronting the father complex: the internalized authority that has been running the hero's life. The Finale in Snyder's model is the same confrontation in commercial form: the hero uses everything they've learned to face the ruling power. The father complex doesn't have to be defeated; it has to be understood, owned, and transcended. At-one-ment: becoming one with the father's authority as your own.",
+      "in_dreams": "Dreams of confronting bosses, judges, kings, or your actual father. Dreams of inheriting power, receiving a crown, or being given responsibility by an authority figure who finally sees you as an equal.",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "inflation_icarus",
+      "jungian_concept": "inflation_deflation",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "refusal_return"
+        },
+        {
+          "framework": "snyder_save_the_cat",
+          "stage": "s_midpoint"
+        },
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_tragedy"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "Inflation IS the Refusal of the Return: the hero who has touched the transcendent and doesn't want to come back to ordinary life. Snyder's false victory at the Midpoint is inflation in miniature: the ego thinks it's won before the real battle has begun. Tragedy is inflation taken to its logical conclusion: the 'fatal flaw' is often a form of inflation: the hero who identifies with their own greatness and is destroyed by it. Macbeth, Gatsby, Icarus.",
+      "in_dreams": "Dreams of flying too high, of being crowned or worshipped, of possessing unlimited power, followed by falling, crashing, or exposure. The inflation-deflation cycle mapped onto narrative structure.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "wounded_healer_return",
+      "jungian_concept": "wounded_healer",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "freedom_to_live"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_return_elixir"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The hero who returns with the elixir IS the Wounded Healer. They can heal the kingdom because their own wound gave them access to the medicine. Frodo returns to the Shire changed: he can't fully participate in ordinary life anymore, but his sacrifice saved it. The Freedom to Live is the Wounded Healer's stance: life lived from the wound's wisdom rather than from the wound's pain.",
+      "in_dreams": "Dreams of returning home with something precious but also carrying a scar. Dreams of being both the healer and the patient. Dreams where the wound becomes the door.",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "ego_self_axis_master_two_worlds",
+      "jungian_concept": "ego_self_axis",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "master_two_worlds"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Master of Two Worlds is the narrative expression of a functional ego-Self axis. The hero can move freely between ordinary reality (ego territory) and the special world (the unconscious, the Self's domain) without being trapped in either. The threshold that was terrifying at the beginning is now a door the hero walks through at will. This is the goal: not to live in the unconscious, not to live in ego consciousness, but to have reliable access to both.",
+      "in_dreams": "Dreams where you move freely between familiar and unfamiliar spaces. Dreams where you breathe underwater AND on land. Dreams where the house has a door to a vast landscape and you can go either way.",
+      "tags": [
+        "strong_mapping",
+        "foundational"
+      ]
+    },
+    {
+      "id": "participation_mystique_belly_whale",
+      "jungian_concept": "participation_mystique",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "belly_of_whale"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "Being swallowed by the whale IS participation mystique: the ego loses its boundaries and is consumed by the larger psychic field. Jung distinguished between immersion the ego returns from, which transforms, and dissolution it cannot return from, which he considered dangerous. The whale's belly is the image of the first kind: a temporary surrender of boundaries. The whale's belly is the space where ego boundaries must temporarily dissolve for transformation to occur.",
+      "in_dreams": "Dreams of merging, dissolving, losing your name, being absorbed into a crowd or a landscape or another person. These dreams are either terrifying (the ego isn't ready) or numinous (the ego is surrendering appropriately).",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "psychic_energy_quest",
+      "jungian_concept": "psychic_energy",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_quest"
+        }
+      ],
+      "mapping_type": "metaphor",
+      "strength": "suggestive",
+      "description": "The Quest plot is the narrative of psychic energy seeking its proper channel. The hero assembles companions (inner resources), overcomes obstacles (blocked energy), and reaches the goal (the Self). When psychic energy is blocked (by complexes, by rigid Persona, by unlived life), the psyche may answer with quest dreams: the drive to find something, to reach somewhere, to recover what was lost. The urgency of the quest is the urgency of blocked energy seeking flow.",
+      "in_dreams": "Journey dreams with a specific destination. Searching dreams. Dreams where you MUST reach something before it's too late. The energy of the dream IS the psychic energy seeking its channel.",
+      "tags": [
+        "suggestive_mapping"
+      ]
+    },
+    {
+      "id": "synchronicity_magical_aid",
+      "jungian_concept": "synchronicity",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "meeting_mentor"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "rescue_without"
+        }
+      ],
+      "mapping_type": "metaphor",
+      "strength": "suggestive",
+      "description": "The Mentor who appears at the right moment, the Rescue that arrives from without. These narrative events mirror synchronicity: the meaningful coincidence where the inner need and the outer event converge. The fairy tale helper who appears when the hero is lost IS synchronicity in narrative form. In life, the right book at the right time, the chance encounter that changes everything, the dream that answers a question you hadn't consciously asked.",
+      "in_dreams": "Dreams where help arrives unexpectedly. Dreams where you find exactly what you need in an unlikely place. The dream itself AS synchronicity: answering a waking question you hadn't articulated.",
+      "tags": [
+        "suggestive_mapping"
+      ]
+    },
+    {
+      "id": "kishotenketsu_compensation_full",
+      "jungian_concept": "compensation",
+      "framework_elements": [
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ki"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_sho"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ten"
+        },
+        {
+          "framework": "kishotenketsu",
+          "stage": "k_ketsu"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "Kishōtenketsu is the MOST Jungian framework because it mirrors how compensation actually works. Ki establishes the conscious attitude (what the ego knows). Shō amplifies it (explores it fully). Ten introduces the compensatory content (what the unconscious adds). Ketsu integrates the two (the transcendent function producing unity). This is EXACTLY what a dream does: takes the waking attitude (Ki), develops it (Shō), introduces the unexpected (Ten), and holds both in a new wholeness (Ketsu). Western conflict-based frameworks model individuation through confrontation. Kishōtenketsu models individuation through juxtaposition. Both are real. Both happen in dreams.",
+      "in_dreams": "Dreams that don't feel like stories but feel right. Dreams where scene A and scene B seem unrelated but, upon reflection, illuminate each other. The majority of dreams that don't fit Western narrative structure may be Kishōtenketsu dreams, and the app should be able to read them as such.",
+      "tags": [
+        "strong_mapping",
+        "foundational",
+        "critical"
+      ]
+    },
+    {
+      "id": "savior_complex_hero_inflation",
+      "jungian_concept": "savior_complex",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "refusal_return"
+        },
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_tragedy"
+        }
+      ],
+      "mapping_type": "metaphor",
+      "strength": "moderate",
+      "description": "The savior complex is what happens when the hero refuses to return: identifies permanently with the heroic role and can never go back to being ordinary. The hero who can't stop saving becomes the tragic figure: consumed by the very quality that made them great. Tragedy IS the savior complex's logical endpoint: the hero who can't distinguish between serving the Self and being the Self.",
+      "in_dreams": "Dreams of being unable to stop helping even when you're drowning. Dreams of wearing a cape that becomes a cage. Dreams where everyone needs you and no one sees you.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    },
+    {
+      "id": "alchemical_stages_narrative_arc",
+      "jungian_concept": "alchemical_stages",
+      "framework_elements": [
+        {
+          "framework": "campbell_monomyth",
+          "stage": "belly_of_whale",
+          "alchemical_stage": "nigredo"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "road_of_trials",
+          "alchemical_stage": "albedo"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "apotheosis",
+          "alchemical_stage": "citrinitas"
+        },
+        {
+          "framework": "campbell_monomyth",
+          "stage": "master_two_worlds",
+          "alchemical_stage": "rubedo"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_ordeal",
+          "alchemical_stage": "nigredo"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_reward",
+          "alchemical_stage": "albedo"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_resurrection",
+          "alchemical_stage": "citrinitas"
+        },
+        {
+          "framework": "vogler_writers_journey",
+          "stage": "v_return_elixir",
+          "alchemical_stage": "rubedo"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The entire hero's journey maps onto the alchemical opus. The Belly of the Whale is nigredo (dissolution). The Road of Trials is albedo (purification through encounter). Apotheosis is citrinitas (the gold appears). Master of Two Worlds is rubedo (the opus complete). This mapping means that any dream series following a hero's journey pattern can also be read alchemically, and vice versa. Two frameworks, one process.",
+      "in_dreams": "The macro-arc of a dream series: darkness (nigredo dreams) → clarity (albedo dreams) → warmth and embodiment (citrinitas dreams) → wholeness (rubedo dreams). The app tracks this automatically through symbol evolution and emotional arc tracking.",
+      "tags": [
+        "strong_mapping",
+        "foundational",
+        "analytical_backbone"
+      ]
+    },
+    {
+      "id": "shadow_integration_booker_overcoming",
+      "jungian_concept": "shadow_integration_stages",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_overcoming_monster"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "strong",
+      "description": "The Overcoming the Monster plot IS the Shadow integration sequence in narrative form: the monster is denied (it terrorizes from the outside), confronted (the hero faces it), and integrated (the hero either kills it, which is incomplete integration, or transforms it, which is genuine integration). In dreams, killing the monster is often not the resolution; sitting with it, speaking to it, or embracing it is. The fairy tale hero kills the dragon. The individuation hero makes friends with it.",
+      "in_dreams": "The evolution of the being-chased dream: running → hiding → turning to face → confronting → the monster transforms or sits down. This is the Overcoming the Monster plot happening inside the dreamer.",
+      "tags": [
+        "strong_mapping"
+      ]
+    },
+    {
+      "id": "puer_senex_voyage_return",
+      "jungian_concept": "puer_aeternus",
+      "secondary_concept": "senex",
+      "framework_elements": [
+        {
+          "framework": "booker_seven_plots",
+          "stage": "b_voyage_return"
+        }
+      ],
+      "mapping_type": "parallel",
+      "strength": "moderate",
+      "description": "The Voyage and Return plot is the Puer's story: departure into the marvelous (the Puer's flight into possibility), immersion in the strange world (the Puer's enchantment with the new), and return to the ordinary (the Senex's gravity pulling the Puer back to earth). Alice in Wonderland, The Wizard of Oz, Narnia: all are Puer journeys that end with the return to Kansas, to the ordinary world that the Puer tried to escape but which turns out to be where real life happens.",
+      "in_dreams": "Dreams of magical journeys that end with waking up, or with returning to your actual house. The dream gives the Puer its flight, and then grounds it. The return is not punishment. It's integration.",
+      "tags": [
+        "moderate_mapping"
+      ]
+    }
+  ]
+}

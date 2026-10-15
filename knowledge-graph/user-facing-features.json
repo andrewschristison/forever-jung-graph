@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "layer": "user_facing",
+  "document": "dictionary_telling_story",
+  "browsable_dream_dictionary": {
+    "description": "A user-facing exploration mode that lets people browse the symbol dictionary by category, search by keyword, and progressively discover depth. This is NOT the LLM's extraction layer — it's the USER's exploration layer. Different purpose, different structure.",
+    "design_principles": [
+      "Start with the plain-language meaning. Always. The Jungian depth is one tap deeper — available for the curious, invisible to the casual browser.",
+      "Categories should match how people actually think about their dreams: 'Animals,' 'Places,' 'People,' 'Things,' 'What was happening,' 'What my body did,' 'Colors,' 'Numbers.'",
+      "Each entry should feel like a brief, warm conversation — not a clinical definition.",
+      "Personal meaning always trumps dictionary meaning. Every entry should end with: 'But what does this mean to YOU? Your personal connection to this symbol is more important than any dictionary.'",
+      "Progressive disclosure: plain meaning → Jungian depth → mythological amplification → 'explore related symbols.' Curiosity drives the journey deeper."
+    ],
+    "category_mapping": {
+      "user_facing_category": "internal_symbol_categories",
+      "Animals": [
+        "creature"
+      ],
+      "Places": [
+        "space",
+        "atmosphere"
+      ],
+      "People": [
+        "figure"
+      ],
+      "Things": [
+        "object"
+      ],
+      "What Was Happening": [
+        "action",
+        "scenario"
+      ],
+      "My Body": [
+        "body"
+      ],
+      "Colors": [
+        "color"
+      ],
+      "Numbers": [
+        "number"
+      ],
+      "Nature": [
+        "element"
+      ],
+      "Big Events": [
+        "transition"
+      ]
+    },
+    "entry_structure": {
+      "level_1_surface": {
+        "content": "plain_language field from accessibility overlay",
+        "tone": "Conversational, warm, brief — 2-3 sentences",
+        "example_water": "Water in dreams usually points to your emotional life — the feelings and experiences that are running below your everyday awareness. Calm water often means you're at peace with something deep. Rough water often means something below the surface is churning."
+      },
+      "level_2_depth": {
+        "content": "variations field with contextual meanings",
+        "tone": "Still conversational but more specific — 'If the water was murky, it often means...'",
+        "trigger": "User taps 'Tell me more' or 'What about [specific variation]?'"
+      },
+      "level_3_jungian": {
+        "content": "definition field + jungian_concepts connections",
+        "tone": "Introduces Jungian vocabulary with plain-language bridges — 'In depth psychology, water is associated with what's called the unconscious — which is just a name for everything in your mind that you're not currently aware of.'",
+        "trigger": "User taps 'Go deeper' or 'What does Jung say?'"
+      },
+      "level_4_mythological": {
+        "content": "Relevant myth references from myth-reference-index + myth-non-western",
+        "tone": "Storytelling — 'In traditions around the world, water appears as...'",
+        "trigger": "User taps 'Stories and myths'"
+      },
+      "level_5_personal": {
+        "content": "Prompt for personal association — always the final layer",
+        "tone": "'All of that is the universal meaning. But what matters most is: what does water mean to YOU? Think of your first memory of water. That's where your personal symbol begins.'",
+        "trigger": "Always visible at the bottom of every entry"
+      }
+    },
+    "search_behavior": {
+      "keyword_search": "User types 'snake' — matches recognition_terms across all symbol files",
+      "related_symbols": "After viewing an entry, show 2-3 related symbols: 'If you dreamed of a snake, you might also explore: water (the unconscious depths where snakes live), death/transformation (what snakes represent through skin-shedding), healing (the rod of Asclepius, the snake as medicine).'",
+      "recent_dreams_connection": "If the user has journal entries, show: 'Snake has appeared in 3 of your dreams. Explore your snake dreams →'"
+    }
+  },
+  "art_of_dream_telling": {
+    "description": "The app's core interaction is SPEAKING a dream aloud. This is not a neutral act — it is itself a psychological practice with its own power and methodology. Speaking a dream is different from writing it, which is different from thinking it. The voice captures something the page misses. This document defines why and how.",
+    "why_voice_matters": {
+      "embodiment": "Speaking a dream engages the body — breath, voice, rhythm, pauses. The body remembers what the mind forgets. A dreamer speaking aloud will often recall details that emerge through the act of vocalization itself — the voice pulls content from the body's memory.",
+      "affect": "The emotional tone of the telling is diagnostic. WHERE does the voice tremble? WHERE does it speed up or slow down? WHERE does the speaker laugh, or fall silent? The transcript captures the words. The voice captures the feeling.",
+      "performance": "Speaking a dream is a performance in the oldest sense — the dream is given to an audience (even if the audience is an app). The act of telling transforms the private experience into a shared one. This is itself integrative. The dream moves from 'something that happened to me in the dark' to 'something I can give form to in the light.'",
+      "tradition": "Every indigenous dream tradition prioritizes TELLING the dream aloud — to the community, to the shaman, to the elder. The speaking is not a recording method. It is the first act of working with the dream. By building a voice-first app, we are not innovating. We are recovering an ancient practice."
+    },
+    "guidance_for_dream_telling": {
+      "before_speaking": [
+        "Don't organize the dream in your head first. Speak it as it comes — messy, out of order, with gaps. The mess IS the data.",
+        "Start with the feeling: 'I woke up feeling ___.' The feeling-tone is the dream's emotional signature.",
+        "If you only remember a fragment — a color, a face, a single moment — speak that. Fragments are complete dreams in miniature."
+      ],
+      "while_speaking": [
+        "Use present tense: 'I'm standing in a house' rather than 'I was standing in a house.' Present tense keeps you IN the dream rather than reporting on it from outside.",
+        "Include sensory details: temperature, light, texture, sound. These carry symbolic weight.",
+        "Note what you feel as you tell it — not just what you felt in the dream, but what you feel NOW telling it. 'As I describe this part, I notice my chest tightening.'",
+        "Don't interpret while telling. Just tell. The analysis comes after."
+      ],
+      "after_speaking": [
+        "Sit with the dream for a moment before engaging with any analysis. Let it breathe.",
+        "Ask yourself: what part of this dream am I still thinking about? That's where the energy is.",
+        "The act of speaking the dream aloud has already begun the integration. What you feel in the minutes after telling is itself meaningful."
+      ]
+    },
+    "app_implementation": {
+      "pre_recording_prompt": "When you're ready, press record and speak your dream. Start with how you felt when you woke up. Don't worry about order or completeness — just let it come.",
+      "during_recording": "No interruptions. No prompts. Just hold the space. The app listens without intervening.",
+      "post_recording": "Brief pause before analysis: 'Thank you. Take a moment with that before we look at it together.' Then present transcription for review before analysis.",
+      "voice_analysis_note": "Future feature: analyze not just the CONTENT of the speech but the DELIVERY — pauses, speed changes, emotional inflection. These are diagnostic data the transcript alone doesn't capture."
+    },
+    "depth_tier": 1,
+    "plain_language": "Speaking your dream aloud is itself a powerful practice — not just a recording method. The voice pulls details from memory that writing misses. The pauses and emotions in your telling reveal as much as the content. Start with the feeling. Speak in present tense. Don't interpret — just tell."
+  },
+  "story_structure_analyzer": {
+    "description": "A separate mode within the app (or a standalone tool) for writers who want to map their creative work — outlines, drafts, story beats — onto narrative frameworks with depth psychology annotations. This is the 'Story Structure Analyzer' from the original brief, now specified against the knowledge graph.",
+    "how_it_works": {
+      "input": "The user pastes or speaks a story outline, synopsis, beat sheet, or character description.",
+      "analysis": [
+        "1. Identify which narrative framework(s) the story most closely follows (Campbell, Vogler, Harmon, Freytag, Kishōtenketsu, Snyder)",
+        "2. Map the story's beats onto the framework's stages — identifying which stages are present, which are missing, and where the story deviates",
+        "3. Annotate each stage with its psychological function from the knowledge graph — 'Your second act turning point maps to the Shadow confrontation. What is your protagonist's Shadow? If you can name it, the scene writes itself.'",
+        "4. Identify the protagonist's archetypal pattern — Hero, Puer, Wounded Healer, Trickster — and note how that pattern shapes the story's natural trajectory",
+        "5. Identify missing elements — 'Your story has a strong Mentor figure but no Shadow confrontation. The hero learns but doesn't suffer. What's the cost of their growth?'",
+        "6. Bridge-layer analysis — connect the story's structure to its psychological depth using the bridge mappings"
+      ],
+      "output": "A structural analysis with psychological depth notes. Not a writing prescription — an illumination of what the story is already doing psychologically, and what it might be missing."
+    },
+    "use_cases": [
+      "Screenwriter mapping a feature script to Vogler/Snyder and discovering the psychological holes",
+      "Novelist who feels 'stuck in act two' discovering that the stuckness IS the Belly of the Whale — and that the story knows what it's doing",
+      "Memoirist discovering that their life story follows a specific mythological pattern they'd never consciously noticed",
+      "Podcast creator (In Process) structuring episodes around archetypal patterns in the guest's story",
+      "Game designer mapping a quest narrative to Campbell with Jungian depth notes"
+    ],
+    "pricing_model": "This could be a separate feature tab within Forever Jung, a standalone web tool, or a premium feature for paid subscribers. The knowledge graph serves both the dream journal and the story analyzer — same data, different interface.",
+    "competitive_landscape": "Zero tools exist that combine structural story analysis with Jungian psychological annotation. Writing tools like Save the Cat! software, Plottr, and Dramatica offer structural analysis but NO psychological depth. This is a genuinely unoccupied space.",
+    "depth_tier": 2,
+    "tags": [
+      "story_analysis",
+      "writer_tool",
+      "adjacent_product"
+    ]
+  }
+}

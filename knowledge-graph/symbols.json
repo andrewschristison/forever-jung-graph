@@ -1,0 +1,5196 @@
+{
+  "schema_version": "1.0",
+  "layer": "symbols",
+  "category_introductions": {
+    "element": "Dreams often use natural elements (water, fire, earth, air) as a language for inner experience. They represent the big forces at work in your emotional and psychological life.",
+    "space": "The places in your dreams are maps of your inner world. Your dream house IS you: its rooms, its condition, its unexplored spaces all represent parts of your personality.",
+    "figure": "The people in your dreams are almost always parts of YOU. The threatening stranger is a part of yourself you haven't faced. The wise elder is your own deeper knowing. The beloved is a quality you haven't claimed as your own.",
+    "creature": "Animals in dreams represent your instincts, the parts of yourself that are older than language, that know things your conscious mind doesn't.",
+    "object": "Objects in dreams often represent tools, capacities, or values: things the dream is showing you that you have, need, or are losing.",
+    "action": "What you DO in a dream (running, flying, falling, hiding) reveals your current relationship to whatever inner process is happening.",
+    "body": "When your body does something unusual in a dream, like teeth falling out, hands bound, or wounds appearing, the dream is using your body as a symbol for a psychological experience.",
+    "transition": "Death, birth, journeys, and other threshold events in dreams represent psychological transitions: the end of one inner state and the beginning of another.",
+    "color": "Colors in dreams carry emotional and psychological weight. They're the dream's way of adding feeling-tone to an image.",
+    "number": "When a specific number stands out in a dream, it often carries meaning about wholeness, process, or the structure of whatever you're going through.",
+    "scenario": "Some dreams are so common that almost everyone has them: being late, being chased, finding new rooms in your house. These universal scenarios reflect universal human experiences."
+  },
+  "total_count": 90,
+  "categories": {
+    "element": 4,
+    "space": 11,
+    "figure": 5,
+    "creature": 12,
+    "object": 13,
+    "action": 7,
+    "body": 8,
+    "transition": 4,
+    "color": 7,
+    "number": 6,
+    "scenario": 10,
+    "atmosphere": 3
+  },
+  "symbols": [
+    {
+      "id": "water",
+      "name": "Water",
+      "category": "element",
+      "core_meaning": "The unconscious. Emotional depths. What lies beneath the surface of awareness.",
+      "variations": [
+        {
+          "form": "ocean",
+          "meaning": "The collective unconscious: vast, deep, containing everything",
+          "intensity": "high"
+        },
+        {
+          "form": "river",
+          "meaning": "Flow of psychic energy, life's current, the direction things are moving",
+          "intensity": "medium"
+        },
+        {
+          "form": "pool_or_pond",
+          "meaning": "Contained unconscious material: a specific complex or feeling state",
+          "intensity": "low"
+        },
+        {
+          "form": "flood",
+          "meaning": "Overwhelming unconscious content breaking through ego defenses",
+          "intensity": "high"
+        },
+        {
+          "form": "rain",
+          "meaning": "Unconscious material descending into consciousness, fertilizing but sometimes unwelcome",
+          "intensity": "medium"
+        },
+        {
+          "form": "murky_water",
+          "meaning": "Shadow material in the unconscious: unclear, potentially threatening",
+          "intensity": "high"
+        },
+        {
+          "form": "clear_water",
+          "meaning": "Clarity emerging from the unconscious, conscious access to deeper material",
+          "intensity": "low"
+        },
+        {
+          "form": "ice",
+          "meaning": "Frozen emotion, unconscious content held in stasis, rigidity",
+          "intensity": "medium"
+        },
+        {
+          "form": "waterfall",
+          "meaning": "Sudden release of unconscious energy into consciousness, overwhelming but potentially transformative",
+          "intensity": "high"
+        },
+        {
+          "form": "tsunami",
+          "meaning": "Catastrophic flooding of consciousness by unconscious content: ego overwhelm",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "personal_unconscious",
+        "collective_unconscious",
+        "shadow",
+        "compensation"
+      ],
+      "dream_context_clues": [
+        "Depth correlates with depth of unconscious material accessed",
+        "Dreamer's relationship to the water (swimming, drowning, observing, drinking) reflects relationship to unconscious content",
+        "Water temperature may indicate emotional tone — warm (nurturing), cold (threatening), boiling (rage)"
+      ],
+      "recognition_terms": [
+        "water",
+        "ocean",
+        "sea",
+        "river",
+        "lake",
+        "pond",
+        "pool",
+        "flood",
+        "rain",
+        "stream",
+        "waves",
+        "drowning",
+        "swimming",
+        "underwater",
+        "shore",
+        "tide",
+        "waterfall",
+        "ice",
+        "frozen",
+        "tsunami",
+        "creek",
+        "bay",
+        "wet",
+        "submerged"
+      ],
+      "tags": [
+        "element",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Feelings and inner experiences that are below your everyday awareness. The depth of the water often reflects how deep the feeling goes. Swimming easily = handling deep feelings well. Drowning = overwhelmed by them. Clear water = clarity about your emotional life. Murky water = confusion about what you're feeling.",
+      "depth_tier": 1
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "category": "element",
+      "core_meaning": "Transformation, passion, destruction and renewal, psychic energy (libido), illumination.",
+      "variations": [
+        {
+          "form": "campfire",
+          "meaning": "Contained transformation, warmth, community, consciousness in the wilderness of the unconscious",
+          "intensity": "low"
+        },
+        {
+          "form": "wildfire",
+          "meaning": "Uncontrolled psychic energy, passion that consumes, transformation that can't be stopped",
+          "intensity": "high"
+        },
+        {
+          "form": "candle",
+          "meaning": "Individual consciousness, small but persistent light in darkness, spirit",
+          "intensity": "low"
+        },
+        {
+          "form": "burning_house",
+          "meaning": "Psychic structure (the house/self) undergoing forced transformation",
+          "intensity": "high"
+        },
+        {
+          "form": "hearth",
+          "meaning": "The warm center of psychic life, home, the heart of the personality",
+          "intensity": "low"
+        },
+        {
+          "form": "volcanic",
+          "meaning": "Eruption of repressed material from deep unconscious: primal, unstoppable",
+          "intensity": "high"
+        },
+        {
+          "form": "being_burned",
+          "meaning": "Painful transformation, purification through suffering",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "individuation",
+        "enantiodromia",
+        "shadow",
+        "self"
+      ],
+      "dream_context_clues": [
+        "Controlled fire suggests conscious engagement with transformation",
+        "Uncontrolled fire suggests the unconscious is forcing change the ego hasn't chosen",
+        "Fire that illuminates vs fire that destroys — both are transformation, but the ego's relationship differs"
+      ],
+      "recognition_terms": [
+        "fire",
+        "flame",
+        "burning",
+        "smoke",
+        "ash",
+        "candle",
+        "torch",
+        "blaze",
+        "inferno",
+        "campfire",
+        "hearth",
+        "volcanic",
+        "lava",
+        "embers",
+        "sparks",
+        "bonfire",
+        "scorched",
+        "charred"
+      ],
+      "tags": [
+        "element",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Transformation, passion, and intensity. Controlled fire (a campfire, a hearth) = healthy transformation you're managing. Uncontrolled fire (wildfire, burning house) = change that's happening whether you chose it or not.",
+      "depth_tier": 1
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "category": "element",
+      "core_meaning": "The body, grounding, material reality, the Mother, the foundation of psychic life.",
+      "variations": [
+        {
+          "form": "fertile_soil",
+          "meaning": "Readiness for new growth, the ground prepared for planting",
+          "intensity": "low"
+        },
+        {
+          "form": "earthquake",
+          "meaning": "Foundational disruption: what you built your life on is shifting",
+          "intensity": "high"
+        },
+        {
+          "form": "mud",
+          "meaning": "The prima materia: messy, undifferentiated, but containing potential",
+          "intensity": "medium"
+        },
+        {
+          "form": "desert",
+          "meaning": "Spiritual dryness, barren period, but also the place of vision and revelation",
+          "intensity": "medium"
+        },
+        {
+          "form": "mountain",
+          "meaning": "The Self, aspiration, the goal of individuation, the place of vision",
+          "intensity": "high"
+        },
+        {
+          "form": "cave",
+          "meaning": "The womb of the earth, return to origins, descent into the unconscious, initiation space",
+          "intensity": "high"
+        },
+        {
+          "form": "garden",
+          "meaning": "Cultivated inner life, tended psychic growth, the Mother's domain",
+          "intensity": "low"
+        }
+      ],
+      "jungian_concepts": [
+        "mother",
+        "great_mother",
+        "self",
+        "sensation"
+      ],
+      "recognition_terms": [
+        "earth",
+        "ground",
+        "soil",
+        "dirt",
+        "mud",
+        "mountain",
+        "hill",
+        "cave",
+        "desert",
+        "garden",
+        "field",
+        "earthquake",
+        "landslide",
+        "cliff",
+        "valley",
+        "canyon",
+        "stone",
+        "rock",
+        "sand"
+      ],
+      "tags": [
+        "element",
+        "foundational"
+      ],
+      "plain_language": "Solid ground. Earth in a dream tends to point to your body, your foundations, and what actually holds you up: home, health, the practical life. When the ground is fertile, something in you is ready to grow. When it cracks or gives way, ask what foundation feels shaky in waking life.",
+      "depth_tier": 1
+    },
+    {
+      "id": "air",
+      "name": "Air / Wind / Sky",
+      "category": "element",
+      "core_meaning": "Spirit, intellect, the realm of ideas, freedom, detachment from earthly concerns.",
+      "variations": [
+        {
+          "form": "wind",
+          "meaning": "Spirit moving, invisible force creating change, inspiration",
+          "intensity": "medium"
+        },
+        {
+          "form": "storm",
+          "meaning": "Psychic turbulence, the clash of opposing forces in the psyche",
+          "intensity": "high"
+        },
+        {
+          "form": "clear_sky",
+          "meaning": "Mental clarity, unobstructed consciousness, spiritual openness",
+          "intensity": "low"
+        },
+        {
+          "form": "flying",
+          "meaning": "Liberation from gravity/matter, inflation risk, spiritual aspiration, Puer energy",
+          "intensity": "high"
+        },
+        {
+          "form": "suffocation",
+          "meaning": "Loss of spirit, creative stifling, inability to breathe (live) authentically",
+          "intensity": "high"
+        },
+        {
+          "form": "clouds",
+          "meaning": "Obscured clarity, thoughts not yet formed, potential rain (unconscious content descending)",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "puer_aeternus",
+        "intuition",
+        "thinking",
+        "ego"
+      ],
+      "recognition_terms": [
+        "air",
+        "wind",
+        "sky",
+        "clouds",
+        "storm",
+        "flying",
+        "breath",
+        "breeze",
+        "tornado",
+        "hurricane",
+        "suffocating",
+        "choking",
+        "soaring",
+        "floating",
+        "atmosphere",
+        "lightning",
+        "thunder"
+      ],
+      "tags": [
+        "element",
+        "foundational"
+      ],
+      "plain_language": "The realm of thought and spirit. Wind, sky, and open air often carry ideas, inspiration, and the wish to rise above the mess of daily life. A fresh wind can be a new idea arriving. A storm of wind can be thinking that has lost touch with the ground.",
+      "depth_tier": 1
+    },
+    {
+      "id": "house",
+      "name": "House / Building",
+      "category": "space",
+      "core_meaning": "The psyche itself: its structure, its rooms, its known and unknown spaces. The house IS you.",
+      "variations": [
+        {
+          "form": "childhood_home",
+          "meaning": "The original psychic structure: where your personality was formed, the personal unconscious",
+          "intensity": "medium"
+        },
+        {
+          "form": "unfamiliar_house",
+          "meaning": "Unknown aspects of yourself, parts of the psyche not yet explored",
+          "intensity": "medium"
+        },
+        {
+          "form": "basement",
+          "meaning": "The personal unconscious, the Shadow's domain, stored material below awareness",
+          "intensity": "high"
+        },
+        {
+          "form": "attic",
+          "meaning": "Higher consciousness, spiritual aspirations, forgotten potential, ancestral material",
+          "intensity": "medium"
+        },
+        {
+          "form": "hidden_room",
+          "meaning": "Undiscovered aspect of the psyche: new potential, repressed content, or both",
+          "intensity": "high"
+        },
+        {
+          "form": "ruined_building",
+          "meaning": "Psychic structure that has collapsed: old identity, former adaptation that no longer holds",
+          "intensity": "high"
+        },
+        {
+          "form": "new_construction",
+          "meaning": "Building a new psychic structure, new identity under construction",
+          "intensity": "medium"
+        },
+        {
+          "form": "locked_door",
+          "meaning": "Blocked access to unconscious content: defended, not yet ready to open",
+          "intensity": "medium"
+        },
+        {
+          "form": "many_rooms",
+          "meaning": "Complexity of the psyche, multiplicity of self, many aspects not yet explored",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "shadow",
+        "personal_unconscious",
+        "self"
+      ],
+      "dream_context_clues": [
+        "Which room are you in? Ground floor = ego consciousness. Basement = personal unconscious. Attic = spiritual/ancestral. Hidden room = undiscovered self.",
+        "Condition of the house reflects the condition of the psyche",
+        "Moving to a new house often signals psychic restructuring"
+      ],
+      "recognition_terms": [
+        "house",
+        "home",
+        "room",
+        "building",
+        "apartment",
+        "mansion",
+        "cabin",
+        "basement",
+        "attic",
+        "door",
+        "window",
+        "hallway",
+        "stairs",
+        "floor",
+        "ceiling",
+        "wall",
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "closet",
+        "garage",
+        "porch",
+        "roof"
+      ],
+      "tags": [
+        "space",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "You. The dream house IS your personality. The rooms you know = the parts of yourself you're aware of. The basement = what's below your awareness. Hidden rooms = parts of yourself you haven't discovered yet. The condition of the house = the condition of your inner life.",
+      "depth_tier": 1
+    },
+    {
+      "id": "forest",
+      "name": "Forest / Woods",
+      "category": "space",
+      "core_meaning": "The unconscious as living, growing, wild territory. The place where the hero gets lost, and must get lost, to find what can't be found on the known path.",
+      "variations": [
+        {
+          "form": "dark_forest",
+          "meaning": "Deep unconscious territory, the place of initiation, where the fairy tale hero enters",
+          "intensity": "high"
+        },
+        {
+          "form": "clearing",
+          "meaning": "A moment of consciousness within the unconscious: clarity found within confusion",
+          "intensity": "medium"
+        },
+        {
+          "form": "path_in_forest",
+          "meaning": "An orientation within unconscious territory: not lost, but navigating the unknown",
+          "intensity": "medium"
+        },
+        {
+          "form": "lost_in_forest",
+          "meaning": "Disorientation in the unconscious: ego lost, no clear direction, necessary phase of individuation",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "collective_unconscious",
+        "individuation",
+        "shadow",
+        "hero"
+      ],
+      "recognition_terms": [
+        "forest",
+        "woods",
+        "trees",
+        "jungle",
+        "wilderness",
+        "trail",
+        "path",
+        "clearing",
+        "grove",
+        "thicket",
+        "lost in woods"
+      ],
+      "tags": [
+        "space",
+        "foundational"
+      ],
+      "plain_language": "The wild, living unknown in you. Getting lost in the woods is one of the oldest dream moves there is: it usually marks the start of finding something the marked path could never reach. The deeper and darker the forest, the further from your everyday self the dream is taking you.",
+      "depth_tier": 1
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge / Crossing",
+      "category": "space",
+      "core_meaning": "Transition between psychological states. Connection between opposites. The crossing from one phase of life or consciousness to another.",
+      "variations": [
+        {
+          "form": "solid_bridge",
+          "meaning": "A reliable connection between conscious and unconscious, or between old and new identity",
+          "intensity": "low"
+        },
+        {
+          "form": "broken_bridge",
+          "meaning": "Disconnection: the way between two states is damaged or blocked",
+          "intensity": "high"
+        },
+        {
+          "form": "narrow_bridge",
+          "meaning": "A precarious but possible transition, risk required",
+          "intensity": "medium"
+        },
+        {
+          "form": "bridge_over_water",
+          "meaning": "Crossing over unconscious material, maintaining consciousness while traversing depth",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "individuation",
+        "integration",
+        "ego",
+        "self"
+      ],
+      "recognition_terms": [
+        "bridge",
+        "crossing",
+        "overpass",
+        "drawbridge",
+        "ford",
+        "stepping stones",
+        "gangplank"
+      ],
+      "tags": [
+        "space",
+        "transition"
+      ],
+      "plain_language": "A crossing. You're moving from one way of being to another, and the bridge is the in-between. Notice its condition: a sturdy bridge suggests the transition is holding you; a rickety one suggests the crossing feels risky. Standing on the bridge, neither side yet, is its own honest place.",
+      "depth_tier": 1
+    },
+    {
+      "id": "stairs",
+      "name": "Stairs / Descent / Ascent",
+      "category": "space",
+      "core_meaning": "Movement between levels of consciousness. Descent into the unconscious. Ascent toward consciousness or spirit.",
+      "variations": [
+        {
+          "form": "descending_stairs",
+          "meaning": "Going deeper into the unconscious: katabasis, the necessary descent",
+          "intensity": "high"
+        },
+        {
+          "form": "ascending_stairs",
+          "meaning": "Rising toward consciousness, spiritual aspiration, ego strengthening",
+          "intensity": "medium"
+        },
+        {
+          "form": "spiral_staircase",
+          "meaning": "Circumambulation: the spiral approach to the center, individuation's natural movement",
+          "intensity": "high"
+        },
+        {
+          "form": "broken_stairs",
+          "meaning": "Disrupted access between levels of consciousness",
+          "intensity": "medium"
+        },
+        {
+          "form": "endless_stairs",
+          "meaning": "A process that seems interminable: the individuation work that has no shortcut",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "personal_unconscious",
+        "collective_unconscious",
+        "individuation",
+        "circumambulation"
+      ],
+      "recognition_terms": [
+        "stairs",
+        "staircase",
+        "steps",
+        "ladder",
+        "climbing",
+        "descending",
+        "going down",
+        "going up",
+        "elevator",
+        "escalator",
+        "spiral stairs"
+      ],
+      "tags": [
+        "space",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Moving between levels of yourself. Going down often means approaching feelings or memories below your everyday awareness. Going up often means reaching for perspective or spirit. Where the stairs lead, and whether you take them, is the heart of the dream.",
+      "depth_tier": 1
+    },
+    {
+      "id": "shadow_figure",
+      "name": "Shadow Figure",
+      "category": "figure",
+      "core_meaning": "The personification of the Shadow: the disowned self appearing as an other. Usually same-gender, often threatening or repulsive, sometimes fascinating.",
+      "variations": [
+        {
+          "form": "dark_stranger",
+          "meaning": "Unknown Shadow material: aspects of self not yet recognized",
+          "intensity": "high"
+        },
+        {
+          "form": "criminal",
+          "meaning": "The part of you that breaks rules, crosses moral lines: repressed aggression or desire",
+          "intensity": "high"
+        },
+        {
+          "form": "pursuer",
+          "meaning": "Shadow material that's actively seeking integration: what you run from chases you",
+          "intensity": "high"
+        },
+        {
+          "form": "twin_or_double",
+          "meaning": "The Shadow as mirror, an alternate version of yourself",
+          "intensity": "high"
+        },
+        {
+          "form": "monster",
+          "meaning": "Shadow material so repressed it's become monstrous: long-denied aspects grown distorted",
+          "intensity": "high"
+        },
+        {
+          "form": "beggar_or_outcast",
+          "meaning": "The rejected self, the part exiled from the Persona's acceptable world",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "projection",
+        "integration",
+        "persona"
+      ],
+      "dream_context_clues": [
+        "Same-gender figures that provoke strong negative emotion are almost always Shadow",
+        "What does the figure DO? That action often represents the Shadow's message",
+        "If the figure speaks, listen — Shadow figures sometimes offer what the ego refuses to hear"
+      ],
+      "recognition_terms": [
+        "stranger",
+        "intruder",
+        "stalker",
+        "criminal",
+        "thief",
+        "murderer",
+        "dark figure",
+        "pursuer",
+        "chaser",
+        "enemy",
+        "double",
+        "doppelganger",
+        "monster",
+        "demon",
+        "villain",
+        "attacker",
+        "bully"
+      ],
+      "tags": [
+        "figure",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "A part of yourself you haven't faced, showing up as someone threatening or unsettling. Usually the same gender as you. What they DO in the dream reveals what this hidden part of you wants or needs. If they're chasing you, they're trying to get your attention.",
+      "depth_tier": 1
+    },
+    {
+      "id": "anima_animus_figure",
+      "name": "Anima / Animus Figure",
+      "category": "figure",
+      "core_meaning": "The personification of the contrasexual archetype: the inner Other appearing as a compelling figure of the gender you're attracted to.",
+      "variations": [
+        {
+          "form": "beloved",
+          "meaning": "The idealized Anima/Animus: the soul image projected as the perfect partner",
+          "intensity": "high"
+        },
+        {
+          "form": "seductress_seductor",
+          "meaning": "The Anima/Animus as temptation, pulling the ego away from its current path toward something deeper",
+          "intensity": "high"
+        },
+        {
+          "form": "guide",
+          "meaning": "The Anima/Animus as psychopomp, leading the ego into the unconscious",
+          "intensity": "medium"
+        },
+        {
+          "form": "muse",
+          "meaning": "The Anima/Animus as creative inspiration: the source of art, vision, and imagination",
+          "intensity": "medium"
+        },
+        {
+          "form": "unattainable_figure",
+          "meaning": "The Anima/Animus that can never be possessed, pointing toward inner work rather than outer relationship",
+          "intensity": "high"
+        },
+        {
+          "form": "hostile_opposite",
+          "meaning": "The rejected Anima/Animus: contrasexual qualities denied and now appearing as adversary",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "anima_animus",
+        "projection",
+        "individuation",
+        "self"
+      ],
+      "recognition_terms": [
+        "beautiful woman",
+        "beautiful man",
+        "mysterious woman",
+        "mysterious man",
+        "lover",
+        "ex",
+        "crush",
+        "goddess",
+        "queen",
+        "king",
+        "prince",
+        "princess",
+        "soulmate",
+        "temptress",
+        "enchantress",
+        "seducer"
+      ],
+      "tags": [
+        "figure",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "The compelling stranger, lover, or guide who feels charged with meaning. This figure often carries qualities that belong to you but that you've only ever seen in other people. Jung called it the Anima or Animus: the inner Other, arriving as someone you could love.",
+      "depth_tier": 1
+    },
+    {
+      "id": "child_figure",
+      "name": "Child Figure",
+      "category": "figure",
+      "core_meaning": "New psychic content: potential that hasn't yet developed. Also vulnerability, innocence, and the authentic self before adaptation.",
+      "variations": [
+        {
+          "form": "unknown_child",
+          "meaning": "A new psychological development: something being born in the psyche that doesn't yet have a name",
+          "intensity": "high"
+        },
+        {
+          "form": "endangered_child",
+          "meaning": "New psychic potential under threat: the new development is fragile and needs protection",
+          "intensity": "high"
+        },
+        {
+          "form": "divine_child",
+          "meaning": "The Self in nascent form: radiant, numinous, carrying a sense of destiny",
+          "intensity": "high"
+        },
+        {
+          "form": "dreamer_as_child",
+          "meaning": "Regression to earlier psychic state, which may indicate accessing early material or loss of adult ego strength",
+          "intensity": "medium"
+        },
+        {
+          "form": "playing_child",
+          "meaning": "The creative, spontaneous self: unstructured psychic energy, joy before adaptation",
+          "intensity": "low"
+        },
+        {
+          "form": "lost_child",
+          "meaning": "The authentic self lost to adaptation: the person you were before the Persona took over",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "child",
+        "self",
+        "individuation",
+        "puer_aeternus"
+      ],
+      "recognition_terms": [
+        "child",
+        "baby",
+        "infant",
+        "kid",
+        "toddler",
+        "boy",
+        "girl",
+        "newborn",
+        "orphan",
+        "youth",
+        "son",
+        "daughter",
+        "little one"
+      ],
+      "tags": [
+        "figure",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Something new in you, still small. A child in a dream usually isn't about an actual child: it tends to be a fresh capacity, idea, or way of being that hasn't grown up yet and needs protecting. How the dream treats the child often shows how you're treating what's newest in yourself.",
+      "depth_tier": 1
+    },
+    {
+      "id": "wise_figure",
+      "name": "Wise Elder Figure",
+      "category": "figure",
+      "core_meaning": "The Wise Old Man/Woman personified: guidance, meaning, and the psyche's deeper knowledge appearing as an authority figure.",
+      "variations": [
+        {
+          "form": "teacher",
+          "meaning": "The psyche offering instruction: knowledge ready to become conscious",
+          "intensity": "medium"
+        },
+        {
+          "form": "hermit",
+          "meaning": "Wisdom that requires withdrawal from the world: inner authority found in solitude",
+          "intensity": "medium"
+        },
+        {
+          "form": "grandfather_grandmother",
+          "meaning": "Ancestral wisdom, continuity of deeper knowledge across generations",
+          "intensity": "medium"
+        },
+        {
+          "form": "priest_priestess",
+          "meaning": "Spiritual authority, connection to the sacred, the psyche pointing toward transcendent meaning",
+          "intensity": "high"
+        },
+        {
+          "form": "doctor_healer",
+          "meaning": "The psyche's self-healing capacity personified: the inner physician",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "wise_old_man",
+        "self",
+        "collective_unconscious"
+      ],
+      "recognition_terms": [
+        "old man",
+        "old woman",
+        "elder",
+        "teacher",
+        "professor",
+        "guru",
+        "sage",
+        "hermit",
+        "priest",
+        "priestess",
+        "monk",
+        "nun",
+        "grandfather",
+        "grandmother",
+        "healer",
+        "doctor",
+        "wizard",
+        "witch"
+      ],
+      "tags": [
+        "figure",
+        "foundational"
+      ],
+      "plain_language": "The one who knows. A grandmother, a teacher, an old stranger with a lantern: when a figure of quiet authority appears, your own deeper knowing is often speaking through a face you can trust. What they hand you, or tell you, is worth taking seriously.",
+      "depth_tier": 1
+    },
+    {
+      "id": "trickster_figure",
+      "name": "Trickster Figure",
+      "category": "figure",
+      "core_meaning": "The agent of disruption, reversal, and boundary-crossing. Appears when rigidity needs breaking.",
+      "variations": [
+        {
+          "form": "jester_clown",
+          "meaning": "Truth delivered through humor: the clown who says what no one else can",
+          "intensity": "medium"
+        },
+        {
+          "form": "shapeshifter",
+          "meaning": "Refusal of fixed identity: the psyche demonstrating that things are not what they seem",
+          "intensity": "high"
+        },
+        {
+          "form": "animal_trickster",
+          "meaning": "Fox, coyote, raven: instinctual wisdom that operates outside social rules",
+          "intensity": "medium"
+        },
+        {
+          "form": "thief",
+          "meaning": "Something being taken from the ego's control: necessary loss of what was over-held",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "trickster",
+        "enantiodromia",
+        "shadow",
+        "persona"
+      ],
+      "recognition_terms": [
+        "clown",
+        "jester",
+        "fool",
+        "joker",
+        "shapeshifter",
+        "fox",
+        "coyote",
+        "raven",
+        "prankster",
+        "con artist",
+        "magician"
+      ],
+      "tags": [
+        "figure",
+        "foundational"
+      ],
+      "plain_language": "The rule-breaker. The prankster, the shapeshifter, the fool who ruins the plan: this figure shows up when something in your life has gotten too rigid and needs shaking loose. The chaos it brings is rarely random. Look for what it interrupts.",
+      "depth_tier": 1
+    },
+    {
+      "id": "snake",
+      "name": "Snake / Serpent",
+      "category": "creature",
+      "core_meaning": "Transformation, renewal, the instinctual life force, healing, danger, the chthonic unconscious. One of the most ancient and polyvalent symbols in human psychology.",
+      "variations": [
+        {
+          "form": "threatening_snake",
+          "meaning": "Unconscious content that feels dangerous: instinctual energy the ego hasn't integrated",
+          "intensity": "high"
+        },
+        {
+          "form": "healing_snake",
+          "meaning": "The Asclepian principle, the serpent on the healer's staff: the same energy that threatens also heals. Transformation through encounter.",
+          "intensity": "medium"
+        },
+        {
+          "form": "shedding_skin",
+          "meaning": "Renewal, death of the old form, rebirth: the most direct transformation symbol in nature",
+          "intensity": "high"
+        },
+        {
+          "form": "ouroboros",
+          "meaning": "The self-consuming/self-creating serpent: wholeness, eternity, the Self",
+          "intensity": "high"
+        },
+        {
+          "form": "coiled_snake",
+          "meaning": "Latent energy: transformation potential not yet activated, kundalini in repose",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "individuation",
+        "self",
+        "great_mother",
+        "collective_unconscious"
+      ],
+      "recognition_terms": [
+        "snake",
+        "serpent",
+        "viper",
+        "cobra",
+        "python",
+        "reptile",
+        "slithering",
+        "coiled",
+        "fangs",
+        "venom",
+        "shedding skin"
+      ],
+      "tags": [
+        "creature",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Transformation and deep instinct. Snakes shed their skin, which makes them the ultimate symbol of renewal. A threatening snake = instinctual energy you haven't integrated. A calm snake = transformation underway. One of the oldest and most universal dream symbols.",
+      "depth_tier": 1
+    },
+    {
+      "id": "bird",
+      "name": "Bird",
+      "category": "creature",
+      "core_meaning": "Spirit, transcendence, the soul, messages from the unconscious, freedom, aspiration.",
+      "variations": [
+        {
+          "form": "eagle_hawk",
+          "meaning": "Spiritual power, the sun, sovereignty, far-seeing consciousness",
+          "intensity": "high"
+        },
+        {
+          "form": "owl",
+          "meaning": "Wisdom, the ability to see in darkness, knowledge of the unconscious",
+          "intensity": "medium"
+        },
+        {
+          "form": "raven_crow",
+          "meaning": "The Trickster, messenger between worlds, death and transformation, shadow bird",
+          "intensity": "medium"
+        },
+        {
+          "form": "dove",
+          "meaning": "Peace, spirit, the anima in its gentle aspect",
+          "intensity": "low"
+        },
+        {
+          "form": "caged_bird",
+          "meaning": "Spirit trapped, creative or spiritual energy imprisoned by ego structures",
+          "intensity": "high"
+        },
+        {
+          "form": "flock",
+          "meaning": "Collective psychic movement, group consciousness, migration/transition",
+          "intensity": "medium"
+        },
+        {
+          "form": "phoenix",
+          "meaning": "Death and rebirth, transformation through fire, the ultimate renewal symbol",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "puer_aeternus",
+        "trickster",
+        "anima_animus",
+        "intuition"
+      ],
+      "recognition_terms": [
+        "bird",
+        "eagle",
+        "hawk",
+        "owl",
+        "raven",
+        "crow",
+        "dove",
+        "sparrow",
+        "phoenix",
+        "feather",
+        "nest",
+        "flying bird",
+        "flock",
+        "wings",
+        "caged bird",
+        "songbird",
+        "falcon",
+        "heron"
+      ],
+      "tags": [
+        "creature",
+        "foundational"
+      ],
+      "plain_language": "The soul's messenger. Birds tend to carry spirit, freedom, and news from parts of yourself you can't reach on foot. A caged bird, a bird of prey, a dawn chorus: each says something different about what in you wants to fly, and whether it can.",
+      "depth_tier": 1
+    },
+    {
+      "id": "horse",
+      "name": "Horse",
+      "category": "creature",
+      "core_meaning": "Instinctual energy, the body, vitality, the life force in its animal form. The horse carries the rider: the relationship between instinct and consciousness.",
+      "variations": [
+        {
+          "form": "wild_horse",
+          "meaning": "Untamed instinctual energy, vital but not yet integrated with consciousness",
+          "intensity": "high"
+        },
+        {
+          "form": "ridden_horse",
+          "meaning": "Instinct in service of consciousness: healthy ego-instinct relationship",
+          "intensity": "low"
+        },
+        {
+          "form": "dark_horse",
+          "meaning": "Shadow instincts, repressed vitality, chthonic energy",
+          "intensity": "high"
+        },
+        {
+          "form": "injured_horse",
+          "meaning": "Damaged instinctual life: vitality wounded by over-civilization or trauma",
+          "intensity": "high"
+        },
+        {
+          "form": "flying_horse",
+          "meaning": "Pegasus: instinct united with spirit, transcendence through embodiment",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "sensation",
+        "ego",
+        "individuation"
+      ],
+      "recognition_terms": [
+        "horse",
+        "stallion",
+        "mare",
+        "pony",
+        "riding",
+        "galloping",
+        "stable",
+        "reins",
+        "saddle",
+        "wild horse",
+        "mustang"
+      ],
+      "tags": [
+        "creature",
+        "foundational"
+      ],
+      "plain_language": "Your life force in animal form. The horse is the body's power and willingness, and the dream often turns on your relationship with it: riding in partnership, being thrown, finding it starved or running free. How the horse is doing is often how your vitality is doing.",
+      "depth_tier": 1
+    },
+    {
+      "id": "wolf_dog",
+      "name": "Wolf / Dog",
+      "category": "creature",
+      "core_meaning": "Instinct on a spectrum from wild (wolf) to domesticated (dog). Loyalty, pack, the social animal, but also the predator, the howl, the wild that civilization tried to tame.",
+      "variations": [
+        {
+          "form": "wolf",
+          "meaning": "Wild instinct, the untamed psyche, the predator in yourself that society suppresses",
+          "intensity": "high"
+        },
+        {
+          "form": "loyal_dog",
+          "meaning": "Instinct domesticated and loyal to the ego: faithful companion, the body as ally",
+          "intensity": "low"
+        },
+        {
+          "form": "threatening_dog",
+          "meaning": "The loyal instinct turned hostile: the body or instinct that the ego has mistreated now biting back",
+          "intensity": "high"
+        },
+        {
+          "form": "lost_dog",
+          "meaning": "Lost connection to instinctual life, loyalty unanchored, searching for belonging",
+          "intensity": "medium"
+        },
+        {
+          "form": "pack",
+          "meaning": "The social unconscious, group instinct, collective belonging",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "sensation",
+        "persona",
+        "mother"
+      ],
+      "recognition_terms": [
+        "wolf",
+        "dog",
+        "puppy",
+        "howling",
+        "pack",
+        "bite",
+        "growl",
+        "bark",
+        "kennel",
+        "leash",
+        "stray",
+        "hound",
+        "canine"
+      ],
+      "tags": [
+        "creature",
+        "foundational"
+      ],
+      "plain_language": "Instinct, from wild to tame. The dog is loyalty and companionship, instinct that lives with you. The wolf is the older, wilder relative that was never fully domesticated. Which one shows up, and how it behaves toward you, maps where your instincts sit between trust and threat.",
+      "depth_tier": 1
+    },
+    {
+      "id": "spider",
+      "name": "Spider",
+      "category": "creature",
+      "core_meaning": "The web-weaver: fate, the Great Mother in her devouring/creating aspect, the pattern underlying experience, creative and destructive feminine power.",
+      "variations": [
+        {
+          "form": "spider_weaving",
+          "meaning": "Fate being woven, patterns being created, the unconscious structuring experience",
+          "intensity": "medium"
+        },
+        {
+          "form": "threatening_spider",
+          "meaning": "The devouring mother, entrapment, being caught in someone else's web (or your own unconscious patterns)",
+          "intensity": "high"
+        },
+        {
+          "form": "spider_web",
+          "meaning": "The interconnected pattern of the psyche, fate's architecture, beautiful and trapping",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "great_mother",
+        "mother",
+        "shadow",
+        "complexes"
+      ],
+      "recognition_terms": [
+        "spider",
+        "web",
+        "cobweb",
+        "spinning",
+        "arachnid",
+        "tarantula",
+        "black widow",
+        "trapped in web"
+      ],
+      "tags": [
+        "creature",
+        "foundational"
+      ],
+      "plain_language": "The weaver at the center of the web. Spiders often carry the sense of a pattern being spun around or through your life, creative and unsettling at once. A web can be a design or a trap. Ask which one you're looking at, and who is doing the weaving.",
+      "depth_tier": 1
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "category": "creature",
+      "core_meaning": "Content from the unconscious: what lives in the water. If water is the unconscious itself, fish are what swims in it. Insight, nourishment from the depths, Christ symbolism.",
+      "variations": [
+        {
+          "form": "catching_fish",
+          "meaning": "Bringing unconscious content into consciousness: insight emerging from depth",
+          "intensity": "medium"
+        },
+        {
+          "form": "golden_fish",
+          "meaning": "Treasure from the unconscious, the Self as it appears in the depths",
+          "intensity": "high"
+        },
+        {
+          "form": "large_fish",
+          "meaning": "Major unconscious content surfacing: big dream, significant insight",
+          "intensity": "high"
+        },
+        {
+          "form": "dead_fish",
+          "meaning": "Unconscious content that has lost vitality, stale insight, neglected inner life",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "personal_unconscious",
+        "collective_unconscious",
+        "self",
+        "compensation"
+      ],
+      "recognition_terms": [
+        "fish",
+        "fishing",
+        "catch",
+        "aquarium",
+        "whale",
+        "dolphin",
+        "shark",
+        "goldfish",
+        "koi",
+        "trout",
+        "salmon",
+        "deep sea creature"
+      ],
+      "tags": [
+        "creature",
+        "foundational"
+      ],
+      "plain_language": "Something alive from the depths. If water is the feeling-world below your awareness, fish are what moves in it: glints of insight, nourishment, things not yet caught. Catching a fish can be an idea surfacing. A dead fish can be a possibility left too long.",
+      "depth_tier": 1
+    },
+    {
+      "id": "key",
+      "name": "Key",
+      "category": "object",
+      "core_meaning": "Access, solution, the means of opening what was locked. The answer that unlocks the next phase.",
+      "variations": [
+        {
+          "form": "finding_key",
+          "meaning": "Discovery of a solution, readiness to access previously blocked content",
+          "intensity": "medium"
+        },
+        {
+          "form": "losing_key",
+          "meaning": "Lost access, the solution was here but has been misplaced: frustration with the process",
+          "intensity": "medium"
+        },
+        {
+          "form": "golden_key",
+          "meaning": "The key to the Self, the central insight, the treasure hard to attain",
+          "intensity": "high"
+        },
+        {
+          "form": "wrong_key",
+          "meaning": "Trying approaches that don't work: the ego's solutions don't fit the unconscious door",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "individuation",
+        "self",
+        "integration"
+      ],
+      "recognition_terms": [
+        "key",
+        "lock",
+        "unlock",
+        "keyhole",
+        "locked",
+        "opening",
+        "skeleton key"
+      ],
+      "tags": [
+        "object",
+        "foundational"
+      ],
+      "plain_language": "The way in. A key is access to something that was closed: a room, an answer, a next chapter. Finding one suggests the means of opening is already in your hand. Losing one suggests the way forward feels locked. What the key opens matters more than the key.",
+      "depth_tier": 1
+    },
+    {
+      "id": "mirror",
+      "name": "Mirror",
+      "category": "object",
+      "core_meaning": "Self-reflection, seeing yourself as you are, the moment of recognition. Also projection: seeing in the mirror what you want or fear to see.",
+      "variations": [
+        {
+          "form": "clear_mirror",
+          "meaning": "Accurate self-reflection, the ego seeing itself clearly",
+          "intensity": "medium"
+        },
+        {
+          "form": "distorted_mirror",
+          "meaning": "Self-image distortion, the Persona's interference with self-knowledge",
+          "intensity": "medium"
+        },
+        {
+          "form": "broken_mirror",
+          "meaning": "Shattered self-image, identity crisis, fragmentation, but also the breaking of illusion",
+          "intensity": "high"
+        },
+        {
+          "form": "mirror_showing_other",
+          "meaning": "Seeing someone else's face in the mirror: confrontation with Shadow, Anima/Animus, or an identity you haven't claimed",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "persona",
+        "shadow",
+        "projection",
+        "ego"
+      ],
+      "recognition_terms": [
+        "mirror",
+        "reflection",
+        "looking glass",
+        "seeing yourself",
+        "reflected",
+        "glass"
+      ],
+      "tags": [
+        "object",
+        "foundational"
+      ],
+      "plain_language": "The dream asking you to look at yourself. What the mirror shows rarely matches the daylight face: it can reveal how you actually feel about who you're becoming. An empty mirror, a stranger's face, a younger self: each is a different kind of honesty.",
+      "depth_tier": 1
+    },
+    {
+      "id": "vehicle",
+      "name": "Vehicle",
+      "category": "object",
+      "core_meaning": "How you're moving through life: the vehicle of the ego. The condition and type of vehicle reflects the ego's current capacity and direction.",
+      "variations": [
+        {
+          "form": "driving",
+          "meaning": "Ego in control of life direction, for better or worse",
+          "intensity": "low"
+        },
+        {
+          "form": "passenger",
+          "meaning": "Someone or something else is directing your life: may be the Self, may be a complex, may be another person",
+          "intensity": "medium"
+        },
+        {
+          "form": "out_of_control",
+          "meaning": "Ego losing control of life direction: autonomy crisis, overwhelm",
+          "intensity": "high"
+        },
+        {
+          "form": "broken_vehicle",
+          "meaning": "The current approach to life isn't working: the ego's vehicle needs repair or replacement",
+          "intensity": "medium"
+        },
+        {
+          "form": "boat",
+          "meaning": "Moving across the unconscious: navigating emotional or unconscious territory",
+          "intensity": "medium"
+        },
+        {
+          "form": "airplane",
+          "meaning": "Rapid movement, elevation above earthly concerns, inflation risk, spiritual transport",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "individuation",
+        "puer_aeternus"
+      ],
+      "recognition_terms": [
+        "car",
+        "driving",
+        "bus",
+        "train",
+        "boat",
+        "ship",
+        "airplane",
+        "bicycle",
+        "motorcycle",
+        "crash",
+        "passenger",
+        "steering",
+        "brakes",
+        "road",
+        "highway",
+        "vehicle"
+      ],
+      "tags": [
+        "object",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "How you're moving through life right now. Driving = you're in control of your direction. Passenger = someone or something else is steering. Out of control = your current approach to life isn't working. The TYPE of vehicle matters too: a bicycle is different from a jet.",
+      "depth_tier": 1
+    },
+    {
+      "id": "sword_weapon",
+      "name": "Sword / Weapon",
+      "category": "object",
+      "core_meaning": "Discrimination, the power to cut through: to separate truth from illusion, to defend, to act decisively. The Logos principle. Also aggression and destructive power.",
+      "variations": [
+        {
+          "form": "sword",
+          "meaning": "Discriminating consciousness, the Hero's tool for cutting through confusion",
+          "intensity": "high"
+        },
+        {
+          "form": "shield",
+          "meaning": "Ego defense, protection of consciousness from overwhelming unconscious content",
+          "intensity": "medium"
+        },
+        {
+          "form": "gun",
+          "meaning": "Modern weapon: aggressive power, destructive potential, threat. Context determines whether it's ego defense or Shadow aggression",
+          "intensity": "high"
+        },
+        {
+          "form": "disarmed",
+          "meaning": "Loss of personal power, inability to defend or discriminate",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "hero",
+        "ego",
+        "shadow",
+        "thinking"
+      ],
+      "recognition_terms": [
+        "sword",
+        "knife",
+        "gun",
+        "weapon",
+        "blade",
+        "dagger",
+        "shield",
+        "armor",
+        "bow",
+        "arrow",
+        "spear",
+        "axe",
+        "fighting",
+        "battle"
+      ],
+      "tags": [
+        "object",
+        "foundational"
+      ],
+      "plain_language": "The power to cut through. A sword or weapon often stands for decisiveness: the ability to separate true from false, to defend what matters, to end what needs ending. In whose hand it sits, and how it's used, tells you whether that power is serving you or scaring you.",
+      "depth_tier": 1
+    },
+    {
+      "id": "falling",
+      "name": "Falling",
+      "category": "action",
+      "core_meaning": "Loss of ground, ego deflation, descent that isn't chosen. The opposite of inflation: gravity reasserting itself.",
+      "jungian_concepts": [
+        "ego",
+        "puer_aeternus",
+        "shadow",
+        "enantiodromia"
+      ],
+      "variations": [
+        {
+          "form": "falling_from_height",
+          "meaning": "Deflation after inflation: the ego was too high and reality pulls it down",
+          "intensity": "high"
+        },
+        {
+          "form": "falling_into_water",
+          "meaning": "Falling into the unconscious: immersion that wasn't planned",
+          "intensity": "high"
+        },
+        {
+          "form": "falling_into_void",
+          "meaning": "Ego dissolution, loss of all ground, existential crisis",
+          "intensity": "high"
+        },
+        {
+          "form": "controlled_descent",
+          "meaning": "Choosing to go lower, voluntary humility, grounding",
+          "intensity": "medium"
+        }
+      ],
+      "recognition_terms": [
+        "falling",
+        "dropping",
+        "plummeting",
+        "slipping",
+        "tumbling",
+        "plunging",
+        "vertigo",
+        "cliff edge"
+      ],
+      "tags": [
+        "action",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Losing ground, emotionally, professionally, or in your sense of who you are. Often happens when you've been 'flying too high': overextending, overconfident, or disconnected from reality.",
+      "depth_tier": 1
+    },
+    {
+      "id": "flying",
+      "name": "Flying",
+      "category": "action",
+      "core_meaning": "Transcendence, liberation, spiritual aspiration, but also inflation, detachment from reality, the Puer's refusal to land.",
+      "jungian_concepts": [
+        "puer_aeternus",
+        "self",
+        "ego",
+        "intuition"
+      ],
+      "variations": [
+        {
+          "form": "joyful_flying",
+          "meaning": "Liberation, transcendence, spiritual opening. May be genuine or inflationary",
+          "intensity": "medium"
+        },
+        {
+          "form": "struggling_to_fly",
+          "meaning": "Effort to transcend current limitations: aspiration meeting resistance",
+          "intensity": "medium"
+        },
+        {
+          "form": "flying_too_high",
+          "meaning": "Icarus: inflation, ego identifying with the Self, dangerously detached from ground",
+          "intensity": "high"
+        },
+        {
+          "form": "losing_ability",
+          "meaning": "Grounding: the psyche pulling you back to earth. May feel like loss but often serves integration",
+          "intensity": "medium"
+        }
+      ],
+      "recognition_terms": [
+        "flying",
+        "floating",
+        "soaring",
+        "hovering",
+        "levitating",
+        "weightless",
+        "wings",
+        "airborne",
+        "gliding"
+      ],
+      "tags": [
+        "action",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Freedom, transcendence, rising above, but also the risk of being disconnected from ground reality. Joyful flying = genuine liberation. Struggling to stay up = aspiring but not quite there. Flying too high = disconnected from what's real.",
+      "depth_tier": 1
+    },
+    {
+      "id": "being_chased",
+      "name": "Being Chased / Pursued",
+      "category": "action",
+      "core_meaning": "Shadow material in pursuit. What you refuse to face follows you. The faster you run, the more energy the pursuer has, because it's YOUR energy, disowned.",
+      "jungian_concepts": [
+        "shadow",
+        "projection",
+        "complexes",
+        "integration"
+      ],
+      "variations": [
+        {
+          "form": "unknown_pursuer",
+          "meaning": "Unidentified Shadow content: you don't yet know what you're running from",
+          "intensity": "high"
+        },
+        {
+          "form": "known_pursuer",
+          "meaning": "The pursuer's identity reveals the specific Shadow content. What quality do they represent?",
+          "intensity": "high"
+        },
+        {
+          "form": "turning_to_face",
+          "meaning": "The integration moment: the dreamer stops running and confronts the pursuer. Often the dream shifts dramatically.",
+          "intensity": "high"
+        },
+        {
+          "form": "unable_to_run",
+          "meaning": "The ego's defenses failing: the Shadow content can no longer be outrun",
+          "intensity": "high"
+        }
+      ],
+      "dream_context_clues": [
+        "WHO is chasing you? Their identity is the diagnostic clue.",
+        "Where are you running TO? That's what the ego is clinging to.",
+        "What happens if you stop? This is the key therapeutic question."
+      ],
+      "recognition_terms": [
+        "chasing",
+        "chased",
+        "running from",
+        "pursued",
+        "hunting",
+        "hunted",
+        "following",
+        "stalking",
+        "escape",
+        "fleeing",
+        "hiding",
+        "can't run",
+        "legs won't move"
+      ],
+      "tags": [
+        "action",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Often it's something in your inner life that you're avoiding, pursuing you. The faster you run, the more energy it has, because it's YOUR energy, redirected. The key question: what happens if you stop running?",
+      "depth_tier": 1
+    },
+    {
+      "id": "teeth_falling",
+      "name": "Teeth Falling Out",
+      "category": "body",
+      "core_meaning": "Loss of power, loss of ability to 'bite' (assert, attack, consume), aging, vanity anxiety, transition. One of the most universal dream motifs.",
+      "jungian_concepts": [
+        "persona",
+        "ego",
+        "shadow",
+        "enantiodromia"
+      ],
+      "variations": [
+        {
+          "form": "teeth_crumbling",
+          "meaning": "Gradual loss of personal power or self-image: identity slowly eroding",
+          "intensity": "high"
+        },
+        {
+          "form": "teeth_pulled",
+          "meaning": "Something being forcibly taken: power removed by external force",
+          "intensity": "high"
+        },
+        {
+          "form": "new_teeth_growing",
+          "meaning": "Renewal: new power, new capacity emerging. Rare but significant.",
+          "intensity": "high"
+        }
+      ],
+      "recognition_terms": [
+        "teeth",
+        "tooth",
+        "losing teeth",
+        "falling out",
+        "crumbling",
+        "dental",
+        "mouth",
+        "jaw",
+        "bite"
+      ],
+      "tags": [
+        "body",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Losing your grip: on power, on self-image, on the ability to 'bite' (assert yourself). One of the most universal dreams. It often shows up during transitions where your identity is shifting.",
+      "depth_tier": 1
+    },
+    {
+      "id": "nakedness",
+      "name": "Being Naked / Exposed",
+      "category": "body",
+      "core_meaning": "Persona removed. The social mask stripped away. Vulnerability, shame, but also authenticity: being seen as you actually are.",
+      "jungian_concepts": [
+        "persona",
+        "shadow",
+        "ego"
+      ],
+      "variations": [
+        {
+          "form": "naked_in_public",
+          "meaning": "Persona failure: the mask has been removed in the social arena. Fear of being seen without defenses.",
+          "intensity": "high"
+        },
+        {
+          "form": "comfortable_nakedness",
+          "meaning": "Authenticity: the ego no longer needs the Persona's protection. Integration of vulnerability.",
+          "intensity": "medium"
+        },
+        {
+          "form": "partial_nakedness",
+          "meaning": "The Persona is partially intact: some aspects exposed, others still defended",
+          "intensity": "medium"
+        }
+      ],
+      "recognition_terms": [
+        "naked",
+        "nude",
+        "undressed",
+        "exposed",
+        "no clothes",
+        "underwear",
+        "stripped",
+        "bare",
+        "uncovered"
+      ],
+      "tags": [
+        "body",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Being seen without your mask. The social armor is off and you're exposed. Terrifying if you're not ready. Liberating if you are. The dream is asking: what happens when people see the real you?",
+      "depth_tier": 1
+    },
+    {
+      "id": "death",
+      "name": "Death",
+      "category": "transition",
+      "core_meaning": "Transformation. The end of one psychic state and the beginning of another. In dreams, death almost never means literal death: more often, something in the psyche is dying to make room for what comes next.",
+      "variations": [
+        {
+          "form": "own_death",
+          "meaning": "Major identity transformation: the old self is dying. The ego's current form is ending.",
+          "intensity": "high"
+        },
+        {
+          "form": "death_of_known_person",
+          "meaning": "What that person represents in your psyche is transforming or being released",
+          "intensity": "high"
+        },
+        {
+          "form": "death_of_unknown_person",
+          "meaning": "An unknown aspect of yourself is being transformed or sacrificed",
+          "intensity": "medium"
+        },
+        {
+          "form": "witnessing_death",
+          "meaning": "Observing transformation at a distance, aware of the change but not yet fully in it",
+          "intensity": "medium"
+        },
+        {
+          "form": "funeral",
+          "meaning": "Ritual acknowledgment of what has ended: honoring the transition",
+          "intensity": "medium"
+        },
+        {
+          "form": "resurrection",
+          "meaning": "What died has returned in new form: the transformation is complete",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "individuation",
+        "self",
+        "hero",
+        "enantiodromia",
+        "integration"
+      ],
+      "dream_context_clues": [
+        "WHO dies matters enormously: they often stand for the part of you that's transforming",
+        "How do you feel in the dream? Grief suggests the ego is mourning. Peace suggests the ego accepts the change.",
+        "What comes AFTER the death in the dream? That's the new development."
+      ],
+      "recognition_terms": [
+        "death",
+        "dying",
+        "dead",
+        "killed",
+        "murder",
+        "funeral",
+        "coffin",
+        "grave",
+        "cemetery",
+        "corpse",
+        "burial",
+        "mourning",
+        "resurrection",
+        "afterlife",
+        "ghost"
+      ],
+      "tags": [
+        "transition",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Almost never literal. Death in dreams usually points to transformation: the end of one way of being and the beginning of another. WHO dies in the dream can hint at WHAT part of your inner life may be changing.",
+      "depth_tier": 1
+    },
+    {
+      "id": "birth",
+      "name": "Birth",
+      "category": "transition",
+      "core_meaning": "New beginning. Something emerging into consciousness for the first time. A new capacity, attitude, or phase of life being born.",
+      "jungian_concepts": [
+        "child",
+        "self",
+        "individuation"
+      ],
+      "variations": [
+        {
+          "form": "giving_birth",
+          "meaning": "Bringing something new into being: active creation, new psychic content being delivered",
+          "intensity": "high"
+        },
+        {
+          "form": "being_born",
+          "meaning": "Experiencing yourself as new: rebirth, entering a new phase of life",
+          "intensity": "high"
+        },
+        {
+          "form": "difficult_birth",
+          "meaning": "The new development is struggling to emerge: resistance, pain, transformation that's hard",
+          "intensity": "high"
+        },
+        {
+          "form": "premature_birth",
+          "meaning": "Something emerging before it's fully formed: new development that needs extra protection",
+          "intensity": "high"
+        }
+      ],
+      "recognition_terms": [
+        "birth",
+        "born",
+        "baby",
+        "pregnant",
+        "pregnancy",
+        "delivery",
+        "labor",
+        "newborn",
+        "conception",
+        "womb"
+      ],
+      "tags": [
+        "transition",
+        "foundational"
+      ],
+      "plain_language": "Something new arriving. Birth in a dream usually announces a beginning: a capacity, a project, a version of you emerging for the first time. Labor that is hard, or a birth that surprises everyone, tends to mirror how the new thing is actually arriving in your life.",
+      "depth_tier": 1
+    },
+    {
+      "id": "journey",
+      "name": "Journey / Travel",
+      "category": "transition",
+      "core_meaning": "The individuation process itself: life as movement, transformation as travel, the path between who you were and who you're becoming.",
+      "jungian_concepts": [
+        "individuation",
+        "hero",
+        "circumambulation"
+      ],
+      "variations": [
+        {
+          "form": "setting_out",
+          "meaning": "Beginning a new phase: answering the call, crossing the threshold",
+          "intensity": "medium"
+        },
+        {
+          "form": "lost_in_journey",
+          "meaning": "Disorientation in the individuation process, necessary but uncomfortable",
+          "intensity": "high"
+        },
+        {
+          "form": "return_home",
+          "meaning": "Integration: bringing what was gained back to ordinary life. The return with the elixir.",
+          "intensity": "high"
+        },
+        {
+          "form": "blocked_path",
+          "meaning": "An obstacle in the individuation process, something that must be confronted or circumvented",
+          "intensity": "medium"
+        },
+        {
+          "form": "wrong_direction",
+          "meaning": "The ego's chosen direction may not serve individuation, the unconscious signaling a course correction",
+          "intensity": "medium"
+        }
+      ],
+      "recognition_terms": [
+        "journey",
+        "travel",
+        "trip",
+        "road",
+        "path",
+        "walking",
+        "hiking",
+        "driving",
+        "lost",
+        "map",
+        "compass",
+        "destination",
+        "arrival",
+        "departure",
+        "crossroads",
+        "fork in road",
+        "detour"
+      ],
+      "tags": [
+        "transition",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Your life in motion. Roads, trains, voyages: travel dreams tend to be about becoming, the distance between who you were and who you're turning into. Where you're headed, what you've packed, and who travels with you all belong to the reading.",
+      "depth_tier": 1
+    },
+    {
+      "id": "mandala",
+      "name": "Mandala / Circle / Wholeness Image",
+      "category": "transition",
+      "core_meaning": "The Self. Wholeness. The archetype of order, totality, and the center. When mandalas appear in dreams spontaneously, it's the psyche representing its own wholeness, or its longing for it.",
+      "jungian_concepts": [
+        "self",
+        "individuation",
+        "circumambulation"
+      ],
+      "variations": [
+        {
+          "form": "perfect_circle",
+          "meaning": "The Self in its ideal form: wholeness achieved or glimpsed",
+          "intensity": "high"
+        },
+        {
+          "form": "incomplete_circle",
+          "meaning": "Individuation in process: wholeness being approached but not yet realized. The Enso.",
+          "intensity": "high"
+        },
+        {
+          "form": "quaternity",
+          "meaning": "Fourfold symmetry: the four functions, the four directions, the psyche in balanced structure",
+          "intensity": "high"
+        },
+        {
+          "form": "spiral",
+          "meaning": "Circumambulation: the living, dynamic approach to the center. The mandala in motion.",
+          "intensity": "high"
+        },
+        {
+          "form": "clock_face",
+          "meaning": "The mandala as time: the cycle, the round, the complete revolution",
+          "intensity": "medium"
+        }
+      ],
+      "recognition_terms": [
+        "circle",
+        "mandala",
+        "wheel",
+        "spiral",
+        "ring",
+        "round",
+        "sphere",
+        "globe",
+        "clock",
+        "compass",
+        "sun",
+        "moon",
+        "halo",
+        "target",
+        "bullseye",
+        "orbit",
+        "symmetry",
+        "center"
+      ],
+      "tags": [
+        "transition",
+        "foundational",
+        "self"
+      ],
+      "plain_language": "Circles, wheels, spirals, or balanced symmetrical images that appear spontaneously in dreams. They represent wholeness: your psyche showing you its own completeness, or its longing for it. These are among the most significant dream images a person can have.",
+      "depth_tier": 2
+    },
+    {
+      "id": "color_red",
+      "name": "Red",
+      "category": "color",
+      "core_meaning": "Passion, blood, life force, anger, vitality, danger, eros. The color of the body's urgency: what demands attention NOW.",
+      "variations": [
+        {
+          "form": "bright_red",
+          "meaning": "Active passion, vital energy, anger that's alive and demanding expression",
+          "intensity": "high"
+        },
+        {
+          "form": "dark_red",
+          "meaning": "Deep passion, old blood, rage held too long, the body's stored violence or desire",
+          "intensity": "high"
+        },
+        {
+          "form": "red_clothing",
+          "meaning": "Wearing passion, identifying with vitality or desire, or being marked by it",
+          "intensity": "medium"
+        },
+        {
+          "form": "red_room",
+          "meaning": "A psychic space saturated with passion, desire, or anger: the complex is everywhere in this room",
+          "intensity": "high"
+        },
+        {
+          "form": "bleeding",
+          "meaning": "Life force leaking, woundedness, sacrifice, the price being paid in vitality",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "anima_animus",
+        "sensation",
+        "complexes"
+      ],
+      "recognition_terms": [
+        "red",
+        "scarlet",
+        "crimson",
+        "blood",
+        "bleeding",
+        "ruby",
+        "vermillion",
+        "cardinal",
+        "maroon",
+        "burgundy"
+      ],
+      "tags": [
+        "color",
+        "high_frequency"
+      ],
+      "plain_language": "The color of urgency. Red brings blood, passion, anger, danger, desire: the body insisting on something right now. When red dominates a dream, ask what in your waking life is demanding attention with that same heat.",
+      "depth_tier": 1
+    },
+    {
+      "id": "color_black",
+      "name": "Black",
+      "category": "color",
+      "core_meaning": "The unknown, the Shadow, the unconscious, death, the nigredo, the prima materia. Not evil, but what has not yet been brought into the light. The darkness that contains everything that hasn't been differentiated.",
+      "variations": [
+        {
+          "form": "darkness",
+          "meaning": "The unconscious itself: the absence of ego consciousness, the territory where dreams happen",
+          "intensity": "high"
+        },
+        {
+          "form": "black_figure",
+          "meaning": "Shadow personified: the unknown self appearing in its most undifferentiated form",
+          "intensity": "high"
+        },
+        {
+          "form": "black_water",
+          "meaning": "The deepest unconscious: Shadow material submerged in emotional depth",
+          "intensity": "high"
+        },
+        {
+          "form": "black_clothing",
+          "meaning": "Mourning, Shadow identification, formal Persona, or protection through darkness",
+          "intensity": "medium"
+        },
+        {
+          "form": "black_animal",
+          "meaning": "Instinctual Shadow: the animal nature in its most repressed or undifferentiated form",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "personal_unconscious",
+        "collective_unconscious",
+        "individuation"
+      ],
+      "alchemical_note": "Black corresponds to the nigredo — the first stage of alchemical transformation, the necessary decomposition before new life.",
+      "recognition_terms": [
+        "black",
+        "dark",
+        "darkness",
+        "shadow",
+        "pitch black",
+        "midnight",
+        "ebony",
+        "obsidian",
+        "void",
+        "abyss"
+      ],
+      "tags": [
+        "color",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "The color of the not-yet-known. Black in dreams is rarely evil: it's the dark where everything undiscovered waits, the night before the dawn, the rich soil. Something is in there. The dream is often about your relationship to not being able to see it yet.",
+      "depth_tier": 1
+    },
+    {
+      "id": "color_white",
+      "name": "White",
+      "category": "color",
+      "core_meaning": "Purity, consciousness, spirit, clarity, emptiness, death (in some traditions), the albedo. The light of awareness, but also the blankness before differentiation.",
+      "variations": [
+        {
+          "form": "white_light",
+          "meaning": "Consciousness, illumination, the Self's radiance, spiritual breakthrough",
+          "intensity": "high"
+        },
+        {
+          "form": "white_clothing",
+          "meaning": "Purity, innocence, initiation, new beginning, or the Persona of perfection",
+          "intensity": "medium"
+        },
+        {
+          "form": "white_animal",
+          "meaning": "Purified instinct, the sacred animal, instinctual energy in service of the Self",
+          "intensity": "high"
+        },
+        {
+          "form": "snow_white_landscape",
+          "meaning": "The psyche in albedo: purified but not yet alive with color, clarity without warmth",
+          "intensity": "medium"
+        },
+        {
+          "form": "blinding_white",
+          "meaning": "Consciousness overwhelm: too much light, too fast. Inflation risk. The ego blinded by the Self.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "ego",
+        "persona",
+        "individuation"
+      ],
+      "alchemical_note": "White corresponds to the albedo — the purification stage following the nigredo. Clarity emerges but the work isn't complete.",
+      "recognition_terms": [
+        "white",
+        "bright",
+        "light",
+        "pale",
+        "snow",
+        "blank",
+        "ivory",
+        "silver",
+        "pure",
+        "clean",
+        "bleached",
+        "luminous"
+      ],
+      "tags": [
+        "color",
+        "foundational"
+      ],
+      "plain_language": "The color of clarity, and of blankness. White can be light, spirit, and a clean start: it can also be the empty page, the hospital sheet, the cold of something drained of life. Whether the white feels luminous or sterile is the reading.",
+      "depth_tier": 1
+    },
+    {
+      "id": "color_gold",
+      "name": "Gold / Yellow",
+      "category": "color",
+      "core_meaning": "The highest value, the Self, the goal of individuation, the philosopher's stone, consciousness in its most refined form. Also: inflation, fool's gold, the counterfeit treasure.",
+      "variations": [
+        {
+          "form": "golden_light",
+          "meaning": "The Self's radiance, numinous experience, the treasure hard to attain",
+          "intensity": "high"
+        },
+        {
+          "form": "golden_object",
+          "meaning": "The treasure: the valuable thing that the journey is for. The boon, the insight, the integrated Shadow gold.",
+          "intensity": "high"
+        },
+        {
+          "form": "golden_child",
+          "meaning": "The Divine Child as the Self's herald: the golden potential, new life carrying ultimate value",
+          "intensity": "high"
+        },
+        {
+          "form": "yellow_sickly",
+          "meaning": "Distorted value: cowardice, jealousy, intellect divorced from feeling. Gold gone wrong.",
+          "intensity": "medium"
+        },
+        {
+          "form": "sunrise_golden",
+          "meaning": "Dawn of new consciousness, the rubedo beginning, new awareness emerging",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "individuation",
+        "child",
+        "shadow"
+      ],
+      "alchemical_note": "Gold is the alchemical goal — the philosopher's stone, the lapis. In Jungian terms, it represents the Self as the product of individuation. The citrinitas (yellowing) is the stage where gold begins to appear.",
+      "recognition_terms": [
+        "gold",
+        "golden",
+        "yellow",
+        "gilded",
+        "amber",
+        "honey",
+        "sunshine",
+        "brass",
+        "treasure",
+        "crown",
+        "coin"
+      ],
+      "tags": [
+        "color",
+        "foundational",
+        "self"
+      ],
+      "plain_language": "The color of what matters most. Gold tends to mark real treasure: the goal, the self you're growing toward, the thing worth the whole search. But gold can also glitter falsely. The dream may be asking whether what you're chasing is treasure or its imitation.",
+      "depth_tier": 1
+    },
+    {
+      "id": "color_blue",
+      "name": "Blue",
+      "category": "color",
+      "core_meaning": "Spirit, depth, truth, melancholy, the sky (transcendence) and the deep ocean (the unconscious). The color of both distance and depth: what's above and what's below.",
+      "variations": [
+        {
+          "form": "sky_blue",
+          "meaning": "Spiritual openness, mental clarity, the thinking function at its clearest, transcendence",
+          "intensity": "low"
+        },
+        {
+          "form": "deep_blue",
+          "meaning": "The deep unconscious, emotional depth, the ocean floor of the psyche",
+          "intensity": "high"
+        },
+        {
+          "form": "blue_mood",
+          "meaning": "Melancholy as a psychological state: the soul's sadness that serves depth. Depression as descent.",
+          "intensity": "medium"
+        },
+        {
+          "form": "blue_figure",
+          "meaning": "A spiritual or transcendent figure, the Wise Old Man/Woman in their cosmic aspect",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "thinking",
+        "collective_unconscious",
+        "self",
+        "wise_old_man"
+      ],
+      "recognition_terms": [
+        "blue",
+        "azure",
+        "cobalt",
+        "navy",
+        "indigo",
+        "cerulean",
+        "sapphire",
+        "turquoise",
+        "teal",
+        "cyan"
+      ],
+      "tags": [
+        "color"
+      ],
+      "plain_language": "The color of depth and distance. Blue reaches up (sky, spirit, truth) and down (deep water, feeling, melancholy) at once. A blue dream often carries longing: for something higher, something deeper, or something just out of reach.",
+      "depth_tier": 1
+    },
+    {
+      "id": "color_green",
+      "name": "Green",
+      "category": "color",
+      "core_meaning": "Growth, nature, the life force in its vegetative form, healing, the Great Mother's fertility. Also: envy, rawness, immaturity. What hasn't ripened yet.",
+      "variations": [
+        {
+          "form": "lush_green",
+          "meaning": "Abundant growth, psychic fertility, the Mother providing",
+          "intensity": "low"
+        },
+        {
+          "form": "dark_green",
+          "meaning": "The deep forest, nature's shadow side, growth that's wild and uncivilized",
+          "intensity": "medium"
+        },
+        {
+          "form": "new_green",
+          "meaning": "Spring, new growth, the first signs of life after a psychological winter",
+          "intensity": "medium"
+        },
+        {
+          "form": "sickly_green",
+          "meaning": "Growth gone wrong: envy, poison, something that should be alive but is toxic",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "mother",
+        "great_mother",
+        "child",
+        "sensation"
+      ],
+      "recognition_terms": [
+        "green",
+        "verdant",
+        "emerald",
+        "olive",
+        "lime",
+        "forest green",
+        "moss",
+        "jade",
+        "chartreuse"
+      ],
+      "tags": [
+        "color"
+      ],
+      "plain_language": "The color of growing. Green is the life force in leaf: healing, fertility, things ripening. It can also be the unripe and the envious. Ask what in your life is green right now, in either sense: growing well, or not ready yet.",
+      "depth_tier": 1
+    },
+    {
+      "id": "color_purple",
+      "name": "Purple / Violet",
+      "category": "color",
+      "core_meaning": "The union of opposites: red (body, passion) and blue (spirit, transcendence) merged. Royalty, spiritual authority, the coniunctio, transformation at its most refined.",
+      "variations": [
+        {
+          "form": "royal_purple",
+          "meaning": "Sovereignty of the Self, spiritual authority, individuation achieved to a meaningful degree",
+          "intensity": "high"
+        },
+        {
+          "form": "violet_light",
+          "meaning": "The highest spiritual vibration, transformation nearing completion, the mystical",
+          "intensity": "high"
+        },
+        {
+          "form": "purple_clothing",
+          "meaning": "Wearing authority, spiritual identity, or the integration of body and spirit",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "individuation",
+        "integration",
+        "anima_animus"
+      ],
+      "alchemical_note": "Purple/violet appears in alchemical imagery at the coniunctio — the union of opposites, the marriage of king and queen, sol and luna.",
+      "recognition_terms": [
+        "purple",
+        "violet",
+        "lavender",
+        "magenta",
+        "plum",
+        "amethyst",
+        "mauve",
+        "indigo",
+        "lilac"
+      ],
+      "tags": [
+        "color"
+      ],
+      "plain_language": "The color of union. Purple joins red (body, passion) and blue (spirit, depth): it appears when opposites in you are being woven together. It's also the old color of royalty and the sacred. Something is being dignified, or asking to be.",
+      "depth_tier": 1
+    },
+    {
+      "id": "number_one",
+      "name": "One / Unity",
+      "category": "number",
+      "core_meaning": "The undifferentiated whole, the beginning, unity before division. The Self before individuation creates differentiation. Also: isolation, singularity, the ego alone.",
+      "jungian_concepts": [
+        "self",
+        "ego"
+      ],
+      "recognition_terms": [
+        "one",
+        "single",
+        "alone",
+        "only",
+        "sole",
+        "first",
+        "unity"
+      ],
+      "tags": [
+        "number"
+      ],
+      "plain_language": "One is the whole before anything divides. It can mean unity, a beginning, or standing alone. Whether the aloneness feels like wholeness or isolation is usually the dream's real question.",
+      "depth_tier": 1
+    },
+    {
+      "id": "number_two",
+      "name": "Two / Duality",
+      "category": "number",
+      "core_meaning": "Opposition, polarity, the split into conscious and unconscious, the tension of opposites that drives individuation. Every pair: light/dark, male/female, ego/shadow, persona/self.",
+      "jungian_concepts": [
+        "shadow",
+        "anima_animus",
+        "enantiodromia",
+        "compensation"
+      ],
+      "dream_context_clues": [
+        "Two figures often represent a polarity within the dreamer — conscious attitude and its opposite",
+        "Two paths represent a choice between conscious and unconscious directions",
+        "Pairs of anything suggest the psyche presenting its own duality"
+      ],
+      "recognition_terms": [
+        "two",
+        "pair",
+        "double",
+        "twin",
+        "both",
+        "either",
+        "split",
+        "fork",
+        "binary",
+        "couple",
+        "second"
+      ],
+      "tags": [
+        "number",
+        "foundational"
+      ],
+      "plain_language": "Two is the split. Pairs in dreams tend to mark opposites in you facing each other: the shown and the hidden, the wish and the fear, the two roads. Tension between two of anything is often the engine the dream is running on.",
+      "depth_tier": 1
+    },
+    {
+      "id": "number_three",
+      "name": "Three / Dynamic Triad",
+      "category": "number",
+      "core_meaning": "Movement, dynamism, process, the Trinity, thesis-antithesis-synthesis. Three is unstable. It wants to move, to resolve, to become four. In Jungian terms, three represents the conscious triad (three developed functions) with the fourth (inferior function) still unconscious.",
+      "jungian_concepts": [
+        "individuation",
+        "self",
+        "thinking",
+        "feeling",
+        "sensation",
+        "intuition"
+      ],
+      "dream_context_clues": [
+        "Three of anything suggests a process in motion — beginning, middle, end",
+        "Three figures may represent the three conscious functions, with the fourth implied by absence",
+        "Three is the number of ALMOST complete — something is missing"
+      ],
+      "recognition_terms": [
+        "three",
+        "triple",
+        "third",
+        "trio",
+        "triangle",
+        "triad",
+        "trinity",
+        "thrice"
+      ],
+      "tags": [
+        "number",
+        "foundational"
+      ],
+      "plain_language": "Three is movement. Where two opposites stand facing each other, a third thing gets the story moving: three wishes, three trials, three guesses. Three in a dream often means a process is underway but not finished. It leans forward, looking for the fourth.",
+      "depth_tier": 1
+    },
+    {
+      "id": "number_four",
+      "name": "Four / Wholeness",
+      "category": "number",
+      "core_meaning": "Completeness, the quaternity, the mandala principle, the four functions fully integrated, the four directions, the four elements. Jung considered four the number of psychological wholeness: the Self's signature. Where three is dynamic and incomplete, four is stable and whole.",
+      "jungian_concepts": [
+        "self",
+        "individuation",
+        "integration"
+      ],
+      "dream_context_clues": [
+        "Four of anything suggests wholeness or the aspiration toward it",
+        "Square rooms, four-sided structures, crossroads — all are quaternity images",
+        "The fourth element in a group of four is often the inferior function — the one that's different, weaker, or strange"
+      ],
+      "recognition_terms": [
+        "four",
+        "fourth",
+        "square",
+        "quadrant",
+        "quarter",
+        "crossroads",
+        "four corners",
+        "four directions",
+        "four elements"
+      ],
+      "tags": [
+        "number",
+        "foundational",
+        "self"
+      ],
+      "plain_language": "Four is completeness. Four corners, four directions, four seasons: when four organizes a dream, something in you is settling into wholeness, or being invited to. Jung saw four as the signature of the Self, the shape a psyche makes when nothing is left out.",
+      "depth_tier": 1
+    },
+    {
+      "id": "number_seven",
+      "name": "Seven / Completion of a Cycle",
+      "category": "number",
+      "core_meaning": "A completed process, the end of a cycle, transformation through stages (seven days, seven stages, seven chakras). Seven combines three (spirit, dynamism) and four (matter, wholeness): the union of process and completion.",
+      "jungian_concepts": [
+        "individuation",
+        "self",
+        "circumambulation"
+      ],
+      "recognition_terms": [
+        "seven",
+        "seventh",
+        "week",
+        "seven days",
+        "seven stages"
+      ],
+      "tags": [
+        "number"
+      ],
+      "plain_language": "Seven is a cycle completing. Seven days, seven years, seven stages: it tends to appear when a long process is rounding toward its close. If seven marks the dream, ask what chapter of your life is quietly finishing.",
+      "depth_tier": 1
+    },
+    {
+      "id": "number_twelve",
+      "name": "Twelve / Cosmic Wholeness",
+      "category": "number",
+      "core_meaning": "Cosmic order, the complete cycle (twelve months, twelve hours, twelve zodiac signs, twelve apostles, twelve stages of Vogler's journey). Twelve is three times four: dynamic process multiplied by wholeness. The complete round.",
+      "jungian_concepts": [
+        "self",
+        "circumambulation",
+        "collective_unconscious"
+      ],
+      "recognition_terms": [
+        "twelve",
+        "twelfth",
+        "dozen",
+        "twelve months",
+        "clock"
+      ],
+      "tags": [
+        "number"
+      ],
+      "plain_language": "Twelve is the full round. Twelve months, twelve hours, twelve houses of the zodiac: it carries the sense of a complete world, every station of a cycle present at once. A dream ordered by twelve often gestures at the whole pattern of a life, not one moment in it.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_being_late",
+      "name": "Being Late / Missing the Event",
+      "category": "scenario",
+      "core_meaning": "Anxiety about missing a developmental deadline: the psyche signaling that you're behind on something important. Not about the literal event but about psychological timeliness: are you keeping up with your own individuation?",
+      "variations": [
+        {
+          "form": "late_for_flight",
+          "meaning": "Missing a major life transition: the psyche is ready to move but the ego hasn't acted",
+          "intensity": "high"
+        },
+        {
+          "form": "late_for_work",
+          "meaning": "Persona anxiety: fear of failing at the adapted role, not meeting external expectations",
+          "intensity": "medium"
+        },
+        {
+          "form": "late_for_wedding",
+          "meaning": "Missing the coniunctio: fear of missing the union (with another person, with a part of yourself, with a commitment)",
+          "intensity": "high"
+        },
+        {
+          "form": "late_for_exam",
+          "meaning": "Not ready for the test (see exam scenario below)",
+          "intensity": "medium"
+        },
+        {
+          "form": "obstacles_preventing_arrival",
+          "meaning": "The specific obstacles reveal what's blocking your progress. What keeps preventing you from getting where you need to be?",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "individuation",
+        "compensation",
+        "shadow"
+      ],
+      "dream_context_clues": [
+        "WHAT are you late for? The event reveals what the psyche thinks you're missing.",
+        "WHY are you late? The obstacles are diagnostic — can't find clothes (Persona problem), can't find the way (lost direction), keep getting distracted (something else has a claim on your energy).",
+        "How do you FEEL? Pure panic suggests ego overwhelm. Calm lateness suggests something in you doesn't actually want to arrive."
+      ],
+      "recognition_terms": [
+        "late",
+        "running late",
+        "can't get there",
+        "missing the bus",
+        "missing the flight",
+        "going to miss",
+        "not going to make it",
+        "behind schedule",
+        "hurrying",
+        "rushing"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency",
+        "anxiety"
+      ],
+      "plain_language": "Running late, missing the train, watching the doors close: this dream is rarely about schedules. It often carries a feeling that some inner timetable is slipping, that a chapter is due and you're not there yet. Worth asking gently: late for what, really?",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_exam_unprepared",
+      "name": "The Exam You Didn't Study For",
+      "category": "scenario",
+      "core_meaning": "Being tested on material you haven't mastered: the psyche presenting a developmental challenge and your unreadiness for it. Often appears when facing a new life stage, a decision that requires resources you're not sure you have, or unresolved material from earlier development.",
+      "variations": [
+        {
+          "form": "school_exam",
+          "meaning": "Unfinished developmental business from the period of life represented by the school level: elementary, high school, or college each map to different developmental stages",
+          "intensity": "medium"
+        },
+        {
+          "form": "professional_test",
+          "meaning": "Competence anxiety: am I really qualified? Does my Persona match my actual capacity?",
+          "intensity": "medium"
+        },
+        {
+          "form": "unknown_subject",
+          "meaning": "Being tested on material you've never even encountered: the psyche presenting a challenge you haven't prepared for because you didn't know it existed. New unconscious content demanding attention.",
+          "intensity": "high"
+        },
+        {
+          "form": "cant_find_classroom",
+          "meaning": "Can't even locate the test: don't know where the challenge IS, let alone how to meet it",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "shadow",
+        "complexes",
+        "compensation"
+      ],
+      "dream_context_clues": [
+        "What LEVEL of school? This often points to the developmental stage where unfinished business lives.",
+        "What SUBJECT? The subject can hint at the capacity being tested: math (thinking), art (feeling or intuition), PE (sensation, the body), social studies (belonging, the Persona).",
+        "This dream often appears in competent adults — it's compensatory. The more competent the Persona, the more the unconscious tests the gaps behind it."
+      ],
+      "recognition_terms": [
+        "exam",
+        "test",
+        "quiz",
+        "didn't study",
+        "unprepared",
+        "school",
+        "class",
+        "grade",
+        "failing",
+        "homework",
+        "finals",
+        "pop quiz"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency",
+        "anxiety"
+      ],
+      "plain_language": "The test you didn't study for is one of the most common dreams adults have, decades after the last real exam. It tends to visit when life is testing you on something new: a role, a decision, a stage you don't yet feel ready for. The feeling is the message; the exam is just its costume.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_cant_find_bathroom",
+      "name": "Can't Find a Bathroom / No Privacy",
+      "category": "scenario",
+      "core_meaning": "The need to release something (emotion, tension, truth) without a safe, private space to do it. The psyche needs to let go of something but the Persona won't allow it: there's no acceptable place to be vulnerable, messy, or truly yourself.",
+      "variations": [
+        {
+          "form": "no_bathroom_exists",
+          "meaning": "No space at all for emotional release or vulnerability: the psyche has no outlet",
+          "intensity": "high"
+        },
+        {
+          "form": "bathroom_no_privacy",
+          "meaning": "The space exists but isn't safe. You could release, but you'd be seen. Fear of exposure.",
+          "intensity": "high"
+        },
+        {
+          "form": "disgusting_bathroom",
+          "meaning": "The available outlet for emotional release is contaminated: the options for processing feel toxic, degraded, or unworthy",
+          "intensity": "medium"
+        },
+        {
+          "form": "overflowing_toilet",
+          "meaning": "Repressed material is already leaking: what you've been holding back is coming out whether you choose it or not",
+          "intensity": "high"
+        },
+        {
+          "form": "finally_finding_one",
+          "meaning": "Relief and release: finding a safe space to process. Integration moment.",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "persona",
+        "shadow",
+        "ego",
+        "compensation"
+      ],
+      "dream_context_clues": [
+        "WHO is watching? The audience for your vulnerability reveals whose judgment you fear.",
+        "WHAT needs to come out? The urgency is the clue — what emotion, truth, or bodily reality can't be acknowledged publicly?",
+        "This dream is almost always about the Persona being too tight — not enough room for the full human experience."
+      ],
+      "recognition_terms": [
+        "bathroom",
+        "toilet",
+        "restroom",
+        "can't find",
+        "no privacy",
+        "need to go",
+        "holding it",
+        "looking for bathroom",
+        "public bathroom",
+        "dirty bathroom"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency"
+      ],
+      "plain_language": "Searching for a bathroom and finding none, or none with a door that closes: this dream is about needing to let something out with nowhere safe to do it. Some feeling or truth wants release, and the public self hasn't granted it a private room yet.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_back_in_school",
+      "name": "Back in School / Returning to Old Environment",
+      "category": "scenario",
+      "core_meaning": "Regression to an earlier developmental stage: the psyche taking you back to unfinished business. Something from that period needs to be revisited, reprocessed, or completed before current growth can continue.",
+      "variations": [
+        {
+          "form": "elementary_school",
+          "meaning": "Very early developmental material: basic trust, foundational identity, Mother/Father complexes",
+          "intensity": "high"
+        },
+        {
+          "form": "high_school",
+          "meaning": "Adolescent development: identity formation, social belonging, first Persona construction, early Shadow encounters",
+          "intensity": "medium"
+        },
+        {
+          "form": "college",
+          "meaning": "Young adult development: intellectual identity, independence, first serious Anima/Animus encounters",
+          "intensity": "medium"
+        },
+        {
+          "form": "childhood_home",
+          "meaning": "The original psychic environment: revisiting the soil where your personality grew",
+          "intensity": "high"
+        },
+        {
+          "form": "old_workplace",
+          "meaning": "Revisiting a former Persona: something about that adaptation still has a claim on you",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "complexes",
+        "personal_unconscious",
+        "shadow",
+        "circumambulation"
+      ],
+      "dream_context_clues": [
+        "The AGE you are in the dream matters — are you your current age in the old setting, or are you young again? Current age + old setting = bringing adult consciousness to old material. Young age = regression into the complex.",
+        "WHO is there? The people populate the dream with the complexes that were formed during that period.",
+        "This is circumambulation — the psyche returning to old material at a new level. It's not stuck. It's spiraling."
+      ],
+      "recognition_terms": [
+        "back in school",
+        "old school",
+        "childhood home",
+        "parents' house",
+        "old job",
+        "former workplace",
+        "high school",
+        "college",
+        "old neighborhood",
+        "hometown"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency"
+      ],
+      "plain_language": "Suddenly back in the old classroom, the old locker, the old hallway: the psyche revisits places where something was left unfinished. This dream often means a lesson from that season of life is up for review, because something you're growing into now needs it completed.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_losing_something",
+      "name": "Losing Something Precious",
+      "category": "scenario",
+      "core_meaning": "Something of value in the psyche is being lost, neglected, or is at risk. The lost object represents a quality, capacity, relationship, or potential that needs attention before it disappears entirely.",
+      "variations": [
+        {
+          "form": "lost_wallet_purse",
+          "meaning": "Lost identity markers: the Persona's documentation, the ego's social proof. Who are you without your credentials?",
+          "intensity": "medium"
+        },
+        {
+          "form": "lost_phone",
+          "meaning": "Lost connection: the modern symbol of being cut off from your network, your communication, your link to others",
+          "intensity": "medium"
+        },
+        {
+          "form": "lost_child",
+          "meaning": "The new psychic development is endangered: something young and vital in you has been misplaced",
+          "intensity": "high"
+        },
+        {
+          "form": "lost_pet",
+          "meaning": "Lost connection to instinctual life, lost loyalty, lost companionship with the animal self",
+          "intensity": "high"
+        },
+        {
+          "form": "lost_jewelry",
+          "meaning": "Lost value: something precious about yourself that you've stopped recognizing or wearing",
+          "intensity": "medium"
+        },
+        {
+          "form": "searching_frantically",
+          "meaning": "The ego knows something is missing and is trying to recover it through effort, but the loss may require acceptance rather than search",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "ego",
+        "self",
+        "complexes",
+        "persona"
+      ],
+      "recognition_terms": [
+        "lost",
+        "losing",
+        "can't find",
+        "missing",
+        "searching",
+        "looking for",
+        "misplaced",
+        "stolen",
+        "gone",
+        "disappeared",
+        "where did it go"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency"
+      ],
+      "plain_language": "Losing a wallet, a ring, a bag you can't put down the search for: the lost object usually stands for something of real inner value that has been slipping while your attention was elsewhere. The question isn't where the object went. It's what, lately, you haven't had a hand free to hold.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_trying_to_call",
+      "name": "Phone Doesn't Work / Can't Make Contact",
+      "category": "scenario",
+      "core_meaning": "Communication with the unconscious or with others is blocked. The ego is trying to reach something (help, connection, information) and the channel isn't working. Often reflects a breakdown in the ego-unconscious communication that dream work is meant to repair.",
+      "variations": [
+        {
+          "form": "phone_wont_dial",
+          "meaning": "Can't initiate contact: the message you need to send can't get through. What are you trying to say to whom?",
+          "intensity": "medium"
+        },
+        {
+          "form": "wrong_number",
+          "meaning": "Misdirected communication: you're reaching the wrong part of yourself or the wrong person",
+          "intensity": "medium"
+        },
+        {
+          "form": "no_signal",
+          "meaning": "Complete disconnection: no channel available between consciousness and what it needs",
+          "intensity": "high"
+        },
+        {
+          "form": "phone_breaking",
+          "meaning": "The communication capacity itself is damaged: the tool for connection is failing",
+          "intensity": "high"
+        },
+        {
+          "form": "calling_911",
+          "meaning": "Emergency: the ego recognizes it's in crisis and is trying to reach a rescuer (the Wise Old Man, the Self, external help)",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "compensation",
+        "wise_old_man",
+        "self"
+      ],
+      "recognition_terms": [
+        "phone",
+        "calling",
+        "can't call",
+        "no signal",
+        "won't work",
+        "dial",
+        "text",
+        "message won't send",
+        "disconnected",
+        "no answer",
+        "voicemail"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency"
+      ],
+      "plain_language": "Dialing and misdialing, a phone that won't connect, a voice that can't hear you: something is trying to reach, and the line is down. It can be between you and another person, or between you and a part of yourself. The dream marks the blockage, which is the first step in mending it.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_natural_disaster",
+      "name": "Natural Disaster",
+      "category": "scenario",
+      "core_meaning": "Overwhelming forces beyond ego control: the unconscious asserting itself with power the ego cannot manage. The specific disaster often mirrors the nature of the overwhelming content. If you have lived through a real disaster, dreams that replay it are trauma memory rather than symbolism, and deserve gentler care.",
+      "variations": [
+        {
+          "form": "earthquake",
+          "meaning": "Foundational disruption: the ground of your identity may be shifting, as if everything you built your life on has come loose.",
+          "intensity": "high"
+        },
+        {
+          "form": "tornado",
+          "meaning": "Violent psychic energy spinning: thoughts, emotions, or events whirling out of control. The air element (spirit, intellect) weaponized.",
+          "intensity": "high"
+        },
+        {
+          "form": "tsunami",
+          "meaning": "The unconscious overwhelming consciousness: a massive wall of emotional or instinctual content that the ego cannot withstand.",
+          "intensity": "high"
+        },
+        {
+          "form": "volcano",
+          "meaning": "Deep repressed material erupting: rage, desire, or primal energy that's been held down too long breaking through from below.",
+          "intensity": "high"
+        },
+        {
+          "form": "wildfire",
+          "meaning": "Uncontrolled transformation: change that consumes everything in its path. The fire element refusing containment.",
+          "intensity": "high"
+        },
+        {
+          "form": "flood",
+          "meaning": "The unconscious rising: emotional content exceeding the ego's capacity to contain it.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "collective_unconscious",
+        "enantiodromia",
+        "shadow",
+        "great_mother",
+        "ego"
+      ],
+      "dream_context_clues": [
+        "The ELEMENT of the disaster maps to the psychic domain: water = emotion/unconscious, fire = passion/transformation, earth = foundation/body, air = thought/spirit.",
+        "Are you witnessing or inside it? Witnessing = some ego distance. Inside = ego overwhelm.",
+        "What do you do? Flee, hide, surrender, or help others? Your response reveals your ego's current strategy for managing overwhelming content."
+      ],
+      "recognition_terms": [
+        "earthquake",
+        "tornado",
+        "hurricane",
+        "tsunami",
+        "flood",
+        "volcano",
+        "wildfire",
+        "storm",
+        "lightning",
+        "avalanche",
+        "landslide",
+        "disaster",
+        "apocalypse",
+        "end of world"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency"
+      ],
+      "plain_language": "Earthquakes, floods, storms: forces far bigger than you, arriving whether you consent or not. These dreams often visit when life is being rearranged by something beyond your control, and the feeling of the disaster tends to match the feeling of the change. If you have lived through a real disaster, a dream that replays it is memory doing its work, and deserves gentler care than interpretation.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_house_with_rooms",
+      "name": "Discovering New Rooms in Your House",
+      "category": "scenario",
+      "core_meaning": "Discovering unknown parts of yourself. The house is the psyche. A room you didn't know existed is a capacity, a memory, a dimension of yourself that's been there all along but wasn't accessible to consciousness. One of the most important dream motifs for tracking individuation: the house expands as the self expands.",
+      "variations": [
+        {
+          "form": "beautiful_new_room",
+          "meaning": "Discovering positive potential: a capacity, talent, or dimension of self that's available but unclaimed",
+          "intensity": "high"
+        },
+        {
+          "form": "dark_hidden_room",
+          "meaning": "Finding Shadow territory: a part of the psyche that's been sealed off, possibly containing threatening or valuable material",
+          "intensity": "high"
+        },
+        {
+          "form": "room_with_people",
+          "meaning": "Unknown parts of yourself populated with their own life: complexes, sub-personalities, aspects of self that have been living without your awareness",
+          "intensity": "high"
+        },
+        {
+          "form": "vast_expanding_house",
+          "meaning": "The psyche revealing its actual scope: you are much larger than your ego has recognized",
+          "intensity": "high"
+        },
+        {
+          "form": "childhood_room_rediscovered",
+          "meaning": "Recovering something from the past: a quality, a memory, a capacity that was lost to adaptation",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "personal_unconscious",
+        "shadow",
+        "individuation",
+        "circumambulation"
+      ],
+      "dream_context_clues": [
+        "The CONDITION of the room reveals the condition of the undiscovered self-aspect.",
+        "The FLOOR LEVEL matters — ground floor is ego territory, upper floors are spiritual/intellectual, lower floors are unconscious/instinctual.",
+        "This dream often recurs with evolving rooms — tracking the new rooms over time tracks individuation itself."
+      ],
+      "recognition_terms": [
+        "new room",
+        "hidden room",
+        "secret room",
+        "extra room",
+        "didn't know this room was here",
+        "bigger than I thought",
+        "unexplored room",
+        "another floor",
+        "hidden passage"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency",
+        "individuation_marker"
+      ],
+      "plain_language": "You find a door you never noticed, and behind it, rooms you didn't know your house had. This is one of the most hopeful dreams there is: the house is you, and the new rooms are capacities that were there all along. People often revisit this dream for years, the house growing as they do.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_paralysis",
+      "name": "Can't Move / Can't Speak / Can't Scream",
+      "category": "scenario",
+      "core_meaning": "The ego's agency is suspended. Something may be preventing action, expression, or self-assertion. Dream paralysis often points to places where you feel powerless in waking life; what holds you frozen can be a complex, a fear, or a developmental task still in progress. One note of care: waking briefly unable to move is sleep paralysis, a common and harmless feature of REM sleep, not a symbol to interpret.",
+      "variations": [
+        {
+          "form": "cant_move_legs",
+          "meaning": "Can't move forward: grounding and forward momentum are blocked. The body (sensation function) is unavailable.",
+          "intensity": "high"
+        },
+        {
+          "form": "cant_scream",
+          "meaning": "Can't express: voice is silenced. The truth, the emotion, or the warning you need to deliver is trapped. Often connected to childhood silencing.",
+          "intensity": "high"
+        },
+        {
+          "form": "cant_punch",
+          "meaning": "Can't assert power: aggression or self-defense is blocked. Shadow aggression may be over-repressed.",
+          "intensity": "high"
+        },
+        {
+          "form": "cant_run_from_danger",
+          "meaning": "Can't flee: the ego's escape strategy is disabled. The psyche may be insisting on confrontation rather than avoidance.",
+          "intensity": "high"
+        },
+        {
+          "form": "frozen_watching",
+          "meaning": "Paralyzed witness: consciousness is present but agency is gone. The ego is being shown something it must see but cannot yet act on.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "complexes",
+        "shadow",
+        "persona"
+      ],
+      "dream_context_clues": [
+        "WHAT specifically can't you do? The specific paralysis reveals the specific ego capacity that's blocked.",
+        "What's happening AROUND you while you're frozen? The psyche is showing you the situation that has paralyzed you.",
+        "This dream often corresponds to waking-life situations where you feel powerless, voiceless, or trapped; the dream can make that feeling literal. If the dreamer describes waking unable to move, consider sleep paralysis (a common, harmless REM state) rather than symbolic material."
+      ],
+      "recognition_terms": [
+        "can't move",
+        "frozen",
+        "paralyzed",
+        "stuck",
+        "can't run",
+        "can't scream",
+        "can't speak",
+        "can't punch",
+        "heavy legs",
+        "slow motion",
+        "glued",
+        "trapped",
+        "immobile",
+        "voiceless"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency"
+      ],
+      "plain_language": "You try to move, or scream, and can't. In a dream's story, paralysis often marks a place where you feel powerless or unheard in waking life. One note of care: waking up briefly unable to move is sleep paralysis, a common and harmless feature of REM sleep, a body event rather than a symbol.",
+      "depth_tier": 1
+    },
+    {
+      "id": "scenario_intruder",
+      "name": "Intruder in the House",
+      "category": "scenario",
+      "core_meaning": "Something from the unconscious is breaking into consciousness: uninvited, unwanted, and impossible to ignore. The intruder is often Shadow content that has crossed the threshold. The psyche's security has been breached, which is frightening AND necessary. If you have lived through a real break-in or assault, dreams that replay it are memory doing its work, not symbolic material to decode.",
+      "variations": [
+        {
+          "form": "unknown_intruder",
+          "meaning": "Unidentified Shadow content entering consciousness: you don't yet know what's breaking in",
+          "intensity": "high"
+        },
+        {
+          "form": "known_intruder",
+          "meaning": "The identity of the intruder reveals the specific Shadow content: who is it, and what do they represent?",
+          "intensity": "high"
+        },
+        {
+          "form": "intruder_already_inside",
+          "meaning": "The Shadow material is already in the house (psyche). It's not trying to get in, it's already there. The ego just discovered it.",
+          "intensity": "high"
+        },
+        {
+          "form": "unable_to_lock_doors",
+          "meaning": "The ego's defenses are failing: the barriers between conscious and unconscious are dissolving",
+          "intensity": "high"
+        },
+        {
+          "form": "intruder_doesnt_threaten",
+          "meaning": "The Shadow content is present but not hostile: it just wants to be acknowledged, included, given a room",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "ego",
+        "complexes",
+        "personal_unconscious",
+        "integration"
+      ],
+      "dream_context_clues": [
+        "The HOUSE is your psyche. Which room is being breached? That's the ego function under pressure.",
+        "The INTRUDER is the Shadow. Their appearance, behavior, and intention reveal what's trying to become conscious.",
+        "Your RESPONSE reveals your ego's current relationship with its Shadow material: fight, flee, hide, or — rarely and significantly — invite them in."
+      ],
+      "recognition_terms": [
+        "intruder",
+        "break in",
+        "burglar",
+        "home invasion",
+        "someone in the house",
+        "locked doors",
+        "breaking in",
+        "trespasser",
+        "stranger in house",
+        "robbery"
+      ],
+      "tags": [
+        "scenario",
+        "high_frequency",
+        "shadow"
+      ],
+      "plain_language": "Someone is in the house, uninvited. Since the dream house is so often the self, an intruder frequently means something you've kept outside your awareness has crossed the threshold and wants to be dealt with. Frightening, yes. It is also, often, the visit that changes things. If you have lived through a real break-in or assault, dreams that replay it are memory at work, not a symbol to decode.",
+      "depth_tier": 1
+    },
+    {
+      "id": "cat",
+      "name": "Cat",
+      "category": "creature",
+      "core_meaning": "Independent feminine instinct, sensuality, self-sufficiency, the untamed feminine that cannot be domesticated. Unlike the dog (loyal, social, domesticated), the cat serves itself. It represents the part of the psyche that will not be owned.",
+      "variations": [
+        {
+          "form": "domestic_cat",
+          "meaning": "Feminine instinct in a domesticated setting: independent but tolerated, autonomous within the household of the psyche",
+          "intensity": "low"
+        },
+        {
+          "form": "wild_cat",
+          "meaning": "Fully untamed feminine instinct: sexual, predatory, self-possessed, uncontrolled by ego",
+          "intensity": "high"
+        },
+        {
+          "form": "black_cat",
+          "meaning": "Shadow feminine, intuition in its darkest form, the witch's familiar: instinct connected to the unseen",
+          "intensity": "high"
+        },
+        {
+          "form": "injured_cat",
+          "meaning": "Wounded feminine instinct, damaged independence, sensuality that has been harmed",
+          "intensity": "high"
+        },
+        {
+          "form": "many_cats",
+          "meaning": "Multiplied feminine instinct, possibly overwhelming, possibly indicating many unclaimed feminine qualities",
+          "intensity": "medium"
+        },
+        {
+          "form": "purring_cat",
+          "meaning": "Contented instinct, the body at ease, pleasure without guilt",
+          "intensity": "low"
+        }
+      ],
+      "jungian_concepts": [
+        "anima_animus",
+        "shadow",
+        "sensation",
+        "great_mother"
+      ],
+      "recognition_terms": [
+        "cat",
+        "kitten",
+        "feline",
+        "tomcat",
+        "stray cat",
+        "purring",
+        "hissing",
+        "claws",
+        "whiskers",
+        "litter"
+      ],
+      "tags": [
+        "creature",
+        "feminine",
+        "high_frequency"
+      ],
+      "plain_language": "The one who cannot be owned. Cats carry self-possession, sensuality, and an independence that doesn't apologize. A cat in a dream often speaks for the part of you that refuses to perform for anyone. How you and the cat get along may say a lot about how you treat that part.",
+      "depth_tier": 1
+    },
+    {
+      "id": "bear",
+      "name": "Bear",
+      "category": "creature",
+      "core_meaning": "Primal maternal power, hibernation and renewal, the Great Mother in her fierce protective aspect. The bear is the mother who will kill to protect her young: instinctual love that is also dangerous. Also: hibernation as psychological withdrawal, going inward to regenerate.",
+      "variations": [
+        {
+          "form": "mother_bear",
+          "meaning": "Fierce maternal protection: instinctual love that is also terrifying. The Great Mother in her guardian aspect.",
+          "intensity": "high"
+        },
+        {
+          "form": "hibernating_bear",
+          "meaning": "Necessary withdrawal: the psyche retreating into darkness for renewal. A low, inward season that can serve regeneration.",
+          "intensity": "medium"
+        },
+        {
+          "form": "attacking_bear",
+          "meaning": "Overwhelming maternal or instinctual force: the Great Mother's devouring aspect, primal rage",
+          "intensity": "high"
+        },
+        {
+          "form": "bear_cub",
+          "meaning": "Young instinctual energy, new natural power, the Child archetype in its animal form",
+          "intensity": "medium"
+        },
+        {
+          "form": "standing_bear",
+          "meaning": "The instinct standing up: asserting itself, demanding recognition, the animal self claiming its full stature",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "great_mother",
+        "mother",
+        "shadow",
+        "sensation",
+        "child"
+      ],
+      "recognition_terms": [
+        "bear",
+        "grizzly",
+        "polar bear",
+        "bear cub",
+        "den",
+        "hibernating",
+        "growling bear"
+      ],
+      "tags": [
+        "creature",
+        "maternal",
+        "foundational"
+      ],
+      "plain_language": "Fierce protection, and the wisdom of winter. The bear is the mother who would do anything for her young, and the animal that knows when to withdraw into the den. A bear dream can carry both: love with claws, and the need to go inward for a season and return renewed.",
+      "depth_tier": 1
+    },
+    {
+      "id": "lion",
+      "name": "Lion / Big Cat",
+      "category": "creature",
+      "core_meaning": "Sovereign instinct, royal power, the king of the animal realm. The lion represents the Self in its animal form: authority, dignity, and power that doesn't need to prove itself. Also: pride, territory, dominance, and the shadow of tyranny.",
+      "variations": [
+        {
+          "form": "majestic_lion",
+          "meaning": "The Self as sovereign: natural authority, wholeness expressed as power, individuation embodied",
+          "intensity": "high"
+        },
+        {
+          "form": "threatening_lion",
+          "meaning": "Instinctual power that the ego cannot control: the psyche's force demanding respect or submission",
+          "intensity": "high"
+        },
+        {
+          "form": "tamed_lion",
+          "meaning": "Instinctual power brought into relationship with consciousness: strength that serves rather than dominates",
+          "intensity": "medium"
+        },
+        {
+          "form": "lioness",
+          "meaning": "Feminine power, the huntress, active feminine strength as distinct from passive receptivity",
+          "intensity": "high"
+        },
+        {
+          "form": "tiger_panther",
+          "meaning": "Similar to lion but more solitary, more Shadow-adjacent: beauty married to danger, power that operates alone",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "shadow",
+        "hero",
+        "senex"
+      ],
+      "recognition_terms": [
+        "lion",
+        "lioness",
+        "tiger",
+        "panther",
+        "leopard",
+        "jaguar",
+        "cougar",
+        "big cat",
+        "roar",
+        "mane",
+        "pride"
+      ],
+      "tags": [
+        "creature",
+        "sovereign",
+        "foundational"
+      ],
+      "plain_language": "Power that doesn't have to prove itself. The lion carries natural authority: dignity, sovereignty, the strength that can afford to be calm. It also carries pride's shadow. Whether the lion in your dream is regal or tyrannical is the question worth sitting with.",
+      "depth_tier": 1
+    },
+    {
+      "id": "deer",
+      "name": "Deer / Stag",
+      "category": "creature",
+      "core_meaning": "Gentleness, vulnerability, the soul's sensitivity, the natural self before the Persona hardened it. The deer represents the part of you that is alert, present, easily startled, and beautiful precisely because of its vulnerability. The stag carries antlers as a crown: gentle power, natural sovereignty without aggression.",
+      "variations": [
+        {
+          "form": "doe",
+          "meaning": "Pure vulnerability and grace, the anima in her gentle aspect, the soul exposed",
+          "intensity": "medium"
+        },
+        {
+          "form": "stag",
+          "meaning": "Gentle sovereignty: power through presence rather than force, the antlered king, natural authority",
+          "intensity": "high"
+        },
+        {
+          "form": "hunted_deer",
+          "meaning": "Vulnerability under threat: the sensitive self being pursued by aggressive forces (internal or external)",
+          "intensity": "high"
+        },
+        {
+          "form": "fawn",
+          "meaning": "Young vulnerability, the newborn sensitive self, the Child archetype at its most tender",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "anima_animus",
+        "child",
+        "self",
+        "feeling"
+      ],
+      "recognition_terms": [
+        "deer",
+        "doe",
+        "stag",
+        "fawn",
+        "buck",
+        "antlers",
+        "elk",
+        "moose",
+        "gazelle"
+      ],
+      "tags": [
+        "creature",
+        "sensitivity"
+      ],
+      "plain_language": "The gentlest thing in you. The deer is alert, easily startled, and beautiful exactly because it's undefended. Meeting one in a dream often means meeting your own softness. The stag adds quiet majesty: strength that never needed to be loud.",
+      "depth_tier": 1
+    },
+    {
+      "id": "insect",
+      "name": "Insects / Swarm",
+      "category": "creature",
+      "core_meaning": "Small, persistent, unconscious irritants: the psyche's minor disturbances that collectively signal something important. Also: transformation (butterfly), industry (ant/bee), and the creeping dread of something too numerous to confront individually.",
+      "variations": [
+        {
+          "form": "butterfly",
+          "meaning": "Transformation complete: the psyche having passed through the chrysalis. Lightness, beauty, the soul (the Greek word psyche means both soul and butterfly)",
+          "intensity": "high"
+        },
+        {
+          "form": "bee",
+          "meaning": "Collective industry, community organized around a center (the queen/Self), sweetness that requires labor, the sting of truth",
+          "intensity": "medium"
+        },
+        {
+          "form": "ant",
+          "meaning": "Persistent, organized effort: the work ethic of the unconscious, small steps accumulating toward transformation",
+          "intensity": "low"
+        },
+        {
+          "form": "swarm",
+          "meaning": "Overwhelming multiplicity: too many small problems, anxieties, or unconscious impulses to address individually. The psyche signaling diffuse overwhelm",
+          "intensity": "high"
+        },
+        {
+          "form": "cockroach",
+          "meaning": "The unkillable Shadow: what refuses to die, what survives everything, the primitive instinct that persists despite all efforts at eradication",
+          "intensity": "high"
+        },
+        {
+          "form": "mosquito_fly",
+          "meaning": "Persistent irritation: something small that won't leave you alone. The unconscious poking at you through minor annoyances",
+          "intensity": "low"
+        },
+        {
+          "form": "worm_larva",
+          "meaning": "Pre-transformation state, the thing that will become something else. Also: decay, the fertile decomposition of the nigredo",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "complexes",
+        "individuation",
+        "compensation"
+      ],
+      "recognition_terms": [
+        "bug",
+        "insect",
+        "butterfly",
+        "moth",
+        "bee",
+        "wasp",
+        "ant",
+        "spider",
+        "cockroach",
+        "fly",
+        "mosquito",
+        "swarm",
+        "worm",
+        "larva",
+        "caterpillar",
+        "beetle",
+        "dragonfly",
+        "tick",
+        "flea",
+        "centipede",
+        "infestation"
+      ],
+      "tags": [
+        "creature",
+        "high_frequency"
+      ],
+      "plain_language": "The small things that won't stop. Swarms, ants, the buzzing you can't locate: insects often stand for minor irritations and nagging thoughts that are individually tiny and collectively insistent. Something small is asking to be dealt with before it multiplies. The butterfly is the exception: transformation itself.",
+      "depth_tier": 1
+    },
+    {
+      "id": "rat_mouse",
+      "name": "Rat / Mouse",
+      "category": "creature",
+      "core_meaning": "What lives in the walls: the psyche's hidden, feared, despised content that persists in the infrastructure of consciousness. Rats represent what civilization rejects but cannot eliminate. Also: resourcefulness, survival, the Shadow's cunning.",
+      "variations": [
+        {
+          "form": "rat",
+          "meaning": "Shadow material that operates in the infrastructure of the psyche: unseen, feared, persistent, surviving on what consciousness discards",
+          "intensity": "high"
+        },
+        {
+          "form": "mouse",
+          "meaning": "Small, timid, overlooked: the quiet part of the Shadow that isn't threatening but is persistently present. Meekness, the small self",
+          "intensity": "low"
+        },
+        {
+          "form": "infestation",
+          "meaning": "Shadow material multiplying: what was ignored has proliferated, the unconscious content can no longer be contained",
+          "intensity": "high"
+        },
+        {
+          "form": "pet_mouse",
+          "meaning": "Small Shadow or instinct befriended, a minor disowned quality that has been made conscious and kept close",
+          "intensity": "low"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "personal_unconscious",
+        "persona"
+      ],
+      "recognition_terms": [
+        "rat",
+        "mouse",
+        "rodent",
+        "mice",
+        "vermin",
+        "gnawing",
+        "rats in walls",
+        "rat trap",
+        "hamster",
+        "gerbil"
+      ],
+      "tags": [
+        "creature",
+        "shadow"
+      ],
+      "plain_language": "What lives in the walls. Rats and mice carry the despised and the discarded: the parts of life we reject that persist anyway, quietly resourceful, just out of sight. A dream of them often means something you'd rather not look at has been surviving in the structure all along.",
+      "depth_tier": 1
+    },
+    {
+      "id": "hospital",
+      "name": "Hospital / Medical Setting",
+      "category": "space",
+      "core_meaning": "The place of healing, wounding, and vulnerability. Where the Persona is stripped away (the hospital gown), where the body's truth is exposed, where the Wounded Healer operates. If illness or treatment is part of your waking life right now, hospital dreams are often simply processing that reality.",
+      "variations": [
+        {
+          "form": "as_patient",
+          "meaning": "You are the one being healed or examined: the psyche submitting to treatment, vulnerability accepted",
+          "intensity": "high"
+        },
+        {
+          "form": "as_healer",
+          "meaning": "The inner healer is active: the Wounded Healer archetype, the part of you that heals through understanding suffering",
+          "intensity": "medium"
+        },
+        {
+          "form": "waiting_room",
+          "meaning": "Liminal space, between diagnosis and treatment, between knowing and acting. The patience required by transformation",
+          "intensity": "medium"
+        },
+        {
+          "form": "operating_room",
+          "meaning": "The psyche is being cut open: surgical intervention, precise separation of what's healthy from what's diseased",
+          "intensity": "high"
+        },
+        {
+          "form": "emergency_room",
+          "meaning": "Psychic crisis requiring immediate attention: the ego in acute distress",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "shadow",
+        "integration",
+        "wise_old_man"
+      ],
+      "recognition_terms": [
+        "hospital",
+        "doctor",
+        "nurse",
+        "medical",
+        "clinic",
+        "surgery",
+        "operating room",
+        "ER",
+        "emergency room",
+        "ambulance",
+        "patient",
+        "diagnosis",
+        "treatment",
+        "waiting room",
+        "exam room"
+      ],
+      "tags": [
+        "space",
+        "healing",
+        "high_frequency"
+      ],
+      "plain_language": "The place where the brave face comes off. Hospitals in dreams gather healing, vulnerability, and exposure into one setting: the gown replaces the outfit, and the body tells its truth. If illness or treatment is part of your waking life right now, hospital dreams are often simply processing that reality.",
+      "depth_tier": 1
+    },
+    {
+      "id": "church_temple",
+      "name": "Church / Temple / Sacred Space",
+      "category": "space",
+      "core_meaning": "The temenos: the sacred container where transformation happens under divine protection. The inner sanctuary. Where the ego meets the Self on the Self's terms, not the ego's.",
+      "variations": [
+        {
+          "form": "familiar_church",
+          "meaning": "Your inherited spiritual framework, the religious container you grew up in, for better or worse",
+          "intensity": "medium"
+        },
+        {
+          "form": "unfamiliar_temple",
+          "meaning": "An encounter with the numinous outside your inherited framework: the Self appearing in an unexpected form",
+          "intensity": "high"
+        },
+        {
+          "form": "ruined_church",
+          "meaning": "The old spiritual container has collapsed: the religious or meaning-making structure no longer holds. Nigredo of the spirit.",
+          "intensity": "high"
+        },
+        {
+          "form": "empty_church",
+          "meaning": "The sacred space exists but the content has gone, the form without the living spirit. Also: stillness, waiting, receptivity",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "collective_unconscious",
+        "individuation",
+        "wise_old_man"
+      ],
+      "recognition_terms": [
+        "church",
+        "temple",
+        "mosque",
+        "synagogue",
+        "chapel",
+        "cathedral",
+        "altar",
+        "prayer",
+        "sacred",
+        "holy",
+        "worship",
+        "sanctuary",
+        "shrine",
+        "monastery"
+      ],
+      "tags": [
+        "space",
+        "numinous"
+      ],
+      "plain_language": "Sacred ground inside you. A church, temple, or shrine in a dream often marks the protected inner space where something larger than the everyday self can be met. Its condition speaks: full of light, abandoned, under renovation. What is your inner sanctuary like right now?",
+      "depth_tier": 1
+    },
+    {
+      "id": "school_classroom",
+      "name": "School / Classroom",
+      "category": "space",
+      "core_meaning": "The learning environment: where the psyche is being educated, tested, and developed. Different from the 'back in school' SCENARIO (which is about regression); this is the school as a symbol of the developmental process itself.",
+      "variations": [
+        {
+          "form": "classroom",
+          "meaning": "Active learning: the psyche is receiving instruction. What is the lesson? Who is teaching?",
+          "intensity": "medium"
+        },
+        {
+          "form": "empty_school",
+          "meaning": "The learning structure exists but is unused: potential for growth not being activated",
+          "intensity": "medium"
+        },
+        {
+          "form": "school_playground",
+          "meaning": "The social laboratory: where Persona was first constructed, where belonging was first negotiated",
+          "intensity": "medium"
+        },
+        {
+          "form": "library",
+          "meaning": "The accumulated wisdom available to the psyche: the collective unconscious in its organized, accessible form",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "wise_old_man",
+        "thinking"
+      ],
+      "recognition_terms": [
+        "school",
+        "classroom",
+        "teacher",
+        "student",
+        "desk",
+        "chalkboard",
+        "library",
+        "textbook",
+        "lesson",
+        "lecture",
+        "campus",
+        "university",
+        "playground",
+        "recess",
+        "principal"
+      ],
+      "tags": [
+        "space",
+        "developmental"
+      ],
+      "plain_language": "Life as the classroom. Distinct from the anxious back-in-school dream, this is school as an image of being taught: something in your life is instructing you, testing you, developing you. Worth asking what the current curriculum is.",
+      "depth_tier": 1
+    },
+    {
+      "id": "city",
+      "name": "City / Urban Environment",
+      "category": "space",
+      "core_meaning": "The collective Persona: civilization, social structure, the world of human construction. The city represents the organized, differentiated, structured aspects of consciousness. Where nature is forest (unconscious), city is civilization (consciousness).",
+      "variations": [
+        {
+          "form": "familiar_city",
+          "meaning": "Your known social world: the structures of relationship, work, and identity you navigate daily",
+          "intensity": "low"
+        },
+        {
+          "form": "strange_city",
+          "meaning": "Unknown collective territory: new social, professional, or cultural territory the ego hasn't mapped",
+          "intensity": "medium"
+        },
+        {
+          "form": "abandoned_city",
+          "meaning": "Collective structures that have lost their vitality: institutions, social forms, or worldviews that are no longer alive",
+          "intensity": "high"
+        },
+        {
+          "form": "city_at_night",
+          "meaning": "The shadow of civilization: what the collective represses, the underbelly, the city's unconscious",
+          "intensity": "high"
+        },
+        {
+          "form": "city_from_above",
+          "meaning": "Overview, perspective, the ego seeing the whole social structure from a distance, possibly inflated, possibly gaining genuine perspective",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "persona",
+        "collective_unconscious",
+        "ego",
+        "senex"
+      ],
+      "recognition_terms": [
+        "city",
+        "town",
+        "street",
+        "building",
+        "downtown",
+        "urban",
+        "skyscraper",
+        "sidewalk",
+        "traffic",
+        "crowd",
+        "neighborhood",
+        "alley",
+        "subway"
+      ],
+      "tags": [
+        "space"
+      ],
+      "plain_language": "The built world of consciousness. Where the forest is wild inner territory, the city is everything structured: society, roles, the organized self. A thriving city, a maze of streets, a city in ruins: each reflects a different state of the ordered life you've constructed.",
+      "depth_tier": 1
+    },
+    {
+      "id": "island",
+      "name": "Island",
+      "category": "space",
+      "core_meaning": "Isolation, individuality, the ego as a small piece of land surrounded by the unconscious (ocean). Also: the Self as a complete world unto itself, and the temenos, a bounded sacred space separated from the mainland of ordinary life.",
+      "variations": [
+        {
+          "form": "paradise_island",
+          "meaning": "The idealized Self, the fantasy of wholeness, the place where everything is perfect. May be genuine glimpse or may be inflation",
+          "intensity": "high"
+        },
+        {
+          "form": "deserted_island",
+          "meaning": "Radical isolation: the ego cut off from all social support, forced into self-reliance. Can be terrifying or clarifying.",
+          "intensity": "high"
+        },
+        {
+          "form": "approaching_island",
+          "meaning": "Moving toward a new state of consciousness, seeing the goal from the sea of the unconscious",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "self",
+        "individuation",
+        "persona"
+      ],
+      "recognition_terms": [
+        "island",
+        "isle",
+        "shore",
+        "beach",
+        "stranded",
+        "castaway",
+        "archipelago",
+        "peninsula"
+      ],
+      "tags": [
+        "space"
+      ],
+      "plain_language": "Set apart, for better or worse. An island can be exile: cut off, surrounded by feelings too big to swim. It can also be sanctuary: a whole small world where you finally have room to be. Which one the dream means usually lives in how the water feels.",
+      "depth_tier": 1
+    },
+    {
+      "id": "underground",
+      "name": "Underground / Tunnel / Subway",
+      "category": "space",
+      "core_meaning": "Below the surface of consciousness: the infrastructure of the psyche, the hidden channels through which psychic energy moves. More structured than the ocean (unconscious). This is the unconscious that has been partly mapped, partly civilized.",
+      "variations": [
+        {
+          "form": "tunnel",
+          "meaning": "A passage through unconscious territory: there IS a way through, even if you can't see the end",
+          "intensity": "medium"
+        },
+        {
+          "form": "subway_metro",
+          "meaning": "The collective unconscious infrastructure: public transport through the depths, shared pathways below the surface",
+          "intensity": "medium"
+        },
+        {
+          "form": "mine",
+          "meaning": "Extracting value from the unconscious: mining for gold (the Self) in the darkness (the Shadow)",
+          "intensity": "high"
+        },
+        {
+          "form": "sewer",
+          "meaning": "The rejected, disgusting, necessary infrastructure: what civilization flushes away but depends on. Shadow material at its most repressed.",
+          "intensity": "high"
+        },
+        {
+          "form": "cave_deep",
+          "meaning": "The primal unconscious, before civilization, before structure. The womb of the Great Mother. Initiation space.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "personal_unconscious",
+        "collective_unconscious",
+        "shadow",
+        "individuation"
+      ],
+      "recognition_terms": [
+        "underground",
+        "tunnel",
+        "subway",
+        "metro",
+        "mine",
+        "sewer",
+        "bunker",
+        "vault",
+        "crypt",
+        "catacombs",
+        "burrow",
+        "below ground",
+        "subterranean"
+      ],
+      "tags": [
+        "space",
+        "depth"
+      ],
+      "plain_language": "The city beneath the city. Tunnels, subways, basements that keep going: this is the layer under your everyday awareness, mapped just enough to travel. Dreams set underground often mean you're moving through material that is deep, but navigable. There are rails down here.",
+      "depth_tier": 1
+    },
+    {
+      "id": "tower",
+      "name": "Tower",
+      "category": "space",
+      "core_meaning": "Vertical aspiration: consciousness reaching upward, the ego elevating itself above earthly concerns. The ivory tower (intellect divorced from life), the watchtower (vigilance, perspective), the prison tower (isolation through elevation).",
+      "variations": [
+        {
+          "form": "climbing_tower",
+          "meaning": "Ascending toward higher consciousness, spiritual aspiration, the drive to see further",
+          "intensity": "medium"
+        },
+        {
+          "form": "trapped_in_tower",
+          "meaning": "Imprisoned by elevation: consciousness cut off from the body, from earth, from instinct. The Rapunzel motif.",
+          "intensity": "high"
+        },
+        {
+          "form": "tower_collapsing",
+          "meaning": "The elevated position is unsustainable: enantiodromia, the fall from height, the Tower card in Tarot",
+          "intensity": "high"
+        },
+        {
+          "form": "view_from_tower",
+          "meaning": "Genuine perspective: seeing the whole landscape of the psyche from above. Can be illuminating or dangerously detached.",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "puer_aeternus",
+        "thinking",
+        "intuition",
+        "enantiodromia"
+      ],
+      "recognition_terms": [
+        "tower",
+        "turret",
+        "spire",
+        "lighthouse",
+        "skyscraper",
+        "high rise",
+        "watchtower",
+        "bell tower",
+        "minaret"
+      ],
+      "tags": [
+        "space"
+      ],
+      "plain_language": "High above, and apart. The tower rises for perspective, retreat, or pride: the study that becomes an ivory tower, the lookout that becomes a prison. A tower dream often asks what the elevation is costing, and what would happen if you came down.",
+      "depth_tier": 1
+    },
+    {
+      "id": "ring",
+      "name": "Ring",
+      "category": "object",
+      "core_meaning": "Wholeness, commitment, the Self as circle, the bond. A ring is a mandala you wear: it binds you to something (a person, a vow, a destiny). Also: power (the ring of power), eternity (no beginning or end), and the cycle.",
+      "variations": [
+        {
+          "form": "wedding_ring",
+          "meaning": "Commitment, the coniunctio, the binding of opposites. Giving or receiving a ring = entering a binding transformation",
+          "intensity": "high"
+        },
+        {
+          "form": "lost_ring",
+          "meaning": "Lost commitment, broken bond, the circle of wholeness disrupted",
+          "intensity": "high"
+        },
+        {
+          "form": "golden_ring",
+          "meaning": "The Self's wholeness in miniature: the treasure, the goal of individuation made wearable",
+          "intensity": "high"
+        },
+        {
+          "form": "ring_of_power",
+          "meaning": "The dangerous inflation of the Self: wholeness that becomes domination, the archetype possessing the ego",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "individuation",
+        "anima_animus",
+        "integration"
+      ],
+      "recognition_terms": [
+        "ring",
+        "band",
+        "wedding ring",
+        "engagement ring",
+        "jewel",
+        "gemstone",
+        "diamond"
+      ],
+      "tags": [
+        "object",
+        "self"
+      ],
+      "plain_language": "A circle you can wear. Rings carry commitment and wholeness in one small shape: the vow, the bond, the promise with no beginning or end. Receiving, losing, or removing a ring in a dream usually says something about a bond in your life, to a person, a path, or a version of yourself.",
+      "depth_tier": 1
+    },
+    {
+      "id": "book",
+      "name": "Book / Library / Writing",
+      "category": "object",
+      "core_meaning": "Knowledge, the logos, accumulated wisdom, the record of what has been learned. A book in a dream may represent knowledge you need, knowledge you have but haven't accessed, or the record of your own psychic history.",
+      "variations": [
+        {
+          "form": "reading_book",
+          "meaning": "Receiving wisdom: the psyche is ready to learn something. What is the book about?",
+          "intensity": "medium"
+        },
+        {
+          "form": "unreadable_book",
+          "meaning": "Knowledge that exists but is inaccessible to current consciousness: the inferior function's wisdom, or content not yet ready to become conscious",
+          "intensity": "medium"
+        },
+        {
+          "form": "ancient_book",
+          "meaning": "Collective wisdom, ancestral knowledge, the accumulated insights of the collective unconscious in written form",
+          "intensity": "high"
+        },
+        {
+          "form": "writing",
+          "meaning": "Creating the record: the ego documenting its own process, active meaning-making, the journal itself as symbol",
+          "intensity": "medium"
+        },
+        {
+          "form": "library",
+          "meaning": "The vast archive of available knowledge: the collective unconscious organized for retrieval",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "thinking",
+        "wise_old_man",
+        "collective_unconscious",
+        "self"
+      ],
+      "recognition_terms": [
+        "book",
+        "library",
+        "reading",
+        "writing",
+        "pages",
+        "manuscript",
+        "scroll",
+        "journal",
+        "diary",
+        "novel",
+        "textbook",
+        "bookshelf",
+        "author"
+      ],
+      "tags": [
+        "object",
+        "knowledge"
+      ],
+      "plain_language": "What's written and waiting to be read. Books in dreams often hold knowledge you need, or already have and haven't opened. A book you can't read yet, a library with endless shelves, a page with your own story on it: each is a different relationship to what you know.",
+      "depth_tier": 1
+    },
+    {
+      "id": "clock_time",
+      "name": "Clock / Time",
+      "category": "object",
+      "core_meaning": "The ego's awareness of mortality, process, and sequence. Time in dreams often operates differently than waking time: compressed, reversed, frozen. The clock is a mandala (circular) with a direction (forward). Time anxiety in dreams often reflects individuation urgency, the psyche's sense that there is work to be done.",
+      "variations": [
+        {
+          "form": "clock_ticking",
+          "meaning": "Time pressure: something needs attention before it's too late. Individuation's urgency.",
+          "intensity": "medium"
+        },
+        {
+          "form": "stopped_clock",
+          "meaning": "Time arrested: a part of the psyche is stuck at a particular moment, often a traumatic or developmental one",
+          "intensity": "high"
+        },
+        {
+          "form": "running_out_of_time",
+          "meaning": "Developmental urgency: the psyche signaling that a window for transformation is narrowing",
+          "intensity": "high"
+        },
+        {
+          "form": "time_going_backwards",
+          "meaning": "Regression, return to earlier material, circumambulation through time",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "senex",
+        "individuation",
+        "circumambulation"
+      ],
+      "recognition_terms": [
+        "clock",
+        "watch",
+        "time",
+        "hour",
+        "minute",
+        "deadline",
+        "running out of time",
+        "late",
+        "timer",
+        "hourglass",
+        "sundial",
+        "alarm"
+      ],
+      "tags": [
+        "object",
+        "high_frequency"
+      ],
+      "plain_language": "Time made visible. Clocks in dreams tend to appear when some inner deadline is felt: time running out, standing still, or moving strangely. Less about the calendar than about the psyche's sense that there is something to be done, and a season to do it in.",
+      "depth_tier": 1
+    },
+    {
+      "id": "money",
+      "name": "Money / Currency",
+      "category": "object",
+      "core_meaning": "Psychic energy, value, power, what you're 'worth.' Money in dreams is rarely about actual finances. It's about the distribution and flow of psychic energy. Where are you spending yourself? What are you worth? What can you afford (psychologically)?",
+      "variations": [
+        {
+          "form": "finding_money",
+          "meaning": "Discovering untapped psychic resources: energy, talent, or value you didn't know you had",
+          "intensity": "medium"
+        },
+        {
+          "form": "losing_money",
+          "meaning": "Psychic energy drain, loss of value, spending yourself on something that doesn't return",
+          "intensity": "medium"
+        },
+        {
+          "form": "being_paid",
+          "meaning": "Receiving recognition for psychic investment: your inner work is producing returns",
+          "intensity": "medium"
+        },
+        {
+          "form": "unable_to_pay",
+          "meaning": "Insufficient psychic resources for what's being demanded: you can't afford this transformation right now",
+          "intensity": "high"
+        },
+        {
+          "form": "counterfeit",
+          "meaning": "False value, inflated self-worth, a currency that doesn't hold up under examination",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "shadow",
+        "self"
+      ],
+      "recognition_terms": [
+        "money",
+        "cash",
+        "coins",
+        "wallet",
+        "bank",
+        "ATM",
+        "paying",
+        "buying",
+        "rich",
+        "poor",
+        "broke",
+        "expensive",
+        "cheap",
+        "debt",
+        "credit card",
+        "currency",
+        "treasure"
+      ],
+      "tags": [
+        "object",
+        "high_frequency"
+      ],
+      "plain_language": "What you're worth, and where you spend yourself. Money in dreams is rarely about the bank account. Finding money can be discovering value in yourself you didn't know was there. Losing it, or being unable to pay, often tracks a feeling of running low on what a situation keeps costing you.",
+      "depth_tier": 1
+    },
+    {
+      "id": "food_meal",
+      "name": "Food / Eating / Meal",
+      "category": "object",
+      "core_meaning": "Nourishment: what you're taking in, digesting, metabolizing. Food in dreams represents psychic nourishment: ideas, experiences, relationships, and content that the psyche is processing. A shared meal is communion. Poison food is toxic content being ingested.",
+      "variations": [
+        {
+          "form": "feasting",
+          "meaning": "Abundance: the psyche is well-nourished, taking in rich content, celebrating",
+          "intensity": "low"
+        },
+        {
+          "form": "starving",
+          "meaning": "Psychic deprivation: something essential is not being taken in. The soul is hungry.",
+          "intensity": "high"
+        },
+        {
+          "form": "shared_meal",
+          "meaning": "Communion, integration, the bringing together of different parts of the psyche around a common table",
+          "intensity": "medium"
+        },
+        {
+          "form": "inedible_food",
+          "meaning": "What's being offered can't be digested. The content is wrong, or the psyche isn't ready for it",
+          "intensity": "medium"
+        },
+        {
+          "form": "cooking",
+          "meaning": "Transformation of raw material into nourishment: the alchemical process applied to psychic content",
+          "intensity": "medium"
+        },
+        {
+          "form": "poison_food",
+          "meaning": "Toxic content being consumed: ideas, relationships, or experiences that are harmful but being ingested anyway",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "mother",
+        "great_mother",
+        "integration",
+        "sensation",
+        "self"
+      ],
+      "recognition_terms": [
+        "food",
+        "eating",
+        "meal",
+        "dinner",
+        "lunch",
+        "breakfast",
+        "cooking",
+        "kitchen",
+        "restaurant",
+        "hungry",
+        "starving",
+        "feast",
+        "fruit",
+        "bread",
+        "meat",
+        "vegetable",
+        "recipe",
+        "chef",
+        "baking"
+      ],
+      "tags": [
+        "object",
+        "high_frequency"
+      ],
+      "plain_language": "What you're taking in. Food in dreams tends to be about nourishment of every kind: ideas, relationships, experiences your psyche is digesting. A shared table is connection. Spoiled or poisoned food can mark something you've been swallowing that isn't good for you.",
+      "depth_tier": 1
+    },
+    {
+      "id": "gift",
+      "name": "Gift / Receiving",
+      "category": "object",
+      "core_meaning": "Something being given by the unconscious: a capacity, insight, or quality being offered to the ego. The gift in fairy tales is always the thing the hero needs for the next stage. Who gives the gift matters as much as what it is.",
+      "variations": [
+        {
+          "form": "receiving_gift",
+          "meaning": "The unconscious is offering something the ego needs: receive it, examine it, use it",
+          "intensity": "medium"
+        },
+        {
+          "form": "giving_gift",
+          "meaning": "The ego is offering something to another part of the psyche: generosity, sacrifice, or recognition of the other's value",
+          "intensity": "medium"
+        },
+        {
+          "form": "unwanted_gift",
+          "meaning": "Something the unconscious is offering that the ego doesn't want, often Shadow material that is actually valuable",
+          "intensity": "high"
+        },
+        {
+          "form": "wrapped_unopened",
+          "meaning": "A potential that hasn't been claimed or explored: the gift exists but hasn't been received yet",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "wise_old_man",
+        "shadow",
+        "integration"
+      ],
+      "recognition_terms": [
+        "gift",
+        "present",
+        "surprise",
+        "receiving",
+        "giving",
+        "wrapped",
+        "box",
+        "package",
+        "offering"
+      ],
+      "tags": [
+        "object"
+      ],
+      "plain_language": "Something offered from beyond your planning. A gift in a dream often carries a capacity or insight arriving just when the next chapter needs it, the way gifts work in fairy tales. Notice the giver. Who hands it to you can matter as much as what's inside.",
+      "depth_tier": 1
+    },
+    {
+      "id": "phone_modern",
+      "name": "Phone / Device",
+      "category": "object",
+      "core_meaning": "The modern communication tool: connection, disconnection, the ego's interface with others and with information. Dreams about phones often reveal the state of the dreamer's communication capacity, both interpersonal and intrapsychic.",
+      "variations": [
+        {
+          "form": "phone_ringing",
+          "meaning": "A call coming in: the unconscious trying to reach you, someone/something demanding attention",
+          "intensity": "medium"
+        },
+        {
+          "form": "cracked_screen",
+          "meaning": "The communication interface is damaged: your ability to connect or receive information is compromised",
+          "intensity": "medium"
+        },
+        {
+          "form": "phone_dead",
+          "meaning": "Total communication failure: cut off, unable to reach or be reached",
+          "intensity": "high"
+        },
+        {
+          "form": "scrolling",
+          "meaning": "Passive consumption, distraction, the ego in an unconscious loop of input without processing",
+          "intensity": "low"
+        },
+        {
+          "form": "recording",
+          "meaning": "Documenting, capturing, attempting to fix experience: the desire to hold onto something fleeting",
+          "intensity": "low"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "persona",
+        "thinking",
+        "compensation"
+      ],
+      "recognition_terms": [
+        "phone",
+        "cell phone",
+        "smartphone",
+        "screen",
+        "app",
+        "text",
+        "call",
+        "notification",
+        "laptop",
+        "computer",
+        "tablet",
+        "device",
+        "charger",
+        "battery",
+        "wifi",
+        "signal"
+      ],
+      "tags": [
+        "object",
+        "modern",
+        "high_frequency"
+      ],
+      "plain_language": "Your connection to everyone and everything, in one small object. Phone dreams tend to be about reach: who you can and can't contact, what messages are waiting, what you keep checking. A dead battery or no signal often marks a connection in your life that's lost its charge.",
+      "depth_tier": 1
+    },
+    {
+      "id": "bed",
+      "name": "Bed / Sleeping",
+      "category": "object",
+      "core_meaning": "The place of rest, dreams, intimacy, vulnerability, and unconsciousness. The bed is where you surrender the ego nightly. Dreams about beds are meta: the unconscious commenting on your relationship to sleep, rest, intimacy, or the unconscious itself.",
+      "variations": [
+        {
+          "form": "own_bed",
+          "meaning": "Your intimate, private self: the most personal space in the psyche",
+          "intensity": "low"
+        },
+        {
+          "form": "strange_bed",
+          "meaning": "Unfamiliar intimacy, vulnerability in unknown territory, sleeping in someone else's psychic space",
+          "intensity": "medium"
+        },
+        {
+          "form": "shared_bed",
+          "meaning": "Intimate psychological merger: whose psychic space are you sharing? Coniunctio or enmeshment?",
+          "intensity": "medium"
+        },
+        {
+          "form": "unable_to_sleep",
+          "meaning": "Consciousness refusing to rest: the ego unable to surrender to the unconscious even when it needs to",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "anima_animus",
+        "personal_unconscious",
+        "persona"
+      ],
+      "recognition_terms": [
+        "bed",
+        "sleeping",
+        "bedroom",
+        "pillow",
+        "blanket",
+        "mattress",
+        "sheets",
+        "insomnia",
+        "nap",
+        "rest",
+        "lying down"
+      ],
+      "tags": [
+        "object",
+        "intimate"
+      ],
+      "plain_language": "Where you let your guard down. The bed holds rest, intimacy, illness, and dreaming itself, so a dream about a bed is often the psyche commenting on how surrender is going: whether you can rest, whether you feel safe enough to be held, what shares the bed with you.",
+      "depth_tier": 1
+    },
+    {
+      "id": "map",
+      "name": "Map / Compass",
+      "category": "object",
+      "core_meaning": "Orientation: the ego's attempt to know where it is and where it's going. The map represents the existing model of the psyche. Finding a map = discovering a framework for understanding yourself. Losing a map = being forced to navigate without a model.",
+      "variations": [
+        {
+          "form": "following_map",
+          "meaning": "Using a framework to navigate the psyche: individuation with a guide, a therapist, or a companion like this site",
+          "intensity": "medium"
+        },
+        {
+          "form": "lost_map",
+          "meaning": "The existing framework no longer works: you're beyond the mapped territory. Necessary disorientation.",
+          "intensity": "high"
+        },
+        {
+          "form": "drawing_map",
+          "meaning": "Creating your own framework: making sense of territory through your own exploration",
+          "intensity": "medium"
+        },
+        {
+          "form": "compass",
+          "meaning": "Inner direction: not a map but a sense of which way is true. The Self as compass pointing toward individuation.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "self",
+        "individuation",
+        "ego",
+        "wise_old_man"
+      ],
+      "recognition_terms": [
+        "map",
+        "compass",
+        "directions",
+        "GPS",
+        "navigation",
+        "lost",
+        "oriented",
+        "guide",
+        "chart",
+        "coordinates"
+      ],
+      "tags": [
+        "object"
+      ],
+      "plain_language": "Knowing where you are. A map is your working model of the territory: finding one can mean a framework has arrived that finally makes the landscape make sense. Losing the map, or finding it wrong, often marks a season of navigating without one. That is a stage of every real journey.",
+      "depth_tier": 1
+    },
+    {
+      "id": "hands",
+      "name": "Hands",
+      "category": "body",
+      "core_meaning": "Agency, the capacity to act, to create, to grasp, to hold, to release. What the hands DO in the dream reveals the ego's capacity for action and creation.",
+      "variations": [
+        {
+          "form": "strong_hands",
+          "meaning": "Full agency: the capacity to act, create, and engage is intact",
+          "intensity": "low"
+        },
+        {
+          "form": "bound_hands",
+          "meaning": "Agency restrained: something is preventing you from acting. What binds you?",
+          "intensity": "high"
+        },
+        {
+          "form": "bloody_hands",
+          "meaning": "Guilt, having done something that costs, responsibility for harm (real or projected)",
+          "intensity": "high"
+        },
+        {
+          "form": "hands_reaching",
+          "meaning": "Desire for connection, grasping for something just out of reach, the will to contact",
+          "intensity": "medium"
+        },
+        {
+          "form": "injured_hands",
+          "meaning": "Damaged capacity to act: the ability to create, work, or reach has been wounded",
+          "intensity": "high"
+        },
+        {
+          "form": "holding_hands",
+          "meaning": "Connection, partnership, mutual support: the ego in relationship with another part of the psyche or another person",
+          "intensity": "low"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "hero",
+        "shadow",
+        "sensation"
+      ],
+      "recognition_terms": [
+        "hands",
+        "fingers",
+        "palm",
+        "fist",
+        "grip",
+        "grasp",
+        "touching",
+        "holding",
+        "wrist",
+        "gloves"
+      ],
+      "tags": [
+        "body",
+        "agency"
+      ],
+      "plain_language": "What you can do. Hands are agency: making, holding, grasping, letting go. What the hands are doing in the dream, or unable to do, often mirrors your felt capacity to act on your own life. Notice especially anything the dream has your hands refusing to release.",
+      "depth_tier": 1
+    },
+    {
+      "id": "eyes_sight",
+      "name": "Eyes / Sight / Blindness",
+      "category": "body",
+      "core_meaning": "Consciousness itself: the capacity to see, to know, to perceive truth. Eyes in dreams represent what you can and cannot see about yourself and your situation. Blindness is unconsciousness; clear sight is consciousness; the third eye is spiritual vision.",
+      "variations": [
+        {
+          "form": "clear_sight",
+          "meaning": "Consciousness expanded: you can see what was hidden",
+          "intensity": "medium"
+        },
+        {
+          "form": "blindness",
+          "meaning": "Something you cannot or will not see, unconsciousness about a specific area",
+          "intensity": "high"
+        },
+        {
+          "form": "someone_watching",
+          "meaning": "Being observed by the unconscious: the Self's eye on the ego, or a complex monitoring your behavior",
+          "intensity": "medium"
+        },
+        {
+          "form": "eye_injury",
+          "meaning": "Damage to the capacity for consciousness: something has been hurt that affects your ability to see clearly",
+          "intensity": "high"
+        },
+        {
+          "form": "glasses_lens",
+          "meaning": "A framework for seeing: the particular lens (psychological, spiritual, intellectual) through which you're viewing your experience",
+          "intensity": "low"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "self",
+        "shadow",
+        "intuition",
+        "projection"
+      ],
+      "recognition_terms": [
+        "eyes",
+        "sight",
+        "seeing",
+        "blind",
+        "blindfold",
+        "glasses",
+        "lens",
+        "watching",
+        "staring",
+        "vision",
+        "pupil",
+        "gaze",
+        "looking"
+      ],
+      "tags": [
+        "body",
+        "consciousness"
+      ],
+      "plain_language": "What you can and can't see. Dreams about eyes, sight, and blindness tend to track awareness itself: what about your situation is clear, what stays out of view, what you may be choosing not to look at. New glasses, failing vision, a third eye: each shifts the reading.",
+      "depth_tier": 1
+    },
+    {
+      "id": "hair",
+      "name": "Hair",
+      "category": "body",
+      "core_meaning": "Power, identity, vitality, sexuality, and the part of the body closest to thought. Hair carries enormous symbolic weight across cultures: Samson's strength, a woman's crowning glory, the tonsure of renunciation. In dreams, hair changes often signal identity transformation.",
+      "variations": [
+        {
+          "form": "hair_falling_out",
+          "meaning": "Loss of vitality, power, or identity: it can feel as if something essential about how you present yourself is being stripped away",
+          "intensity": "high"
+        },
+        {
+          "form": "cutting_hair",
+          "meaning": "Voluntary identity change: cutting away an old identity, renunciation, simplification",
+          "intensity": "medium"
+        },
+        {
+          "form": "long_hair_growing",
+          "meaning": "Power accumulating, vitality increasing, the wild self growing",
+          "intensity": "medium"
+        },
+        {
+          "form": "hair_changing_color",
+          "meaning": "Identity transformation: who you are is fundamentally shifting",
+          "intensity": "high"
+        },
+        {
+          "form": "tangled_hair",
+          "meaning": "Confused thoughts, identity knotted, complexity that needs combing through",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "persona",
+        "ego",
+        "shadow",
+        "anima_animus"
+      ],
+      "recognition_terms": [
+        "hair",
+        "bald",
+        "haircut",
+        "hairstyle",
+        "wig",
+        "beard",
+        "shaving",
+        "braids",
+        "gray hair",
+        "long hair",
+        "short hair",
+        "losing hair"
+      ],
+      "tags": [
+        "body",
+        "identity"
+      ],
+      "plain_language": "Identity you can touch. Hair carries vitality, sexuality, and self-image, which is why dream haircuts, hair loss, and sudden new hair tend to accompany identity in transition. For dreamers in treatment or illness, hair dreams often stay close to that lived experience, and deserve a gentle reading.",
+      "depth_tier": 1
+    },
+    {
+      "id": "wounds",
+      "name": "Wounds / Scars / Bleeding",
+      "category": "body",
+      "core_meaning": "The psyche's injuries: where you've been hurt, what hasn't healed, and the Wounded Healer principle that the wound is also the source of healing. A scar is a wound that has healed but left its mark: integrated trauma.",
+      "variations": [
+        {
+          "form": "open_wound",
+          "meaning": "Something still hurting, unhealed, actively bleeding psychic energy: a complex that hasn't been integrated",
+          "intensity": "high"
+        },
+        {
+          "form": "scar",
+          "meaning": "Healed wound: the trauma is integrated but its mark remains. Wisdom from suffering.",
+          "intensity": "medium"
+        },
+        {
+          "form": "being_wounded",
+          "meaning": "The moment of wounding: what is hurting you now? The specific injury points toward what is asking for attention.",
+          "intensity": "high"
+        },
+        {
+          "form": "healing_wound",
+          "meaning": "Integration in process: the injury is closing, the complex is losing its autonomy",
+          "intensity": "medium"
+        },
+        {
+          "form": "wound_that_wont_heal",
+          "meaning": "The Fisher King wound: a central injury that refuses to close, often the core complex around which individuation revolves",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "complexes",
+        "integration",
+        "ego"
+      ],
+      "recognition_terms": [
+        "wound",
+        "scar",
+        "bleeding",
+        "cut",
+        "injury",
+        "bruise",
+        "burn",
+        "broken bone",
+        "bandage",
+        "healing",
+        "hurt",
+        "pain",
+        "stitches"
+      ],
+      "tags": [
+        "body",
+        "foundational",
+        "high_frequency"
+      ],
+      "plain_language": "Where it still hurts, and where healing starts. Wounds in dreams tend to show what has been injured and not yet tended. A scar is different: a wound that closed and became part of you. The old idea of the wounded healer says the tended wound can become the very place you help others from.",
+      "depth_tier": 1
+    },
+    {
+      "id": "pregnancy_body",
+      "name": "Pregnancy / Physical Transformation",
+      "category": "body",
+      "core_meaning": "Something growing inside that will eventually demand to be born. Pregnancy in dreams, regardless of the dreamer's gender, often represents a creative or psychological development gestating in the unconscious, not yet ready for the world. For dreamers who are pregnant, or who have lost a pregnancy, these dreams often stay close to the lived experience itself and deserve to be read gently.",
+      "variations": [
+        {
+          "form": "being_pregnant",
+          "meaning": "A new psychological development is growing: something is gestating that will change your life when it emerges",
+          "intensity": "high"
+        },
+        {
+          "form": "unexpected_pregnancy",
+          "meaning": "An unplanned development: something the ego didn't choose is growing anyway. The unconscious has its own creative agenda.",
+          "intensity": "high"
+        },
+        {
+          "form": "giving_birth_body",
+          "meaning": "The development is arriving: ready or not, the new content is emerging into consciousness",
+          "intensity": "high"
+        },
+        {
+          "form": "body_changing",
+          "meaning": "The psyche is being physically restructured: identity transformation experienced in the body",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "child",
+        "self",
+        "individuation",
+        "great_mother"
+      ],
+      "recognition_terms": [
+        "pregnant",
+        "pregnancy",
+        "belly",
+        "growing",
+        "expecting",
+        "due date",
+        "contractions",
+        "morning sickness",
+        "showing",
+        "body changing",
+        "transformation"
+      ],
+      "tags": [
+        "body",
+        "transformation",
+        "high_frequency"
+      ],
+      "plain_language": "Something in you is growing. Pregnancy dreams visit dreamers of every gender, and they usually announce a creative or personal development still forming, not ready for the world yet. For dreamers who are pregnant, or who have lost a pregnancy, these dreams often stay close to the lived experience itself and deserve to be read gently.",
+      "depth_tier": 1
+    },
+    {
+      "id": "blood",
+      "name": "Blood",
+      "category": "body",
+      "core_meaning": "Life force, vitality, lineage, sacrifice, and the cost of being alive. Blood is what circulates, the psyche's living energy. Bloodshed is the price of transformation. Blood ties are the deepest bonds.",
+      "variations": [
+        {
+          "form": "bleeding",
+          "meaning": "Life force leaking: energy being lost, the cost of an unhealed wound",
+          "intensity": "high"
+        },
+        {
+          "form": "blood_on_hands",
+          "meaning": "Guilt, responsibility, having participated in something that drew blood (psychically)",
+          "intensity": "high"
+        },
+        {
+          "form": "blood_ritual",
+          "meaning": "Sacred sacrifice: transformation that requires something to be given up, the alchemical rubedo",
+          "intensity": "high"
+        },
+        {
+          "form": "bloodline",
+          "meaning": "Ancestral connection, inherited patterns, what runs in the family psyche",
+          "intensity": "medium"
+        },
+        {
+          "form": "transfusion",
+          "meaning": "Receiving new life energy from another source: psychic renewal through relationship, therapy, or spiritual practice",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "self",
+        "individuation",
+        "sensation",
+        "great_mother"
+      ],
+      "recognition_terms": [
+        "blood",
+        "bleeding",
+        "bloody",
+        "bloodstain",
+        "hemorrhage",
+        "pulse",
+        "veins",
+        "arteries",
+        "transfusion",
+        "blood test"
+      ],
+      "tags": [
+        "body",
+        "vital"
+      ],
+      "plain_language": "Life itself, and its cost. Blood carries vitality, kinship, and sacrifice all at once. Bleeding in a dream can mark energy draining from somewhere in your life; blood shared or given can mark the deepest kind of bond. Where the blood is, and whose, shapes everything.",
+      "depth_tier": 1
+    },
+    {
+      "id": "fog_mist",
+      "name": "Fog / Mist",
+      "category": "atmosphere",
+      "core_meaning": "Obscured consciousness: you can't see clearly. The boundaries between things dissolve. Fog is NOT darkness (unconsciousness): it's DIFFUSED consciousness, where everything is vaguely present but nothing is distinct. The participation mystique: identity boundaries blurred.",
+      "jungian_concepts": [
+        "ego",
+        "projection",
+        "complexes",
+        "participation_mystique"
+      ],
+      "recognition_terms": [
+        "fog",
+        "mist",
+        "haze",
+        "foggy",
+        "misty",
+        "cloudy",
+        "murky",
+        "visibility",
+        "can't see",
+        "blurry"
+      ],
+      "tags": [
+        "atmosphere"
+      ],
+      "plain_language": "Almost seeing. Fog isn't darkness: everything is present but nothing is distinct. Fog dreams tend to come in seasons of real uncertainty, when the shapes of things (a decision, a relationship, a future) haven't resolved yet. The honest move in fog is to slow down, not to pretend you can see.",
+      "depth_tier": 1
+    },
+    {
+      "id": "snow_ice",
+      "name": "Snow / Ice / Cold",
+      "category": "atmosphere",
+      "core_meaning": "Frozen emotion, the psyche in stasis, preservation through cold. Snow beautifies and covers: the Persona's white blanket over the shadow-earth. Ice is emotion hardened into rigidity. Cold is the withdrawal of psychic warmth.",
+      "variations": [
+        {
+          "form": "gentle_snow",
+          "meaning": "Quiet covering: a period of rest, stillness, or Persona refreshment. Beautiful but cold.",
+          "intensity": "low"
+        },
+        {
+          "form": "blizzard",
+          "meaning": "Overwhelming white-out: consciousness overwhelmed by too much undifferentiated content",
+          "intensity": "high"
+        },
+        {
+          "form": "ice",
+          "meaning": "Frozen emotion: feelings that have hardened, relationships that have calcified, the Senex's grip",
+          "intensity": "high"
+        },
+        {
+          "form": "thaw",
+          "meaning": "Emotion beginning to flow again after being frozen: spring after winter, feeling returning",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "senex",
+        "feeling",
+        "shadow",
+        "persona"
+      ],
+      "recognition_terms": [
+        "snow",
+        "ice",
+        "cold",
+        "frozen",
+        "frost",
+        "blizzard",
+        "winter",
+        "freezing",
+        "icicle",
+        "glacier",
+        "snowstorm",
+        "slippery"
+      ],
+      "tags": [
+        "atmosphere"
+      ],
+      "plain_language": "Feeling, frozen. Snow softens and covers; ice hardens and preserves. Dreams of cold often track emotional winter: warmth withdrawn, something numbed to get through, a beautiful surface over stopped water. What thaws, or refuses to, is usually the dream's center.",
+      "depth_tier": 1
+    },
+    {
+      "id": "night_darkness",
+      "name": "Night / Darkness",
+      "category": "atmosphere",
+      "core_meaning": "The unconscious as the psyche's natural environment. We dream AT NIGHT: darkness is where the unconscious does its work. Night in dreams is not threatening in itself; it's the condition under which deep content becomes visible, like stars that are always there but invisible in daylight.",
+      "variations": [
+        {
+          "form": "peaceful_night",
+          "meaning": "The unconscious as home, comfortable in the darkness, at ease with what can't be seen",
+          "intensity": "low"
+        },
+        {
+          "form": "threatening_darkness",
+          "meaning": "Fear of the unconscious: the unknown experienced as danger",
+          "intensity": "high"
+        },
+        {
+          "form": "starlit_night",
+          "meaning": "The collective unconscious visible: archetypal patterns (stars) shining in the darkness of the psyche",
+          "intensity": "high"
+        },
+        {
+          "form": "dawn_approaching",
+          "meaning": "Consciousness emerging from the unconscious: the transition from depth work to waking insight",
+          "intensity": "medium"
+        }
+      ],
+      "jungian_concepts": [
+        "collective_unconscious",
+        "shadow",
+        "self",
+        "ego"
+      ],
+      "recognition_terms": [
+        "night",
+        "dark",
+        "darkness",
+        "midnight",
+        "dusk",
+        "twilight",
+        "dawn",
+        "stars",
+        "moonlight",
+        "nocturnal",
+        "nighttime"
+      ],
+      "tags": [
+        "atmosphere",
+        "foundational"
+      ],
+      "plain_language": "The dark that isn't against you. Night in a dream is the psyche's home ground: the condition under which deep things become visible, like stars that daylight hides. A night dream isn't automatically a warning. Often it simply means you're in territory the daytime self can't map.",
+      "depth_tier": 1
+    },
+    {
+      "id": "swimming",
+      "name": "Swimming",
+      "category": "action",
+      "core_meaning": "Moving THROUGH the unconscious: not drowning in it, not standing on the shore watching, but actively navigating emotional or unconscious territory. The ego's capacity to engage with depth.",
+      "variations": [
+        {
+          "form": "swimming_easily",
+          "meaning": "The ego can navigate the unconscious: therapy is working, dream work is productive, emotional life is manageable",
+          "intensity": "low"
+        },
+        {
+          "form": "struggling_to_swim",
+          "meaning": "The ego is overwhelmed but still trying: the unconscious is powerful and the ego's capacity is being tested",
+          "intensity": "high"
+        },
+        {
+          "form": "diving_deep",
+          "meaning": "Voluntary descent into the unconscious: active imagination, deep meditation, choosing to go deeper",
+          "intensity": "high"
+        },
+        {
+          "form": "underwater_breathing",
+          "meaning": "The capacity to function IN the unconscious: consciousness that operates in the depths without surfacing. Often a sign of growing ease with the inner world.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "ego",
+        "personal_unconscious",
+        "individuation",
+        "active_imagination"
+      ],
+      "recognition_terms": [
+        "swimming",
+        "swim",
+        "diving",
+        "underwater",
+        "wading",
+        "floating",
+        "treading water",
+        "stroke",
+        "pool",
+        "ocean swimming"
+      ],
+      "tags": [
+        "action",
+        "depth"
+      ],
+      "plain_language": "In the water, and swimming. Where drowning dreams are about being overwhelmed by feeling, swimming is the opposite report: you're in deep water and moving. These dreams often arrive when you're genuinely engaging with emotional depth rather than avoiding it. The stroke may be effortful. You're still swimming.",
+      "depth_tier": 1
+    },
+    {
+      "id": "climbing",
+      "name": "Climbing / Ascending",
+      "category": "action",
+      "core_meaning": "Effortful upward movement: consciousness working to reach a higher perspective, spiritual aspiration that requires physical (psychic) effort. Unlike flying (effortless, possibly inflated), climbing is earned elevation.",
+      "variations": [
+        {
+          "form": "climbing_mountain",
+          "meaning": "The individuation journey toward the Self: effortful, requiring endurance, with the goal of perspective and wholeness",
+          "intensity": "high"
+        },
+        {
+          "form": "climbing_wall",
+          "meaning": "Overcoming a barrier: something is blocking upward movement and must be surmounted through effort",
+          "intensity": "medium"
+        },
+        {
+          "form": "climbing_tree",
+          "meaning": "Ascending the world tree: moving toward spirit while rooted in nature, the vertical axis of the psyche",
+          "intensity": "medium"
+        },
+        {
+          "form": "falling_while_climbing",
+          "meaning": "The ascent was premature or unsupported: the ego wasn't ready for this height",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "individuation",
+        "hero",
+        "self",
+        "ego"
+      ],
+      "recognition_terms": [
+        "climbing",
+        "ascending",
+        "scaling",
+        "upward",
+        "mountain climbing",
+        "rock climbing",
+        "ladder climbing",
+        "hiking uphill",
+        "reaching the top",
+        "summit"
+      ],
+      "tags": [
+        "action"
+      ],
+      "plain_language": "Height, earned. Unlike flying, climbing gains its altitude one hold at a time: effort, aspiration, the long work toward perspective. A climbing dream often mirrors a real ascent you're in the middle of. The condition of the slope, and whether you can rest, belong to the reading.",
+      "depth_tier": 1
+    },
+    {
+      "id": "hiding",
+      "name": "Hiding / Concealing",
+      "category": "action",
+      "core_meaning": "The ego's defensive response to threatening content: withdrawing from what pursues, concealing what might be seen. Hiding IS the Shadow mechanism: putting things where they can't be found, including yourself.",
+      "variations": [
+        {
+          "form": "hiding_from_pursuer",
+          "meaning": "Avoiding Shadow confrontation: the ego retreating from what it's not ready to face",
+          "intensity": "high"
+        },
+        {
+          "form": "hiding_an_object",
+          "meaning": "Concealing something from consciousness: repression in action",
+          "intensity": "medium"
+        },
+        {
+          "form": "hiding_spot_discovered",
+          "meaning": "The ego's defense is failing: what was hidden is being found. The Shadow is catching up.",
+          "intensity": "high"
+        },
+        {
+          "form": "choosing_to_reveal",
+          "meaning": "Coming out of hiding: the ego deciding to be seen. Integration moment.",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "shadow",
+        "ego",
+        "persona",
+        "complexes"
+      ],
+      "recognition_terms": [
+        "hiding",
+        "hidden",
+        "concealed",
+        "secret",
+        "lurking",
+        "crouching",
+        "behind",
+        "under",
+        "closet",
+        "under the bed",
+        "invisible"
+      ],
+      "tags": [
+        "action",
+        "shadow"
+      ],
+      "plain_language": "Out of sight, on purpose. Hiding in a dream can be about avoiding something that pursues, or concealing a part of yourself you're not ready to have seen. Worth asking two questions, gently: what are you hiding from, and what of yours is hidden even from you?",
+      "depth_tier": 1
+    },
+    {
+      "id": "eating_consuming",
+      "name": "Eating / Consuming / Drinking",
+      "category": "action",
+      "core_meaning": "Taking something in: metabolizing experience, integrating content, nourishing the psyche. What you eat in a dream is what you're psychologically ingesting. Drinking often connects to the unconscious specifically (water, wine, blood).",
+      "variations": [
+        {
+          "form": "eating_hungrily",
+          "meaning": "The psyche is starving for something and finally getting it: ravenous intake of needed content",
+          "intensity": "medium"
+        },
+        {
+          "form": "unable_to_eat",
+          "meaning": "The psyche can't take in what's being offered: something blocks integration",
+          "intensity": "medium"
+        },
+        {
+          "form": "drinking_water",
+          "meaning": "Taking in unconscious content, receiving from the source, spiritual nourishment",
+          "intensity": "medium"
+        },
+        {
+          "form": "drinking_wine",
+          "meaning": "Intoxication, ecstasy, Dionysian dissolution of ego boundaries, communion",
+          "intensity": "high"
+        },
+        {
+          "form": "being_eaten",
+          "meaning": "Being consumed by an unconscious force: the Great Mother devouring, the complex swallowing the ego, Jonah in the whale",
+          "intensity": "high"
+        }
+      ],
+      "jungian_concepts": [
+        "integration",
+        "great_mother",
+        "self",
+        "sensation"
+      ],
+      "recognition_terms": [
+        "eating",
+        "drinking",
+        "consuming",
+        "swallowing",
+        "tasting",
+        "chewing",
+        "devouring",
+        "appetite",
+        "thirst",
+        "hunger",
+        "feast",
+        "binge"
+      ],
+      "tags": [
+        "action",
+        "integration"
+      ],
+      "plain_language": "Taking the world in. Eating in dreams is integration: experiences, ideas, and feelings being chewed on, swallowed, made part of you. What's on the plate, and whether you can get it down, often mirrors what life is currently asking you to digest.",
+      "depth_tier": 1
+    }
+  ]
+}

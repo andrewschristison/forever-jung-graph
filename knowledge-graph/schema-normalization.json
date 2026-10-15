@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "layer": "technical",
+  "document": "schema_normalization",
+  "description": "Technical specification for normalizing the knowledge graph schema across all node types, validating cross-references, and ensuring code can parse every file consistently.",
+  "canonical_concept_schema": {
+    "description": "Every concept node, regardless of category, MUST have these fields. Implementation should validate at load time.",
+    "required_fields": {
+      "id": "string — unique identifier, snake_case, used for cross-references",
+      "name": "string — human-readable display name",
+      "category": "string — one of: archetype, process, structure, typology",
+      "definition": "string — 2-4 sentences, the Jungian-informed definition",
+      "plain_language": "string — from accessibility overlay. The version for someone who's never read Jung",
+      "depth_tier": "integer — 1 (beginner), 2 (intermediate), 3 (advanced)",
+      "relationships": "array of { target: string (concept ID), type: string (relationship type), note: string }",
+      "tags": "array of strings"
+    },
+    "optional_fields": {
+      "in_practice": "string — what this looks like in lived experience",
+      "recognition_patterns": "array of strings — how to recognize this in dreams or life",
+      "jung_sources": "array of { work: string, year: integer, public_domain: boolean, note?: string }",
+      "related_symbols": "array of strings (symbol IDs)",
+      "assessment_signals": "array of strings — indicators for the assessment framework",
+      "activation_indicators": "string — when this archetype/process is most active",
+      "contemporary_note": "string — how contemporary practice differs from Jung's original",
+      "contested": "object or null — { issue: string, positions: array, graph_position: string }",
+      "first_encounter_phrase": "string or null — from accessibility overlay",
+      "app_relevance": "string — how this concept serves the app specifically",
+      "subcategory": "string — for further classification within category",
+      "stages": "array — for developmental models",
+      "variations": "array — for symbols with multiple forms"
+    }
+  },
+  "canonical_symbol_schema": {
+    "required_fields": {
+      "id": "string — unique identifier, snake_case",
+      "name": "string — human-readable display name",
+      "category": "string — one of: element, space, figure, creature, object, action, body, transition, color, number, scenario, atmosphere",
+      "core_meaning": "string — the fundamental symbolic meaning",
+      "plain_language": "string — from accessibility overlay",
+      "depth_tier": "integer — 1 or 2",
+      "recognition_terms": "array of strings — words/phrases that trigger this symbol's detection in transcripts",
+      "tags": "array of strings"
+    },
+    "optional_fields": {
+      "variations": "array of { form: string, meaning: string, intensity: string (low/medium/high) }",
+      "jungian_concepts": "array of strings (concept IDs)",
+      "dream_context_clues": "array of strings — guidance for contextual interpretation",
+      "alchemical_note": "string — connection to alchemical symbolism",
+      "app_response_guidance": "object — specific guidance for the LLM when this symbol appears"
+    }
+  },
+  "canonical_framework_schema": {
+    "required_fields": {
+      "id": "string",
+      "name": "string",
+      "author": "string",
+      "source_work": "string",
+      "year": "integer or string",
+      "copyright_note": "string",
+      "description": "string",
+      "tags": "array of strings"
+    },
+    "stage_schema": {
+      "position": "integer",
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "psychological_function": "string",
+      "jungian_concepts": "array of strings (concept IDs)"
+    }
+  },
+  "canonical_bridge_schema": {
+    "required_fields": {
+      "id": "string",
+      "jungian_concept": "string (concept ID)",
+      "framework_elements": "array of { framework: string (framework ID), stage: string (stage ID) }",
+      "mapping_type": "string — one of: parallel, sequence, contains, tension, metaphor",
+      "strength": "string — one of: strong, moderate, suggestive",
+      "description": "string — the argued connection",
+      "in_dreams": "string — how this mapping manifests in dream content",
+      "tags": "array of strings"
+    }
+  },
+  "relationship_types": {
+    "valid_types": [
+      "polarity",
+      "contains",
+      "mechanism",
+      "stage",
+      "sequence",
+      "manifests_as",
+      "resolves_through",
+      "tension",
+      "parallel"
+    ],
+    "description": "All relationship 'type' fields must use one of these values. Any other value should be flagged during validation."
+  },
+  "cross_reference_manifest": {
+    "description": "Every ID referenced anywhere in the knowledge graph must resolve to an actual node. This manifest lists all valid IDs for validation.",
+    "concept_ids": [
+      "shadow",
+      "persona",
+      "anima_animus",
+      "self",
+      "hero",
+      "wise_old_man",
+      "trickster",
+      "child",
+      "mother",
+      "great_mother",
+      "puer_aeternus",
+      "senex",
+      "ego",
+      "personal_unconscious",
+      "collective_unconscious",
+      "complexes",
+      "individuation",
+      "active_imagination",
+      "projection",
+      "integration",
+      "enantiodromia",
+      "compensation",
+      "amplification",
+      "circumambulation",
+      "introversion",
+      "extraversion",
+      "thinking",
+      "feeling",
+      "sensation",
+      "intuition",
+      "eight_types",
+      "anima_development",
+      "animus_development",
+      "alchemical_stages",
+      "golden_shadow",
+      "collective_shadow",
+      "shadow_integration_stages",
+      "transcendent_function",
+      "synchronicity",
+      "inflation_deflation",
+      "ego_self_axis",
+      "participation_mystique",
+      "psychic_energy",
+      "wounded_healer",
+      "mother_complex",
+      "father_complex",
+      "savior_complex",
+      "inferiority_complex",
+      "power_complex",
+      "inner_other",
+      "alchemical_operations_expanded"
+    ],
+    "framework_ids": [
+      "campbell_monomyth",
+      "vogler_writers_journey",
+      "harmon_story_circle",
+      "freytag_pyramid",
+      "kishotenketsu",
+      "booker_seven_plots",
+      "snyder_save_the_cat"
+    ],
+    "validation_rules": [
+      "Every 'target' in a relationship must exist in concept_ids",
+      "Every entry in 'jungian_concepts' on symbols must exist in concept_ids",
+      "Every 'framework' in bridge elements must exist in framework_ids",
+      "Every 'stage' in bridge elements must exist within the referenced framework's stage list",
+      "Every entry in 'related_symbols' should resolve to a symbol ID (cross-file validation)",
+      "Every 'keyed_to' in integration practices should resolve to a concept ID"
+    ]
+  },
+  "file_merge_order": {
+    "description": "When loading the knowledge graph, files should be merged in this order to ensure all references resolve.",
+    "order": [
+      "1. meta.json — orientation and structure",
+      "2. All concepts-batch-*.json — merged into a single concepts map",
+      "3. accessibility-concepts.json — overlaid onto concepts map",
+      "4. All symbols*.json — merged into a single symbols map",
+      "5. accessibility-symbols.json — overlaid onto symbols map",
+      "6. frameworks.json",
+      "7. bridge.json + bridge-expanded.json — merged into a single bridge map",
+      "8. myth-reference-index.json + myth-non-western.json — merged",
+      "9. assessment-framework.json",
+      "10. All methodology documents (dream-analysis-protocol, dream-series-protocol, integration-practices, therapeutic-boundaries)",
+      "11. All pattern documents (dream-patterns-*.json)",
+      "12. interpretive-wisdom.json",
+      "13. living-system.json (system prompt, onboarding, voice library, incubation)",
+      "14. jung-limitations.json",
+      "15. schema-normalization.json — this file, for validation"
+    ]
+  },
+  "implementation_notes": [
+    "The accessibility overlay files add fields to existing nodes — they don't replace them. Merge by ID.",
+    "For LLM context injection, the system prompt should load first, then only the RELEVANT concept and symbol nodes for the specific dream being analyzed — not the entire graph.",
+    "The depth_tier field controls progressive disclosure: only introduce tier-2 and tier-3 concepts when the user has demonstrated readiness (entry count, direct questions, or explicit curiosity).",
+    "Contested fields should trigger the LLM to present the concept with appropriate tentativeness: 'Some practitioners see this differently...'",
+    "The voice library in living-system.json should be loaded alongside the system prompt — it governs HOW the LLM speaks, not WHAT it knows."
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "schema_version": "1.0",
+  "layer": "dream_patterns",
+  "description": "Dedicated frameworks for specific dream types and life contexts. The knowledge graph's generic analysis protocol handles most dreams. These patterns handle the dreams that need specialized understanding, because context changes everything.",
+  "recovery_and_addiction": {
+    "foundational_framework": {
+      "addiction_as_individuation_crisis": "One Jungian reading: addiction is a spiritual hunger wearing a chemical mask. The person caught in addiction is seeking transcendence, ego dissolution, relief from the unbearable tension of consciousness: all legitimate psychic needs. The substance provides a counterfeit version of what individuation provides genuinely: connection to something larger than the ego, temporary relief from the Persona's weight, access to feeling states the ego has blocked. Recovery is not just stopping the substance. It's building the real thing the substance was counterfeiting.",
+      "jung_on_addiction": "Jung wrote to Bill Wilson (co-founder of AA) that the craving for alcohol was 'the equivalent, on a low level, of the spiritual thirst of our being for wholeness.' Jung pointed out in that same letter that spiritus, the alchemists' word for alcohol, is the same word used for the highest religious experience and for the most depraving poison. The drinker seeks spirit in spirits. Recovery is finding the real spirit.",
+      "dreams_in_recovery": "Recovery dreams are among the most vivid, disturbing, and meaningful dreams a person can have. They often persist for years or decades after sobriety. They are NOT signs of weakness or relapse risk. They are the psyche processing the deepest transformation of the person's life: the death of the addicted self and the birth of the sober self. The app must treat these dreams with absolute respect and zero alarm."
+    },
+    "patterns": [
+      {
+        "id": "recovery_using_dream",
+        "name": "The Using Dream / Relapse Dream",
+        "description": "The dreamer uses their substance of choice in the dream: drinks, uses drugs, engages in the addictive behavior. They often wake in terror, shame, or relief that it was 'only a dream.'",
+        "frequency": "Extremely common. Can persist for years or decades into sobriety. Often occurs during stress, transition, or emotional upheaval.",
+        "jungian_analysis": {
+          "compensation": "The using dream often compensates for an over-rigid sobriety Persona. If the sober self has become too controlled, too identified with 'I am a sober person,' the unconscious introduces the opposite: the self that still wants to use. This is not a sign of failure. It's the psyche insisting on wholeness: 'this is also you.'",
+          "shadow": "The using self is Shadow material in recovery. The person who drank, who used, who lost control: that person didn't die when sobriety began. They were exiled into the Shadow. Using dreams are the Shadow saying: 'I'm still here.' Integration means acknowledging the using self without acting on it.",
+          "individuation": "Using dreams often increase during growth periods, not because sobriety is failing but because individuation is advancing. Each new stage of growth activates the ego's old coping mechanism in the unconscious. The dream is a fire drill: 'Can you face this and still stay?'"
+        },
+        "variations": [
+          {
+            "form": "euphoric_using",
+            "meaning": "The dream captures the genuine pleasure the substance provided: the psyche honestly representing what was lost. This isn't romanticizing. It's the unconscious being truthful about what the substance gave, temporarily and as a counterfeit, that the sober life must now provide authentically.",
+            "intensity": "high"
+          },
+          {
+            "form": "horrific_using",
+            "meaning": "The dream fast-forwards to the consequences: the shame, the destruction, the morning after. The unconscious reminding the ego of why the choice was made to stop.",
+            "intensity": "high"
+          },
+          {
+            "form": "accidental_using",
+            "meaning": "The dreamer uses without choosing to: 'I just found myself drinking.' This represents the autonomous quality of the addicted complex: it operates without ego consent. The dream is practicing the moment of choice.",
+            "intensity": "high"
+          },
+          {
+            "form": "choosing_not_to_use",
+            "meaning": "The dreamer is offered the substance and declines. This is an integration milestone: the ego has strength in the dream that it didn't have in early recovery. The Shadow has been confronted and the ego held its ground.",
+            "intensity": "high"
+          },
+          {
+            "form": "using_without_consequences",
+            "meaning": "The dream scenario where using has no downside. Often described as the most seductive variation: the unconscious may be asking whether sobriety rests on fear of consequences or on genuine transformation. Like every using dream, it is processing, not prediction.",
+            "intensity": "high"
+          }
+        ],
+        "app_response_guidance": {
+          "tone": "Absolute calm. No alarm. The dreamer already woke up afraid; the app's job is to provide understanding, not amplify fear.",
+          "art_model": {
+            "acknowledge": "Name the dream without flinching. 'You dreamed of using. That's a big one to wake up from.' Acknowledge the fear they probably felt upon waking. Don't minimize, don't alarm. Just see them.",
+            "relate": "Normalize with substance and warmth: 'Using dreams are one of the most common experiences in recovery, even decades in. They're the psyche processing, not predicting. Your mind is still working on the transformation that sobriety set in motion. The dream doesn't mean you're going to use. It means the work is still alive.'",
+            "transition": "Return focus to the dreamer's own experience: 'What was the feeling in the dream, not the using itself, but the feeling underneath it? That feeling is where the real content lives.'"
+          },
+          "never_say": [
+            "This dream might mean you're at risk of relapse",
+            "You should call your sponsor",
+            "Are you sure you're okay?",
+            "This is concerning",
+            "How long have you been sober?"
+          ],
+         "never_say_scope": "These apply to responses about the dream. If the dreamer discloses waking-life intent to use, active crisis, or asks for help, respond to that disclosure directly and warmly, including pointing to their supports."
+        },
+        "related_symbols": [
+          "water_murky",
+          "poison_food",
+          "flood",
+          "basement",
+          "shadow_figure",
+          "old_house"
+        ],
+        "tags": [
+          "recovery",
+          "high_frequency",
+          "critical"
+        ]
+      },
+      {
+        "id": "recovery_sobriety_milestone",
+        "name": "Sobriety Anniversary / Milestone Dream",
+        "description": "Dreams that cluster around sobriety anniversaries, chip dates, or significant recovery milestones. The unconscious marks time differently than the ego, and it often produces significant dreams at threshold moments.",
+        "jungian_analysis": {
+          "circumambulation": "Each sobriety anniversary is a revolution of the spiral. The psyche revisits the original wound at a deeper level with each passing year. The first-anniversary dream processes different material than the tenth-anniversary dream.",
+          "self": "Milestone dreams often carry numinous quality: mandala imagery, golden light, feelings of wholeness. The Self acknowledges the journey."
+        },
+        "variations": [
+          {
+            "form": "celebratory",
+            "meaning": "The psyche marking the achievement, often with communal imagery, feasting, light",
+            "intensity": "medium"
+          },
+          {
+            "form": "grief_at_milestone",
+            "meaning": "The psyche mourning what was lost to addiction: years, relationships, versions of self that never got to live. This grief is not depression. It's integration of loss.",
+            "intensity": "high"
+          },
+          {
+            "form": "using_dream_at_anniversary",
+            "meaning": "The Shadow's response to the milestone: 'don't forget me.' Often the most disturbing using dreams occur precisely at moments of celebration.",
+            "intensity": "high"
+          }
+        ],
+        "tags": [
+          "recovery",
+          "milestone"
+        ]
+      },
+      {
+        "id": "recovery_identity_transformation",
+        "name": "Identity Transformation Dreams",
+        "description": "Dreams that process the fundamental identity shift from 'person who uses' to 'person in recovery.' The death of the old self and the birth of the new. These often follow the death-rebirth archetypal pattern and map directly to the alchemical stages.",
+        "jungian_analysis": {
+          "death_rebirth": "Getting sober IS a death-rebirth. The old identity (the drinking self, the using self) must die. This is the nigredo of recovery. The albedo is the early clarity of sobriety. The citrinitas is when sobriety becomes embodied rather than just behavioral. The rubedo is when the sober self is no longer defined by what it doesn't do, but by who it has become.",
+          "hero": "Recovery is a hero's journey in its purest form. The call (the crisis that demands change), the refusal (the last bender, the final denial), the threshold (the first day sober), the ordeal (early recovery), the return (bringing sobriety back into ordinary life)."
+        },
+        "variations": [
+          {
+            "form": "death_of_old_self",
+            "meaning": "Dreams of dying, being buried, or watching a version of yourself die. The addicted self being released.",
+            "intensity": "high"
+          },
+          {
+            "form": "birth_of_new_self",
+            "meaning": "Dreams of children, new rooms, dawn, spring. The sober self emerging as a genuinely new development.",
+            "intensity": "high"
+          },
+          {
+            "form": "two_selves",
+            "meaning": "Dreams featuring two versions of yourself: the using self and the sober self in the same dream. The psyche making the split visible for integration.",
+            "intensity": "high"
+          },
+          {
+            "form": "house_renovation",
+            "meaning": "The psyche being rebuilt: new rooms, repairs, cleaning. The structure of the self being restored from the damage addiction caused.",
+            "intensity": "medium"
+          }
+        ],
+        "tags": [
+          "recovery",
+          "individuation"
+        ]
+      },
+      {
+        "id": "recovery_higher_power",
+        "name": "Higher Power / Spiritual Awakening Dreams",
+        "description": "Dreams with numinous, transcendent, or sacred quality that correspond to the 'spiritual awakening' component of recovery programs. These are Self encounters: the ego meeting the organizing principle of the psyche that the substance was counterfeiting.",
+        "jungian_analysis": {
+          "self": "The 'Higher Power' in recovery language maps closely onto what Jungian language calls the Self. The step of surrendering to a power greater than the ego is the Jungian moment of the ego recognizing the Self. These dreams confirm the ego-Self axis is being established: the real connection that makes the counterfeit (the substance) unnecessary.",
+          "mandala": "Recovery programs are themselves mandala structures: the circle of a meeting, the twelve steps as a circumambulatory path, the sponsor relationship as the Wise Old Man function. Dreams often produce mandala imagery in response to this structure."
+        },
+        "variations": [
+          {
+            "form": "light_experience",
+            "meaning": "Direct encounter with numinous light, warmth, or presence. The Self making itself felt.",
+            "intensity": "high"
+          },
+          {
+            "form": "guide_figure",
+            "meaning": "A wise, benevolent figure offering guidance or acceptance. The Wise Old Man/Woman: the psyche's own inner sponsor.",
+            "intensity": "high"
+          },
+          {
+            "form": "nature_revelation",
+            "meaning": "Overwhelming beauty or sacred quality in a natural landscape. The Self as it appears through nature: what was always there but the substance prevented seeing.",
+            "intensity": "high"
+          }
+        ],
+        "tags": [
+          "recovery",
+          "numinous",
+          "self"
+        ]
+      },
+      {
+        "id": "recovery_amends_dreams",
+        "name": "Amends and Guilt Dreams",
+        "description": "Dreams processing the guilt, shame, and relational damage of the addiction period. People who harmed others while using often dream of those people, sometimes for decades. These dreams are the psyche's own amends process.",
+        "jungian_analysis": {
+          "shadow": "The guilt the dreamer carries is Shadow material asking to be faced, not to punish the ego, but to integrate the full truth of what happened. Dreams of the people you harmed are the Shadow saying: 'this is real, this happened, this matters.'",
+          "integration": "Amends dreams that evolve over time (from pure guilt to genuine connection with the harmed person) track the integration of the shame. The dream doesn't forgive you. It shows you when you've begun to forgive yourself."
+        },
+        "variations": [
+          {
+            "form": "confronted_by_harmed",
+            "meaning": "People you harmed during addiction confronting you in the dream. The Shadow presenting the relational cost.",
+            "intensity": "high"
+          },
+          {
+            "form": "making_amends_in_dream",
+            "meaning": "The dreamer apologizes, repairs, or reconnects with someone harmed. The psyche rehearsing or completing the amends process.",
+            "intensity": "high"
+          },
+          {
+            "form": "forgiveness_received",
+            "meaning": "The harmed person forgives the dreamer. An integration milestone: the inner relationship with the harmed person is healing.",
+            "intensity": "high"
+          },
+          {
+            "form": "unable_to_reach",
+            "meaning": "The dreamer tries to make amends but can't reach the person: they're gone, unreachable, dead. The grief of irreparable harm.",
+            "intensity": "high"
+          }
+        ],
+        "tags": [
+          "recovery",
+          "shadow",
+          "integration"
+        ]
+      }
+    ],
+    "recovery_specific_symbols": [
+      {
+        "symbol": "The Bottle / The Substance",
+        "meaning": "The counterfeit Self: the thing that promised wholeness and delivered destruction. In dreams, the substance itself is the symbol of the false path."
+      },
+      {
+        "symbol": "The Bar / The Scene",
+        "meaning": "The old environment: not just a place but a psychic space. The bar is the temple of the addicted self. Dreaming of it is revisiting the old religion."
+      },
+      {
+        "symbol": "The Sponsor / The Meeting",
+        "meaning": "The recovery community as Wise Old Man function. The meeting as temenos: the sacred circle where transformation happens."
+      },
+      {
+        "symbol": "The Chip / The Coin",
+        "meaning": "The mandala of recovery: the circular token marking time survived, transformation achieved, the Self acknowledged."
+      },
+      {
+        "symbol": "The Blackout",
+        "meaning": "Consciousness obliterated: the ultimate ego dissolution, but counterfeit. The blackout is the nigredo without the albedo. Darkness without dawn."
+      },
+      {
+        "symbol": "Clean/Dirty",
+        "meaning": "The albedo principle in recovery language. 'Clean time' is purification. The dream distinction between clean and dirty environments tracks the psyche's self-assessment."
+      }
+    ]
+  },
+  "grief_and_loss": {
+    "description": "Dreams of the deceased, dreams of loss, and the psyche's processing of death and grief. These are among the most sacred dreams a person can have. They deserve reverence, not clinical dissection.",
+    "foundational_note": "Grief dreams are NOT just 'processing loss.' Many dreamers experience these as genuine contact with something beyond the personal unconscious, whether that is the deceased person's continued existence in the collective unconscious, the archetype of the Beloved Dead, or something that resists psychological categorization entirely. Hold space for mystery here. Not everything needs to be explained.",
+    "patterns": [
+      {
+        "id": "grief_visitation",
+        "name": "Visitation Dreams",
+        "description": "The deceased appears vivid, present, and real, often more vivid than ordinary dreams. They may communicate directly, offer comfort, or simply be present. These dreams have a distinct quality that dreamers universally recognize: 'This wasn't just a dream.'",
+        "jungian_analysis": "At minimum, visitation dreams represent the deceased as they live in the dreamer's psyche: an internalized relationship that continues to develop after death. At maximum (and Jung was open to this), they may represent something that exceeds individual psychology. The app should not reduce these dreams to psychology alone.",
+        "variations": [
+          {
+            "form": "comforting_presence",
+            "meaning": "The deceased offering reassurance: 'I'm okay,' 'don't worry,' 'I'm still here.' Whether literal or symbolic, the dreamer's psyche is working toward peace.",
+            "intensity": "high"
+          },
+          {
+            "form": "delivering_message",
+            "meaning": "The deceased has something specific to say, often something the dreamer needs to hear. The wisdom of the internalized relationship speaking.",
+            "intensity": "high"
+          },
+          {
+            "form": "younger_or_healthy",
+            "meaning": "The deceased appears young, healthy, or vibrant, free of the illness or aging that marked their final years. The psyche restoring the person to their essential self.",
+            "intensity": "high"
+          },
+          {
+            "form": "wordless_presence",
+            "meaning": "The deceased is simply there: no words, no action, just presence. Often the most powerful variation. Love beyond language.",
+            "intensity": "high"
+          }
+        ],
+        "variations_note": "The variation meanings above orient the analysis only. They are never delivered as explanations of a visitation dream; what the dream is stays with the dreamer.",
+        "app_response_guidance": {
+          "tone": "Reverence. Stillness. These dreams are sacred to the dreamer. Do not over-interpret. Do not reduce.",
+          "art_model": {
+            "acknowledge": "Honor what was shared with minimal words. 'Thank you for sharing this. It sounds like it carried a quality that's different from ordinary dreams.' Let the dreamer feel that the app recognizes the specialness of what happened.",
+            "relate": "Only if invited, and gently: 'Many people describe dreams like this, where the person who died appears more vivid and present than in ordinary dreams. Some people call them visitation dreams. Whatever we call them, they carry a weight that's worth honoring.' Do NOT reduce to psychological mechanism.",
+            "transition": "The lightest possible touch: 'What was the feeling when you woke up?' Or simply: 'This is one to sit with.' Sometimes the best transition is to silence."
+          },
+          "never_say": [
+            "This represents your internalized relationship with the deceased",
+            "Your unconscious is using their image to communicate",
+            "This is a common grief processing mechanism",
+            "This is your way of working through the loss",
+            "They're not really there; it's your memory of them"
+          ]
+        },
+        "tags": [
+          "grief",
+          "numinous",
+          "high_frequency"
+        ]
+      },
+      {
+        "id": "grief_searching",
+        "name": "Searching for the Deceased",
+        "description": "The dreamer searches for the deceased person: in crowds, in buildings, through cities. They may catch glimpses but can't reach them. The longing of grief made spatial.",
+        "jungian_analysis": "The ego seeking what it has lost in the personal unconscious. The deceased has moved from the outer world to the inner world, and the ego hasn't learned to find them there yet. Over time, these searching dreams often evolve: the search becomes shorter, the finding becomes easier, the relationship stabilizes in a new form.",
+        "tags": [
+          "grief",
+          "high_frequency"
+        ]
+      },
+      {
+        "id": "grief_alive_again",
+        "name": "The Deceased Is Alive (And You Remember They Died)",
+        "description": "The deceased is alive in the dream, but the dreamer knows they died, creating a strange, dissonant awareness. 'You're here, but I know you're dead.' This is the psyche holding both realities simultaneously: the fact of death and the continuing inner relationship.",
+        "jungian_analysis": "The transcendent function at work in grief: holding the opposites of presence and absence, life and death, without resolving either. The dream is teaching the ego that both are true: the person is dead AND the relationship continues.",
+        "tags": [
+          "grief"
+        ]
+      },
+      {
+        "id": "grief_unfinished",
+        "name": "Unfinished Business Dreams",
+        "description": "Dreams that replay or reimagine the final period: the things unsaid, the arguments unresolved, the goodbye that never happened. The psyche completing what life left incomplete.",
+        "jungian_analysis": "Active imagination through the dream. The unconscious is offering the chance to say what was never said, to hear what was never heard. These dreams are the psyche's own amends process with the dead.",
+        "variations": [
+          {
+            "form": "saying_goodbye",
+            "meaning": "The farewell that life didn't allow: the psyche providing closure that reality denied",
+            "intensity": "high"
+          },
+          {
+            "form": "argument_resolved",
+            "meaning": "The conflict that death froze is finally being processed: the relationship is still developing even after death",
+            "intensity": "high"
+          },
+          {
+            "form": "forgiveness_exchanged",
+            "meaning": "The deep work of releasing guilt and resentment that death complicated. The dream makes possible what death made impossible.",
+            "intensity": "high"
+          }
+        ],
+        "tags": [
+          "grief",
+          "integration"
+        ]
+      },
+      {
+        "id": "grief_anticipatory",
+        "name": "Anticipatory Grief Dreams",
+        "description": "Dreams about the death of someone still living: a parent, a partner, a child. These dreams process the fear of loss before it happens and often serve a preparatory function.",
+        "jungian_analysis": "The psyche rehearsing the unbearable. Compensation for the ego's refusal to face mortality. Also: sometimes these dreams are about the DEATH OF THE RELATIONSHIP rather than the death of the person: a marriage dying, a parent becoming unreachable through illness, a child leaving home.",
+        "app_response_guidance": {
+          "tone": "Gentle. These dreams are terrifying.",
+          "art_model": {
+            "acknowledge": "'Dreaming of someone you love dying: that's one of the most frightening dreams there is. The fear you felt is real, even though the dream isn't literal.'",
+            "relate": "'Dreams of death are almost always about transformation, not prediction. Your psyche may be processing a change in this relationship, not an ending, but a shift. Sometimes these dreams rehearse a fear precisely so it loses some of its rawness: the psyche practicing the unbearable in a place where it can't actually hurt anyone.'",
+            "transition": "'What's changing in your relationship with this person right now, not in a catastrophic way, but in any way?'"
+          }
+        },
+        "tags": [
+          "grief",
+          "high_frequency"
+        ]
+      }
+    ]
+  },
+  "lifespan_development": {
+    "description": "How dreams change across the arc of a life. The same symbol means different things at different ages because the developmental context shifts.",
+    "stages": [
+      {
+        "id": "lifespan_childhood",
+        "name": "Childhood Dreams (Ages 3-12)",
+        "description": "Children's dreams are often more archetypal and less personal than adult dreams: the personal unconscious hasn't accumulated enough material yet, so the collective unconscious is more directly accessible. Children dream in big images: monsters, animals, flying, falling, magic.",
+        "characteristic_patterns": [
+          "Animal dreams dominate: the child's psyche is close to instinct",
+          "Monsters and nightmares are common and NORMAL: the developing ego is encountering the Shadow for the first time",
+          "Fairy tale logic: transformation, magic, talking animals, impossible spaces",
+          "Recurring nightmares that resolve in adolescence often mark the completion of a developmental stage"
+        ],
+        "interpretation_note": "Children's dreams should be treated with particular lightness. Over-interpretation can burden a child with psychological weight they're not ready for. The app should be cautious about offering analysis for children's dreams; a parent mode might focus on reassurance and simple symbol naming rather than depth analysis."
+      },
+      {
+        "id": "lifespan_adolescence",
+        "name": "Adolescent Dreams (Ages 13-19)",
+        "description": "Adolescence is the first major individuation crisis: separating from parents, constructing a Persona, encountering sexuality, forming identity. Dreams become more personal and less purely archetypal.",
+        "characteristic_patterns": [
+          "Identity dreams: being in public without clothes, being someone else, shape-shifting",
+          "First Anima/Animus dreams: intense romantic imagery, idealization, projection",
+          "School dreams become dominant: the school as the social arena where identity is forged",
+          "Shadow encounters intensify: the adolescent is deciding what goes into the Persona and what gets exiled to the Shadow",
+          "Death dreams often represent the death of childhood: the child self dying so the adolescent can be born"
+        ]
+      },
+      {
+        "id": "lifespan_young_adult",
+        "name": "Young Adult Dreams (Ages 20-35)",
+        "description": "The first half of life: building ego, Persona, career, relationships. Dreams often center on competence, belonging, and the tension between authenticity and adaptation.",
+        "characteristic_patterns": [
+          "Performance anxiety dreams peak: exams, work failures, social embarrassments",
+          "Relationship dreams intensify: Anima/Animus projection at full force",
+          "Career/calling dreams: the psyche working on vocation and purpose",
+          "The hero archetype is most active: quest dreams, challenge dreams, journey dreams",
+          "Shadow dreams often feature the 'road not taken': the alternative life you didn't choose"
+        ]
+      },
+      {
+        "id": "lifespan_midlife",
+        "name": "Midlife Dreams (Ages 35-55)",
+        "description": "Jung's territory: the midlife transition where the values of the first half of life become insufficient and the second half demands something different. Dreams become deeper, more symbolic, more archetypal. This is where individuation typically accelerates.",
+        "characteristic_patterns": [
+          "The unlived life returns: dreams of the person you didn't become, the path you didn't take",
+          "Death-rebirth dreams intensify: the first-half-of-life identity is dying",
+          "Anima/Animus encounters deepen: moving from projection to integration",
+          "Shadow material that was manageable in youth becomes urgent: what was repressed demands attention",
+          "Self imagery begins to appear: mandalas, numinous experiences, wholeness symbols",
+          "Dreams of descent (basements, caves, underwater): the psyche demanding depth",
+          "The Puer/Senex collision: the tension between remaining young and accepting age"
+        ],
+        "jung_note": "Jung wrote that the problems of the second half of life cannot be solved with the solutions of the first half. Midlife dreams often feature the collapse of previously successful strategies: the approach that worked at 25 is failing at 45. This isn't failure. It's individuation."
+      },
+      {
+        "id": "lifespan_elder",
+        "name": "Elder Dreams (Ages 55+)",
+        "description": "Dreams in the later years often become simpler, clearer, and more directly related to the Self. The ego has less to prove. The Persona loosens. The relationship between consciousness and the unconscious, refined over decades, produces dreams of remarkable clarity.",
+        "characteristic_patterns": [
+          "Life review dreams: scenes from the entire life appearing for final integration",
+          "Dreams of the deceased increase: the boundary between living and dead becomes more permeable",
+          "Mandala and wholeness imagery may reach its fullest expression",
+          "Dreams become less anxious: the ego has less to defend",
+          "Preparation dreams: the psyche preparing for the final threshold in its own symbolic language",
+          "Legacy dreams: what you're leaving behind, what continues after you",
+          "The garden: the cultivated inner life, the harvest of a life's work"
+        ],
+        "interpretation_note": "Elder dreams deserve particular respect. The person has been dreaming for 60+ years. Their dream vocabulary is rich and individual. The app should be especially humble with elder dreamers: they may know more about their own symbolic language than any external framework can teach."
+      }
+    ]
+  },
+  "relationship_dynamics": {
+    "description": "Dreams about relationship dynamics: the most common category of dreams people bring to analysis. The key Jungian principle: the dream figure of your partner is usually NOT about your partner. It's about what your partner CARRIES for you: the Anima/Animus projection, the Shadow quality, the complex they activate.",
+    "patterns": [
+      {
+        "id": "rel_infidelity_dream",
+        "name": "Partner Infidelity Dreams",
+        "description": "Dreams that your partner is cheating, betraying, or being unfaithful. Among the most distressing common dreams, and almost never about actual infidelity.",
+        "jungian_analysis": "The dream is usually about a quality your partner carries for you that is now 'going elsewhere': attention, energy, intimacy, or a projection being withdrawn. Sometimes it reflects the dreamer's own 'infidelity': psychic energy being invested somewhere new (a project, a friendship, a change) that the relationship-self experiences as betrayal. It can also represent the Anima/Animus withdrawing its projection from the partner, which feels like loss but is actually growth.",
+        "app_response_guidance": {
+          "critical": "NEVER suggest the dream might reflect actual infidelity.",
+          "art_model": {
+            "acknowledge": "'Dreaming of a partner's infidelity is one of the most distressing common dreams, and the feelings it produces are real, even if the scenario isn't.'",
+            "relate": "'These dreams are rarely about the partner and almost never predictive. They often surface when something in the emotional dynamics of the relationship is shifting: energy moving, attention changing, or a part of yourself that feels abandoned. The betrayal in the dream is usually about an internal shift, not an external one.'",
+            "transition": "'Where in your relationship (or in your own inner life) does something feel like it's being redirected right now?'"
+          }
+        },
+        "tags": [
+          "relationship",
+          "high_frequency",
+          "sensitive"
+        ]
+      },
+      {
+        "id": "rel_ex_partner",
+        "name": "Ex-Partner Dreams",
+        "description": "Dreams featuring former partners, often years or decades after the relationship ended. These dreams persist not because you still want the ex, but because the ex carries a psychological charge that remains unresolved.",
+        "jungian_analysis": "The ex-partner in a dream represents the Anima/Animus projection that was active during that relationship. If the projection was never consciously withdrawn (never understood as YOUR content carried by THEM), it continues to operate in the unconscious. The ex keeps appearing until the dreamer reclaims the projection: 'What quality did they carry for me that I need to develop in myself?'",
+        "variations": [
+          {
+            "form": "romantic_reunion",
+            "meaning": "The psyche revisiting the Anima/Animus projection: not nostalgia for the person but longing for the quality they represented",
+            "intensity": "medium"
+          },
+          {
+            "form": "conflict_with_ex",
+            "meaning": "Unresolved Shadow material from the relationship: the fight you never finished, the truth you never spoke",
+            "intensity": "medium"
+          },
+          {
+            "form": "ex_transformed",
+            "meaning": "The ex appearing differently than in life: younger, older, kinder, stranger. The psyche's image of them has evolved beyond the actual person.",
+            "intensity": "medium"
+          },
+          {
+            "form": "ex_with_new_partner",
+            "meaning": "The projected quality has moved on: the Anima/Animus has found a new carrier. Can feel like loss but indicates the projection is loosening.",
+            "intensity": "medium"
+          }
+        ],
+        "tags": [
+          "relationship",
+          "high_frequency"
+        ]
+      },
+      {
+        "id": "rel_parent_dreams",
+        "name": "Parent Dreams",
+        "description": "Dreams featuring parents: the most complex-laden dreams in the repertoire. Your dream parents are almost always the COMPLEX (mother complex, father complex) rather than the actual parent.",
+        "jungian_analysis": "At the subject level, dream parents represent the parental FUNCTION in your own psyche: your inner mother (nurturing, holding, devouring) and inner father (authority, structure, judgment). What the dream parent DOES often shows what the complex is doing. A dream mother who won't let you leave can read as the mother complex holding you in dependency; a dream father who judges you, as the father complex generating self-criticism.",
+        "variations": [
+          {
+            "form": "parent_as_younger",
+            "meaning": "Encountering the parent before they became your parent: the human behind the role. Beginning to see them as a person rather than a complex.",
+            "intensity": "high"
+          },
+          {
+            "form": "parent_in_danger",
+            "meaning": "The parental function in your psyche is threatened: your capacity to nurture yourself (mother) or direct yourself (father) is at risk",
+            "intensity": "high"
+          },
+          {
+            "form": "role_reversal",
+            "meaning": "You're parenting your parent: the complex is being consciously managed rather than managing you. A significant developmental shift.",
+            "intensity": "high"
+          },
+          {
+            "form": "parent_approving",
+            "meaning": "The internalized parent-voice offering acceptance. If this is new, it's an integration milestone: the critical complex is softening.",
+            "intensity": "high"
+          }
+        ],
+        "tags": [
+          "relationship",
+          "complex",
+          "foundational"
+        ]
+      },
+      {
+        "id": "rel_merging_dreams",
+        "name": "Merging / Boundary Loss Dreams",
+        "description": "Dreams of merging with another person: becoming them, absorbing them, losing the boundary between self and other. The dream expression of participation mystique.",
+        "jungian_analysis": "Merging dreams signal boundary confusion: the ego isn't differentiating itself from an important other. In early love, this is normal (the Anima/Animus projection creates temporary merger). In established relationships, it can point to enmeshment; in a therapeutic relationship, to transference. The invitation is differentiation: where do I end and you begin?",
+        "tags": [
+          "relationship",
+          "participation_mystique"
+        ]
+      },
+      {
+        "id": "rel_abandoned_dreams",
+        "name": "Abandonment Dreams",
+        "description": "Dreams of being left, abandoned, forgotten, or replaced. The relational wound made visible.",
+        "jungian_analysis": "Abandonment dreams activate the deepest relational complex: the fear that connection is temporary and withdrawal is inevitable. At the subject level: a part of yourself is being abandoned by another part. Often the Persona is abandoning the authentic self, or the ego is abandoning the Shadow. Ask: what part of me is being left behind?",
+        "tags": [
+          "relationship",
+          "complex",
+          "high_frequency"
+        ]
+      },
+      {
+        "id": "rel_wedding_dream",
+        "name": "Wedding / Sacred Marriage Dreams",
+        "description": "Dreams of weddings, unions, or sacred marriages: the coniunctio in its most direct form. Not necessarily about literal marriage.",
+        "jungian_analysis": "The wedding dream is the coniunctio: the union of opposites. When Anima/Animus integration is progressing, the psyche often produces wedding imagery: the inner masculine and feminine are coming together. This is individuation's signature event. Sometimes the dream is about a SPECIFIC integration: conscious and unconscious, thinking and feeling, Persona and Shadow.",
+        "variations": [
+          {
+            "form": "joyful_wedding",
+            "meaning": "The coniunctio is proceeding: opposites are uniting, integration is being celebrated",
+            "intensity": "high"
+          },
+          {
+            "form": "disrupted_wedding",
+            "meaning": "Something is preventing the integration: a complex, a fear, an unresolved piece of Shadow work",
+            "intensity": "high"
+          },
+          {
+            "form": "unknown_partner",
+            "meaning": "Marrying someone you don't recognize: the union is with an unconscious aspect of yourself, not yet identified",
+            "intensity": "high"
+          },
+          {
+            "form": "wrong_partner",
+            "meaning": "The integration is being directed toward the wrong content: a projection that hasn't been recognized as projection",
+            "intensity": "medium"
+          }
+        ],
+        "tags": [
+          "relationship",
+          "self",
+          "coniunctio"
+        ]
+      }
+    ]
+  },
+  "lucid_dreaming": {
+    "definition": "A dream in which the dreamer becomes aware they are dreaming while the dream continues. The ego wakes up inside the dream without waking up from it. Lucidity exists on a spectrum, from a momentary flash of 'wait, this is a dream' to full sustained awareness with the ability to make choices within the dream.",
+    "jungian_perspective": {
+      "description": "Jung himself said little about lucid dreaming directly. But the phenomenon maps precisely onto the ego-Self axis: in a lucid dream, the ego is conscious WITHIN the unconscious. This is Master of Two Worlds in miniature: consciousness operating in the territory of the unconscious without destroying it. Lucidity is not about controlling the dream. It's about being PRESENT in it.",
+      "key_insight": "The Jungian approach to lucid dreaming differs fundamentally from the popular approach. Popular lucid dreaming culture emphasizes CONTROL: fly, create, manipulate the dream world. The depth psychology approach emphasizes PRESENCE and DIALOGUE: be awake in the dream so you can ENGAGE with what the unconscious is presenting, not override it.",
+      "important_distinction": "Controlling a dream is not the same as being conscious in one. Control can actually block the unconscious from delivering its message. The depth psychology approach: become lucid, then LISTEN. Ask the dream: what do you want to show me? Then let the dream lead."
+    },
+    "levels_of_lucidity": [
+      {
+        "level": 1,
+        "name": "Pre-Lucid Awareness",
+        "description": "The dreamer notices something is 'off' (impossible physics, a dead person alive, a familiar place looking wrong) but doesn't quite reach the conclusion 'I'm dreaming.' The ego is ALMOST awake.",
+        "significance": "The ego-Self axis is strengthening. Consciousness is beginning to extend into the dream territory. Often increases with sustained dream journaling.",
+        "plain_language": "You noticed something weird in the dream but didn't quite realize you were dreaming. That's your awareness sharpening: dream work is making you more conscious even in your sleep."
+      },
+      {
+        "level": 2,
+        "name": "Momentary Lucidity",
+        "description": "A flash of 'this is a dream!' that lasts seconds before the dream absorbs the ego back into its narrative. Like surfacing for a breath before going back under.",
+        "significance": "The ego touched the lucid state but couldn't sustain it. The unconscious pull is still stronger than the conscious presence. These moments often increase in duration with practice.",
+        "plain_language": "You realized you were dreaming for a moment, then got pulled back in. That moment matters: it's your consciousness getting stronger inside the dream."
+      },
+      {
+        "level": 3,
+        "name": "Sustained Lucidity",
+        "description": "The dreamer knows they're dreaming and maintains that awareness for an extended period. They can make choices (where to go, who to talk to, what to explore) while the dream environment continues to operate autonomously.",
+        "significance": "The ego-Self axis is functional within the dream. This is the state where active imagination happens spontaneously: the dreamer can dialogue with dream figures, explore symbols, and receive guidance while maintaining conscious awareness.",
+        "plain_language": "You knew you were dreaming and stayed aware. You could choose what to do while the dream kept going on its own. This is where the deepest dream work happens."
+      },
+      {
+        "level": 4,
+        "name": "Lucid Witnessing",
+        "description": "The dreamer is aware they're dreaming AND aware of themselves as the awareness behind the dream. A non-dual state where the distinction between dreamer and dream begins to dissolve, not into unconsciousness but into a wider consciousness that holds both.",
+        "significance": "This is the Self witnessing its own creative activity. Extremely rare. Often accompanied by numinous feeling. In Buddhist and Hindu dream yoga traditions, this is the goal of practice.",
+        "plain_language": "You weren't just aware you were dreaming; you were aware of the awareness itself. Like watching yourself watch the dream. This is rare and profound."
+      }
+    ],
+    "practices_for_lucidity": [
+      {
+        "name": "Dream Journaling Itself",
+        "description": "The single most effective lucidity practice is sustained dream journaling. Writing down dreams trains the mind to pay attention to dream content, which increases the probability of recognizing the dream state while in it.",
+        "plain_language": "The best way to become lucid in dreams is exactly what you're already doing: recording them. The attention you give your dreams during the day makes you more attentive to them at night."
+      },
+      {
+        "name": "Reality Testing",
+        "description": "Periodically during waking life, ask: 'Am I dreaming right now?' and actually check (look at text, check the time, try to push a finger through your palm). The habit carries into dream life.",
+        "plain_language": "A few times a day, seriously ask yourself: am I dreaming? Check for dream signs: weird text, impossible physics. The habit eventually triggers inside an actual dream."
+      },
+      {
+        "name": "MILD (Mnemonic Induction)",
+        "description": "As you fall asleep, repeat an intention: 'The next time I'm dreaming, I will realize I'm dreaming.' Pair with visualization of becoming lucid in a recent dream.",
+        "plain_language": "As you fall asleep, set an intention: 'I'll notice when I'm dreaming.' Picture yourself in a recent dream and imagine the moment of realizing it was a dream."
+      },
+      {
+        "name": "Dream Sign Recognition",
+        "description": "Review your dream journal for recurring impossible elements: flying, dead people alive, impossible architecture. These are YOUR specific dream signs. Recognizing them is the most personalized path to lucidity.",
+        "plain_language": "Look through your past dreams for things that couldn't happen in waking life. Those are your personal 'dream signs.' Learning to spot them is the most direct path to lucidity because they're specific to YOUR dreams."
+      }
+    ],
+    "what_to_do_when_lucid": {
+      "jungian_approach": [
+        "Don't immediately try to control the dream. Pause. Look around. Notice what the dream has been presenting.",
+        "Ask the dream itself: 'What do you want to show me?' Then wait.",
+        "If a figure is present, speak to them: 'Who are you? What do you represent? What do I need to know?'",
+        "If a symbol is present, approach it with curiosity rather than manipulation.",
+        "If you feel fear, you can choose to face it consciously. Lucid nightmares can be powerful openings for Shadow work. (If the frightening content replays something that really happened to you, waking up or turning away is the right move; that material belongs with trauma-trained support.)",
+        "If the dream offers something (an object, a message, a direction), accept it.",
+        "Remember: the unconscious created this dream for a reason. Lucidity means you can PARTICIPATE in its purpose, not override it."
+      ],
+      "plain_language": "When you realize you're dreaming, resist the urge to take control. Instead, get curious. Ask the dream what it wants you to see. Talk to the characters. Approach the scary things. The dream was already doing important work; lucidity lets you participate in it consciously."
+    },
+    "app_relevance": "Lucid dreaming is a natural evolution of sustained dream journaling. The app should track pre-lucid and lucid moments as milestones and offer the practices above as optional progression. But the framing should always be: lucidity serves depth, not entertainment.",
+    "depth_tier": 2,
+    "tags": [
+      "dream_type",
+      "practice",
+      "foundational"
+    ]
+  },
+  "nightmares": {
+    "definition": "Dreams that produce significant fear, distress, or terror, often waking the dreamer. Nightmares are NOT pathological. They are the psyche's most URGENT communication: the unconscious shouting because whispering wasn't heard.",
+    "jungian_perspective": {
+      "core_principle": "Nightmares are the most important dreams a person can have. They are the psyche's emergency broadcast system. With symbolic nightmares, the intensity of the fear often tracks the importance of the message: the psyche raising its voice after gentler channels (mild dreams, moods, intuitions) went unheard.",
+      "shadow_dimension": "Most nightmares are Shadow confrontations at maximum intensity. The nightmare figure (the monster, the intruder, the pursuer) is carrying Shadow material that has become so compressed and autonomous that it has to break through the ego's defenses by force.",
+      "not_pathology": "Nightmares in adults are normal and necessary. The clinical threshold where nightmares become disordered (Nightmare Disorder in DSM-5) involves frequency, intensity, and functional impairment beyond normal range. The app should NEVER diagnose Nightmare Disorder. It should treat nightmares as valuable communications."
+    },
+    "nightmare_types": [
+      {
+        "id": "nightmare_pursuit",
+        "name": "Pursuit Nightmares",
+        "description": "Being chased by something terrifying. The most common nightmare type. The pursuer is the Shadow demanding attention.",
+        "approach": "The single most transformative thing a dreamer can do with a pursuit nightmare: stop running. In active imagination, return to the dream and face the pursuer. Ask: what do you want? What the pursuer wants is almost never what the ego fears. It wants to be SEEN.",
+        "plain_language": "When something chases you in a dream, it's often because something in your inner life is asking for attention, often something that's been easier to avoid. The power of this nightmare tends to break the moment you stop running and ask: what do you want?"
+      },
+      {
+        "id": "nightmare_helplessness",
+        "name": "Helplessness Nightmares",
+        "description": "Being unable to act: paralyzed, voiceless, trapped, powerless while something terrible happens. The ego's agency is completely suspended.",
+        "approach": "These nightmares often reflect a waking-life situation where the dreamer feels powerless but hasn't consciously acknowledged it. The nightmare makes the helplessness literal. The therapeutic question isn't 'how do I stop this dream?' but 'where in my waking life do I feel this powerless?'",
+        "plain_language": "Dreams where you can't move, can't speak, can't act: they usually mirror a waking-life situation where you feel powerless but haven't named it yet. The dream is making the feeling visible so you can address it."
+      },
+      {
+        "id": "nightmare_annihilation",
+        "name": "Annihilation / Apocalypse Nightmares",
+        "description": "The world ending, everything destroyed, total catastrophe. The ego's entire framework collapsing.",
+        "approach": "Annihilation nightmares often accompany major identity transitions: the ego's current world IS ending. Not the outer world, but the inner one. The apocalypse is the nigredo: total destruction before new creation. These nightmares are terrifying AND meaningful. The question: what in your life is ending that your ego doesn't want to release?",
+        "plain_language": "World-ending dreams usually mean YOUR world is changing: an identity, a relationship, a way of life is ending. The terror is real, but so is the transformation on the other side."
+      },
+      {
+        "id": "nightmare_exposure",
+        "name": "Exposure / Shame Nightmares",
+        "description": "Being seen, caught, exposed, humiliated. The Persona stripped in public. Secrets revealed.",
+        "approach": "These nightmares reveal the gap between who you ARE and who you PRESENT. The shame is the ego's terror at being seen without its mask. The therapeutic question: what would actually happen if people saw the real you? Often the answer is: far less catastrophic than the nightmare suggests.",
+        "plain_language": "Dreams of being exposed or humiliated reflect the gap between your public self and your real self. The nightmare exaggerates the danger: what would actually happen if people saw the real you?"
+      },
+      {
+        "id": "nightmare_vs_trauma",
+        "name": "Nightmares vs. Trauma Flashbacks",
+        "description": "CRITICAL DISTINCTION: Ordinary nightmares are SYMBOLIC; they use frightening imagery to communicate important psychological content. Trauma flashbacks in dreams are LITERAL: they replay the actual traumatic event with rigid fidelity, without symbolic transformation. The two require fundamentally different responses.",
+        "distinguishing_features": {
+          "symbolic_nightmare": "Novel imagery, dream logic, symbolic content, the scenario changes in retelling, the dreamer can engage with the content therapeutically",
+          "trauma_flashback": "Exact or near-exact replay of the traumatic event, rigid repetition with little variation, the dreamer feels re-traumatized rather than informed, the content doesn't respond to interpretation",
+          "critical_note": "If the app detects possible trauma flashback content (exact replay of a described traumatic event, rigid repetition of identical content, the dreamer reporting re-traumatization rather than insight), it should pause analysis and suggest trauma-specialized professional support. Trauma processing requires specialized clinical methods (EMDR, somatic experiencing, trauma-focused CBT) that a journaling app cannot and should not attempt."
+        },
+        "plain_language": "There's an important difference between a nightmare (which uses scary imagery to tell you something important) and a trauma flashback in a dream (which replays something that actually happened to you). Nightmares benefit from the kind of exploration we do here. Trauma flashbacks often need a different kind of support: a therapist trained in trauma work."
+      }
+    ],
+    "working_with_nightmares": {
+      "principles": [
+        "With symbolic nightmares, the goal is engagement rather than suppression. They're doing important work. (Trauma-replay nightmares are the exception: reducing those is legitimate clinical care, see principle 5.)",
+        "For symbolic nightmares, intensity often tracks the urgency of the message.",
+        "The nightmare's power often breaks the moment it's shared: speaking it aloud (which the app facilitates) begins the integration.",
+        "Active imagination with nightmare figures is the most powerful practice available. Return to the dream while awake and FACE what you ran from.",
+        "Nightmares that respond to engagement (changing, evolving, resolving over dream series) are processing successfully. Nightmares that repeat identically without change may be trauma flashbacks requiring professional support."
+      ],
+      "plain_language": "Nightmares are often your psyche's most urgent messages. Speaking them aloud, facing the figures in imagination, asking what they want: that's usually where their power starts to break. One exception matters. If a nightmare replays something that actually happened to you, that's different territory, and it deserves support from someone trained in trauma work rather than exploration here."
+    },
+    "depth_tier": 1,
+    "tags": [
+      "dream_type",
+      "foundational",
+      "critical"
+    ]
+  },
+  "recurring_dreams": {
+    "definition": "Dreams that repeat the same or very similar content over weeks, months, years, or even decades. The psyche keeps producing the same dream because the message hasn't been received. The recurring dream is the unconscious on repeat, playing the same track until someone listens.",
+    "jungian_perspective": {
+      "core_principle": "A recurring dream is the unconscious saying: 'This. THIS. I've been telling you THIS for twenty years and you still haven't heard me.' The repetition is not dysfunction; it's persistence. The unconscious will keep sending the message until it's received.",
+      "circumambulation": "Recurring dreams are circumambulation at its most compressed: the spiral reduced to a single point that the psyche orbits around, waiting for the ego to notice the center.",
+      "complex": "Recurring dreams almost always point to a COMPLEX: an emotionally charged pattern that hasn't been made conscious. The dream recurs because the complex is still autonomous, still running the same program."
+    },
+    "analysis_approach": {
+      "step_1": "Document every occurrence. When did it first appear? How frequently does it recur? What was happening in your life when it started?",
+      "step_2": "Note variations. Truly recurring dreams evolve subtly: the house has a new room, the water is slightly clearer, the pursuer is slightly less threatening. These variations ARE the individuation track.",
+      "step_3": "Identify the emotional core. Strip away the narrative. What is the FEELING? That feeling is the complex's signature.",
+      "step_4": "Ask: what changed when the dream changed? If the recurring dream shifted (even slightly), what happened in waking life around that time? The correlation reveals the complex.",
+      "step_5": "First check the pattern: a dream that repeats with subtle variations is symbolic material; a dream that replays a real event identically, without variation, may be trauma replay and belongs with a trauma-trained professional, not this practice. For the symbolic kind: active imagination with the recurring image. Don't wait for the dream. Enter it while awake and engage directly with the central image or figure.",
+      "step_6": "Track cessation. When a recurring dream STOPS, that's an integration milestone. The message was received. The complex has lost some of its autonomy."
+    },
+    "common_recurring_dreams": [
+      {
+        "dream": "The school dream: back in school, unprepared for an exam, can't find the classroom",
+        "typical_complex": "Performance anxiety rooted in early developmental period. The school represents the period when the complex was formed.",
+        "resolution_path": "Often resolves when the dreamer consciously addresses the competence anxiety the dream carries, recognizing that they are no longer the student who feared failing."
+      },
+      {
+        "dream": "The house dream: the same house appearing repeatedly, often with evolving details",
+        "typical_complex": "The psyche's self-image. Changes in the house track changes in the personality. The recurring house is your psyche's portrait of itself.",
+        "resolution_path": "Doesn't typically 'resolve'; it evolves. Track the changes. They ARE the individuation."
+      },
+      {
+        "dream": "The pursuit dream: being chased by the same figure or type of figure repeatedly",
+        "typical_complex": "Shadow material that hasn't been confronted. The pursuer is the same because the Shadow content is the same.",
+        "resolution_path": "Resolves when the dreamer turns to face the pursuer, either in the dream (spontaneous lucidity) or in active imagination."
+      },
+      {
+        "dream": "The using dream: using substances in the dream (specific to recovery)",
+        "typical_complex": "The addicted self in the Shadow, still active, still autonomous. See recovery dream patterns.",
+        "resolution_path": "Evolves with sustained recovery. Often shifts from euphoric using to choosing not to use."
+      },
+      {
+        "dream": "The transportation dream: missing buses, trains, flights; driving out of control; vehicles that won't start",
+        "typical_complex": "Direction and agency anxiety: the ego's relationship to its own trajectory through life.",
+        "resolution_path": "Often resolves when the dreamer takes decisive action in the waking-life area the dream points to."
+      }
+    ],
+    "app_relevance": "Recurring dreams are the app's highest-value tracking target. The ability to say 'this dream has appeared 12 times over 18 months: here's how it's evolved' is something no human journal can match. The app should automatically detect recurring themes and flag their evolution.",
+    "depth_tier": 1,
+    "plain_language": "A dream that keeps coming back is often your psyche repeating a message that hasn't fully landed yet. The repetition isn't a problem; it's persistence. And even repeating dreams change in subtle ways over time. Those changes are the most valuable data in your entire journal.",
+    "tags": [
+      "dream_type",
+      "foundational",
+      "high_frequency"
+    ]
+  }
+}

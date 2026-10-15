@@ -1,0 +1,934 @@
+{
+  "schema_version": "1.0",
+  "layer": "frameworks",
+  "description": "Narrative frameworks structured as stage sequences with psychological function annotations. All descriptions in original language — never reproducing copyrighted prose.",
+  "frameworks": [
+    {
+      "id": "campbell_monomyth",
+      "name": "The Monomyth (Hero's Journey)",
+      "author": "Joseph Campbell",
+      "source_work": "The Hero with a Thousand Faces",
+      "year": 1949,
+      "copyright_note": "All Campbell works under copyright until 2057+. 'The Hero's Journey' is a registered trademark of the Joseph Campbell Foundation. Stages described in original language.",
+      "description": "The universal mythological pattern Campbell identified across world cultures: departure from the known world, initiation through trials, and return transformed. Campbell argued this structure reflects the process of psychological transformation: the hero's outer journey mirrors the psyche's inner journey toward wholeness.",
+      "total_stages": 17,
+      "acts": [
+        {
+          "name": "Departure",
+          "stages": [
+            {
+              "position": 1,
+              "id": "call_to_adventure",
+              "name": "The Call to Adventure",
+              "description": "Something disrupts the ordinary world. An event, a message, a crisis, or a growing sense that the current life is no longer sufficient.",
+              "psychological_function": "The psyche signaling that the current adaptation is inadequate. Individuation announcing itself.",
+              "jungian_concepts": [
+                "individuation",
+                "compensation"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "refusal_of_call",
+              "name": "Refusal of the Call",
+              "description": "The hero hesitates, resists, or outright refuses. Fear of the unknown, attachment to the familiar, doubt about readiness.",
+              "psychological_function": "The ego's natural resistance to transformation. Legitimate fear: individuation costs something real.",
+              "jungian_concepts": [
+                "ego",
+                "persona",
+                "shadow"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "meeting_mentor",
+              "name": "Supernatural Aid",
+              "description": "Once the call is answered, a protective figure or unexpected aid appears: wisdom, tools, or the confidence to proceed. The helper doesn't take the journey for the hero.",
+              "psychological_function": "The Wise Old Man/Woman archetype activating: the psyche's deeper wisdom offering resources for the journey ahead.",
+              "jungian_concepts": [
+                "wise_old_man",
+                "self"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "crossing_threshold",
+              "name": "Crossing the First Threshold",
+              "description": "The hero commits. The boundary between known and unknown is crossed. There's no going back to the way things were.",
+              "psychological_function": "The ego leaves the Persona's territory and enters the unconscious. The point of no return in individuation.",
+              "jungian_concepts": [
+                "ego",
+                "persona",
+                "individuation"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "belly_of_whale",
+              "name": "Belly of the Whale",
+              "description": "Total immersion in the unknown. The hero is swallowed by the adventure, consumed by the transformation process rather than directing it.",
+              "psychological_function": "Ego dissolution. The hero must die to the old self before the new can emerge. The alchemical nigredo.",
+              "jungian_concepts": [
+                "ego",
+                "great_mother",
+                "individuation"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiation",
+          "stages": [
+            {
+              "position": 6,
+              "id": "road_of_trials",
+              "name": "The Road of Trials",
+              "description": "A series of tests, tasks, and ordeals. The hero fails, learns, grows, and develops new capacities through encounter with the unknown.",
+              "psychological_function": "The ego building new capacities through engagement with unconscious content. Each trial integrates a piece of Shadow or develops a dormant function.",
+              "jungian_concepts": [
+                "shadow",
+                "integration",
+                "hero"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "meeting_goddess",
+              "name": "Meeting with the Goddess",
+              "description": "Encounter with the source of unconditional love, the life-giving feminine, the beauty at the heart of existence. The reward for enduring the trials.",
+              "psychological_function": "The Anima encounter: meeting the inner feminine, the soul image, the source of meaning and eros.",
+              "jungian_concepts": [
+                "anima_animus",
+                "great_mother",
+                "self"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "temptation",
+              "name": "Woman as the Temptress",
+              "description": "Temptation to abandon the quest: the pull toward comfort, pleasure, or distraction that would halt transformation. Despite the gendered name, this is about any seduction away from the path.",
+              "psychological_function": "The pull of regression: the desire to return to unconsciousness, to stop the painful work of individuation.",
+              "jungian_concepts": [
+                "anima_animus",
+                "mother",
+                "ego"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "atonement_father",
+              "name": "Atonement with the Father",
+              "description": "Confrontation with the ultimate authority figure, the power that controls the hero's life. The hero must understand, integrate, or transcend this power.",
+              "psychological_function": "Confrontation with the Senex, the ruling principle of the old order. The ego reckons with the internal authority it has been obeying or rebelling against.",
+              "jungian_concepts": [
+                "senex",
+                "shadow",
+                "ego",
+                "individuation"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "apotheosis",
+              "name": "Apotheosis",
+              "description": "A period of divine rest, clarity, or elevation. The hero achieves a godlike perspective, seeing the larger pattern from above.",
+              "psychological_function": "Ego-Self union: a temporary experience of wholeness, the ego glimpsing the Self. The mandala experience.",
+              "jungian_concepts": [
+                "self",
+                "individuation"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "ultimate_boon",
+              "name": "The Ultimate Boon",
+              "description": "The hero receives the treasure: the grail, the elixir, the knowledge, the power that was the goal of the quest.",
+              "psychological_function": "The insight, capacity, or wholeness that individuation was seeking. Not a thing but a state: a new relationship between ego and Self.",
+              "jungian_concepts": [
+                "self",
+                "integration",
+                "individuation"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Return",
+          "stages": [
+            {
+              "position": 12,
+              "id": "refusal_return",
+              "name": "Refusal of the Return",
+              "description": "The hero resists returning to the ordinary world. Why go back to mundane life when you've touched the transcendent?",
+              "psychological_function": "Inflation risk: the ego wanting to stay in the numinous experience rather than integrating it into ordinary life.",
+              "jungian_concepts": [
+                "ego",
+                "self",
+                "puer_aeternus"
+              ]
+            },
+            {
+              "position": 13,
+              "id": "magic_flight",
+              "name": "The Magic Flight",
+              "description": "The escape or journey back: sometimes pursued, sometimes aided, always urgent. The boon must be brought home.",
+              "psychological_function": "The urgency of integration: the insight must be grounded in lived reality before it fades.",
+              "jungian_concepts": [
+                "ego",
+                "integration"
+              ]
+            },
+            {
+              "position": 14,
+              "id": "rescue_without",
+              "name": "Rescue from Without",
+              "description": "Sometimes the hero can't make it back alone. Help arrives from the ordinary world to bring the hero home.",
+              "psychological_function": "The outer world (relationships, responsibilities, community) pulling consciousness back from immersion in the unconscious.",
+              "jungian_concepts": [
+                "ego",
+                "persona",
+                "wise_old_man"
+              ]
+            },
+            {
+              "position": 15,
+              "id": "crossing_return_threshold",
+              "name": "The Crossing of the Return Threshold",
+              "description": "The hero carries the boon back across the threshold, and the two worlds collide. What was won in the depths must survive translation into daily life.",
+              "psychological_function": "Integration's hardest step: transformed consciousness re-entering ordinary adaptation without losing what was gained.",
+              "jungian_concepts": [
+                "integration",
+                "individuation",
+                "persona"
+              ]
+            },
+            {
+              "position": 16,
+              "id": "master_two_worlds",
+              "name": "Master of the Two Worlds",
+              "description": "The hero can move freely between the ordinary world and the special world. The threshold is no longer a barrier.",
+              "psychological_function": "The ego-Self axis is established. Consciousness can access the unconscious without being overwhelmed by it. The transcendent function is operational.",
+              "jungian_concepts": [
+                "self",
+                "ego",
+                "individuation",
+                "integration"
+              ]
+            },
+            {
+              "position": 17,
+              "id": "freedom_to_live",
+              "name": "Freedom to Live",
+              "description": "Liberation from the fear of death: not physical death, but the death of identity, of the old self. The hero lives fully because they no longer cling to a fixed identity.",
+              "psychological_function": "Individuation achieved (provisionally): the ego serves the Self, identity is fluid, and life is lived from wholeness rather than defense.",
+              "jungian_concepts": [
+                "self",
+                "individuation",
+                "ego"
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "mythological",
+        "foundational",
+        "universal"
+      ]
+    },
+    {
+      "id": "vogler_writers_journey",
+      "name": "The Writer's Journey",
+      "author": "Christopher Vogler",
+      "source_work": "The Writer's Journey: Mythic Structure for Writers",
+      "year": 1992,
+      "copyright_note": "Under copyright. Vogler's adaptation of Campbell for screenwriting. Stages described in original language.",
+      "description": "Vogler distilled Campbell's 17 stages into 12, specifically for screenwriters. More practical and accessible than Campbell, it became the dominant story structure framework in Hollywood. Vogler explicitly acknowledged the Jungian psychological dimension.",
+      "total_stages": 12,
+      "acts": [
+        {
+          "name": "Act One — Separation",
+          "stages": [
+            {
+              "position": 1,
+              "id": "v_ordinary_world",
+              "name": "Ordinary World",
+              "description": "The hero's normal life before the story begins. Establishes what's at stake.",
+              "psychological_function": "Persona territory: adapted life, visible limitations.",
+              "jungian_concepts": [
+                "persona",
+                "ego"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "v_call_to_adventure",
+              "name": "Call to Adventure",
+              "description": "A challenge, opportunity, or problem disrupts the ordinary world.",
+              "psychological_function": "Compensation: the unconscious demanding change.",
+              "jungian_concepts": [
+                "individuation",
+                "compensation"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "v_refusal",
+              "name": "Refusal of the Call",
+              "description": "The hero hesitates or expresses reluctance.",
+              "psychological_function": "Ego resistance to transformation.",
+              "jungian_concepts": [
+                "ego",
+                "persona"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "v_mentor",
+              "name": "Meeting with the Mentor",
+              "description": "The hero encounters a guide who provides advice, training, or a crucial gift.",
+              "psychological_function": "Wise Old Man/Woman archetype activating.",
+              "jungian_concepts": [
+                "wise_old_man"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "v_crossing",
+              "name": "Crossing the First Threshold",
+              "description": "The hero commits to the adventure and enters the Special World.",
+              "psychological_function": "Ego enters unconscious territory.",
+              "jungian_concepts": [
+                "ego",
+                "individuation"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Act Two — Descent / Initiation",
+          "stages": [
+            {
+              "position": 6,
+              "id": "v_tests",
+              "name": "Tests, Allies, Enemies",
+              "description": "The hero navigates the Special World, making allies, confronting enemies, learning the rules.",
+              "psychological_function": "Ego orienting in unconscious territory, encountering Shadow projections, finding inner resources.",
+              "jungian_concepts": [
+                "shadow",
+                "projection",
+                "hero"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "v_innermost_cave",
+              "name": "Approach to the Inmost Cave",
+              "description": "Preparation for the central ordeal. The hero approaches the most dangerous place.",
+              "psychological_function": "Approaching the core complex, the deepest Shadow material, the thing most feared.",
+              "jungian_concepts": [
+                "shadow",
+                "complexes"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "v_ordeal",
+              "name": "The Ordeal",
+              "description": "The central crisis: a life-or-death struggle, the hero's darkest moment.",
+              "psychological_function": "Shadow confrontation at its most intense. Ego death and rebirth.",
+              "jungian_concepts": [
+                "shadow",
+                "individuation",
+                "enantiodromia"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "v_reward",
+              "name": "Reward (Seizing the Sword)",
+              "description": "The hero survives the ordeal and takes possession of the treasure.",
+              "psychological_function": "Integration: claiming what was won through Shadow confrontation.",
+              "jungian_concepts": [
+                "integration",
+                "self"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Act Three — Return",
+          "stages": [
+            {
+              "position": 10,
+              "id": "v_road_back",
+              "name": "The Road Back",
+              "description": "The hero begins the journey home, often chased or facing new complications.",
+              "psychological_function": "Integration pressure: the insight must be brought back to ordinary life.",
+              "jungian_concepts": [
+                "ego",
+                "integration"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "v_resurrection",
+              "name": "Resurrection",
+              "description": "A final test: the hero is transformed by the experience and must prove the transformation is real.",
+              "psychological_function": "Death-rebirth archetype. The old ego dies; the new identity is forged in the final fire.",
+              "jungian_concepts": [
+                "individuation",
+                "self",
+                "hero"
+              ]
+            },
+            {
+              "position": 12,
+              "id": "v_return_elixir",
+              "name": "Return with the Elixir",
+              "description": "The hero returns home with something that benefits the ordinary world: knowledge, healing, or a symbol of transformation.",
+              "psychological_function": "Individuation made real in the world. The inner transformation expressed in outer life.",
+              "jungian_concepts": [
+                "self",
+                "integration",
+                "individuation"
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "screenwriting",
+        "foundational",
+        "practical"
+      ]
+    },
+    {
+      "id": "harmon_story_circle",
+      "name": "The Story Circle",
+      "author": "Dan Harmon",
+      "source_work": "Channel 101 tutorials / Community writer's room",
+      "year": 2009,
+      "copyright_note": "Harmon's framework is widely reproduced and taught. Originally published as free online tutorials.",
+      "description": "Harmon distilled the Hero's Journey into 8 steps arranged in a circle. Designed for TV episodes and short-form narrative, it's the most compressed and practical version of the monomyth. Each step is a single verb or phrase.",
+      "total_stages": 8,
+      "stages": [
+        {
+          "position": 1,
+          "id": "h_you",
+          "name": "You (A character is in a zone of comfort)",
+          "description": "Establishment of the character and their status quo.",
+          "psychological_function": "Persona territory: comfort zone, adapted self.",
+          "jungian_concepts": [
+            "persona",
+            "ego"
+          ]
+        },
+        {
+          "position": 2,
+          "id": "h_need",
+          "name": "Need (But they want something)",
+          "description": "A desire or need disrupts the comfort zone.",
+          "psychological_function": "The psyche's demand for growth: compensation beginning.",
+          "jungian_concepts": [
+            "compensation",
+            "individuation"
+          ]
+        },
+        {
+          "position": 3,
+          "id": "h_go",
+          "name": "Go (They enter an unfamiliar situation)",
+          "description": "The character crosses into unknown territory.",
+          "psychological_function": "Ego entering unconscious territory.",
+          "jungian_concepts": [
+            "ego",
+            "individuation"
+          ]
+        },
+        {
+          "position": 4,
+          "id": "h_search",
+          "name": "Search (Adapt to it)",
+          "description": "The character struggles and adapts to the new situation.",
+          "psychological_function": "Ego building new capacities in unfamiliar psychic territory.",
+          "jungian_concepts": [
+            "ego",
+            "shadow",
+            "hero"
+          ]
+        },
+        {
+          "position": 5,
+          "id": "h_find",
+          "name": "Find (Get what they wanted)",
+          "description": "The character achieves their goal.",
+          "psychological_function": "Contact with the unconscious content that was being sought.",
+          "jungian_concepts": [
+            "self",
+            "integration"
+          ]
+        },
+        {
+          "position": 6,
+          "id": "h_take",
+          "name": "Take (Pay a heavy price for it)",
+          "description": "The achievement costs something. There's always a price.",
+          "psychological_function": "The sacrifice required for individuation: the old self must die. Shadow confrontation.",
+          "jungian_concepts": [
+            "shadow",
+            "enantiodromia",
+            "individuation"
+          ]
+        },
+        {
+          "position": 7,
+          "id": "h_return",
+          "name": "Return (And go back to where they started)",
+          "description": "The character returns to the familiar world.",
+          "psychological_function": "Bringing the transformation back to ordinary life: integration into the Persona world.",
+          "jungian_concepts": [
+            "ego",
+            "persona",
+            "integration"
+          ]
+        },
+        {
+          "position": 8,
+          "id": "h_change",
+          "name": "Change (Having changed)",
+          "description": "The character is different. The circle is complete but the character is not the same.",
+          "psychological_function": "Individuation made visible: the personality has been enlarged by the journey.",
+          "jungian_concepts": [
+            "individuation",
+            "self",
+            "integration"
+          ]
+        }
+      ],
+      "tags": [
+        "tv_writing",
+        "practical",
+        "compressed"
+      ]
+    },
+    {
+      "id": "freytag_pyramid",
+      "name": "Freytag's Dramatic Arc",
+      "author": "Gustav Freytag",
+      "source_work": "Die Technik des Dramas (The Technique of the Drama)",
+      "year": 1863,
+      "copyright_note": "Public domain — published 1863.",
+      "description": "The classical five-part dramatic structure derived from Greek and Shakespearean drama. The simplest Western narrative framework: rising action building to climax, then falling to resolution.",
+      "total_stages": 5,
+      "stages": [
+        {
+          "position": 1,
+          "id": "f_exposition",
+          "name": "Exposition",
+          "description": "Setting, characters, and situation established. The world before conflict.",
+          "psychological_function": "Ego consciousness at baseline: the known world, the current adaptation.",
+          "jungian_concepts": [
+            "ego",
+            "persona"
+          ]
+        },
+        {
+          "position": 2,
+          "id": "f_rising_action",
+          "name": "Rising Action",
+          "description": "Complications, conflicts, and tensions escalate. The stakes grow.",
+          "psychological_function": "Tension between conscious attitude and unconscious compensation building.",
+          "jungian_concepts": [
+            "compensation",
+            "shadow",
+            "complexes"
+          ]
+        },
+        {
+          "position": 3,
+          "id": "f_climax",
+          "name": "Climax",
+          "description": "The turning point: the moment of maximum tension where the outcome is determined.",
+          "psychological_function": "The crisis of individuation: the point where the old attitude can no longer hold. Enantiodromia.",
+          "jungian_concepts": [
+            "enantiodromia",
+            "shadow",
+            "individuation"
+          ]
+        },
+        {
+          "position": 4,
+          "id": "f_falling_action",
+          "name": "Falling Action",
+          "description": "Consequences of the climax unfold. The new reality takes shape.",
+          "psychological_function": "Integration beginning: the psyche reorganizing after the crisis.",
+          "jungian_concepts": [
+            "integration",
+            "ego"
+          ]
+        },
+        {
+          "position": 5,
+          "id": "f_denouement",
+          "name": "Catastrophe (Dénouement)",
+          "description": "Resolution. The new normal. Loose ends tied, lessons learned, order (re)established.",
+          "psychological_function": "New adaptation: the ego has been reorganized around a new relationship with the unconscious.",
+          "jungian_concepts": [
+            "persona",
+            "ego",
+            "self"
+          ]
+        }
+      ],
+      "tags": [
+        "classical",
+        "foundational",
+        "simple"
+      ]
+    },
+    {
+      "id": "kishotenketsu",
+      "name": "Kishōtenketsu",
+      "author": "Traditional (Chinese/Japanese/Korean)",
+      "source_work": "Classical Chinese poetry and essay structure, adapted into Japanese and Korean narrative traditions",
+      "year": "Ancient",
+      "copyright_note": "Traditional framework — no copyright applies.",
+      "description": "A four-act narrative structure that does not require conflict as its engine. Instead of tension-climax-resolution, it uses introduction, development, twist, and reconciliation. The 'twist' (ten) introduces a seemingly unrelated element that the final act reconciles with the earlier material. This is a foundational structure in East Asian storytelling and offers a fundamentally different model of transformation, one based on juxtaposition and integration rather than confrontation.",
+      "total_stages": 4,
+      "stages": [
+        {
+          "position": 1,
+          "id": "k_ki",
+          "name": "Ki (Introduction)",
+          "description": "Establishment: the subject is introduced without conflict or dramatic tension.",
+          "psychological_function": "Consciousness at rest: awareness of what is, without the pressure of what must change.",
+          "jungian_concepts": [
+            "ego",
+            "persona"
+          ]
+        },
+        {
+          "position": 2,
+          "id": "k_sho",
+          "name": "Shō (Development)",
+          "description": "The subject is developed, deepened, elaborated. Still no conflict, just exploration.",
+          "psychological_function": "Amplification: exploring the image, the feeling, the situation more deeply without forcing it toward crisis.",
+          "jungian_concepts": [
+            "amplification",
+            "circumambulation"
+          ]
+        },
+        {
+          "position": 3,
+          "id": "k_ten",
+          "name": "Ten (Twist / Turn)",
+          "description": "An apparently unrelated element is introduced. A surprising juxtaposition, a shift in perspective, something that doesn't seem to belong.",
+          "psychological_function": "Compensation without confrontation: the unconscious introducing what consciousness didn't expect. The Trickster's gentle cousin.",
+          "jungian_concepts": [
+            "compensation",
+            "trickster",
+            "enantiodromia"
+          ]
+        },
+        {
+          "position": 4,
+          "id": "k_ketsu",
+          "name": "Ketsu (Reconciliation)",
+          "description": "The seemingly unrelated element is revealed to be deeply connected. The whole is seen, not through conflict resolution but through integration of the unexpected.",
+          "psychological_function": "Integration through recognition rather than battle. The psyche's capacity to find wholeness through juxtaposition: holding two things together until their hidden unity becomes visible.",
+          "jungian_concepts": [
+            "integration",
+            "self",
+            "individuation"
+          ]
+        }
+      ],
+      "special_note": "Kishōtenketsu matters for dreamwork because dreams don't always follow Western conflict structure. Many dreams operate by juxtaposition: seemingly unrelated images placed side by side. Kishōtenketsu provides a framework for understanding these dreams without forcing them into a crisis-resolution model.",
+      "tags": [
+        "east_asian",
+        "non_conflict",
+        "important_alternative"
+      ]
+    },
+    {
+      "id": "booker_seven_plots",
+      "name": "The Seven Basic Plots",
+      "author": "Christopher Booker",
+      "source_work": "The Seven Basic Plots: Why We Tell Stories",
+      "year": 2004,
+      "copyright_note": "Under copyright. Plot types described in original language.",
+      "description": "Booker argued that all stories reduce to seven archetypal plot patterns, each reflecting a fundamental psychological journey. Explicitly Jungian: Booker frames each plot as a mode of individuation.",
+      "plot_types": [
+        {
+          "id": "b_overcoming_monster",
+          "name": "Overcoming the Monster",
+          "description": "The hero confronts and defeats a threatening force of evil.",
+          "psychological_function": "Shadow confrontation: facing and integrating the threatening other.",
+          "jungian_concepts": [
+            "shadow",
+            "hero",
+            "integration"
+          ]
+        },
+        {
+          "id": "b_rags_to_riches",
+          "name": "Rags to Riches",
+          "description": "The humble hero discovers their true worth and achieves their full potential.",
+          "psychological_function": "The Self emerging from beneath the Persona's limitations. Individuation as unfolding of latent potential.",
+          "jungian_concepts": [
+            "self",
+            "child",
+            "individuation"
+          ]
+        },
+        {
+          "id": "b_quest",
+          "name": "The Quest",
+          "description": "The hero and companions journey toward a vital goal, overcoming obstacles.",
+          "psychological_function": "Individuation as directed journey. The hero assembling inner resources (allies) for the central task.",
+          "jungian_concepts": [
+            "hero",
+            "individuation",
+            "wise_old_man"
+          ]
+        },
+        {
+          "id": "b_voyage_return",
+          "name": "Voyage and Return",
+          "description": "The hero travels to a strange world, experiences it, and returns changed.",
+          "psychological_function": "Ego entering and returning from the unconscious. Katabasis and anabasis.",
+          "jungian_concepts": [
+            "ego",
+            "collective_unconscious",
+            "individuation"
+          ]
+        },
+        {
+          "id": "b_comedy",
+          "name": "Comedy",
+          "description": "Confusion, misunderstanding, and mistaken identity resolve in harmonious union.",
+          "psychological_function": "The Trickster and Persona at play. Confusion (unconscious interference) leading to a more authentic arrangement.",
+          "jungian_concepts": [
+            "trickster",
+            "persona",
+            "integration"
+          ]
+        },
+        {
+          "id": "b_tragedy",
+          "name": "Tragedy",
+          "description": "The hero's fatal flaw leads to their downfall and destruction.",
+          "psychological_function": "Failed individuation: the ego's one-sidedness (the 'flaw') destroys the personality because Shadow material was never integrated.",
+          "jungian_concepts": [
+            "shadow",
+            "enantiodromia",
+            "ego"
+          ]
+        },
+        {
+          "id": "b_rebirth",
+          "name": "Rebirth",
+          "description": "The hero falls into a dark state (death, enchantment, imprisonment) and is redeemed by a transformative event.",
+          "psychological_function": "Death-rebirth: the most direct individuation plot. The old self dies; the new self is born.",
+          "jungian_concepts": [
+            "individuation",
+            "self",
+            "child",
+            "hero"
+          ]
+        }
+      ],
+      "tags": [
+        "archetypal_plots",
+        "jungian_explicit"
+      ]
+    },
+    {
+      "id": "snyder_save_the_cat",
+      "name": "Save the Cat! Beat Sheet",
+      "author": "Blake Snyder",
+      "source_work": "Save the Cat! The Last Book on Screenwriting You'll Ever Need",
+      "year": 2005,
+      "copyright_note": "Under copyright. Beats described in original language.",
+      "description": "Fifteen structural beats for commercial screenwriting. The most granular and prescriptive Western framework. Less mythologically oriented than Campbell/Vogler but widely used and effective for understanding story mechanics.",
+      "total_beats": 15,
+      "beats": [
+        {
+          "position": 1,
+          "id": "s_opening_image",
+          "name": "Opening Image",
+          "description": "A visual that sets the tone and shows the hero's starting state.",
+          "psychological_function": "Persona snapshot: the starting condition of the ego.",
+          "jungian_concepts": [
+            "persona",
+            "ego"
+          ]
+        },
+        {
+          "position": 2,
+          "id": "s_theme_stated",
+          "name": "Theme Stated",
+          "description": "Someone states the theme, usually to the hero, who doesn't yet understand it.",
+          "psychological_function": "The Self's message arriving before the ego can receive it.",
+          "jungian_concepts": [
+            "self",
+            "compensation"
+          ]
+        },
+        {
+          "position": 3,
+          "id": "s_setup",
+          "name": "Set-Up",
+          "description": "The hero's world, relationships, and flaws are established.",
+          "psychological_function": "The Persona world and its cracks revealed.",
+          "jungian_concepts": [
+            "persona",
+            "shadow"
+          ]
+        },
+        {
+          "position": 4,
+          "id": "s_catalyst",
+          "name": "Catalyst",
+          "description": "The event that changes everything.",
+          "psychological_function": "The call: individuation demanding attention.",
+          "jungian_concepts": [
+            "individuation",
+            "compensation"
+          ]
+        },
+        {
+          "position": 5,
+          "id": "s_debate",
+          "name": "Debate",
+          "description": "The hero weighs the options. Should I go? Can I do this?",
+          "psychological_function": "Ego-unconscious negotiation.",
+          "jungian_concepts": [
+            "ego",
+            "shadow"
+          ]
+        },
+        {
+          "position": 6,
+          "id": "s_break_into_two",
+          "name": "Break into Two",
+          "description": "The hero chooses to enter the new world.",
+          "psychological_function": "Threshold crossing: ego enters unconscious territory.",
+          "jungian_concepts": [
+            "ego",
+            "individuation"
+          ]
+        },
+        {
+          "position": 7,
+          "id": "s_b_story",
+          "name": "B Story",
+          "description": "A secondary story begins, often a love story, that carries the theme.",
+          "psychological_function": "Anima/Animus subplot: the relationship that carries the deeper transformation.",
+          "jungian_concepts": [
+            "anima_animus"
+          ]
+        },
+        {
+          "position": 8,
+          "id": "s_fun_and_games",
+          "name": "Fun and Games",
+          "description": "The promise of the premise: the hero explores the new world.",
+          "psychological_function": "The Puer's domain: play, exploration, possibility before consequences.",
+          "jungian_concepts": [
+            "puer_aeternus",
+            "hero"
+          ]
+        },
+        {
+          "position": 9,
+          "id": "s_midpoint",
+          "name": "Midpoint",
+          "description": "A major event raises the stakes: false victory or false defeat.",
+          "psychological_function": "The first real contact with the Self: either inflation (false victory) or deflation (false defeat).",
+          "jungian_concepts": [
+            "ego",
+            "self"
+          ]
+        },
+        {
+          "position": 10,
+          "id": "s_bad_guys",
+          "name": "Bad Guys Close In",
+          "description": "Opposition intensifies. Internal and external pressures mount.",
+          "psychological_function": "Shadow and complex activation: the repressed material closing in.",
+          "jungian_concepts": [
+            "shadow",
+            "complexes"
+          ]
+        },
+        {
+          "position": 11,
+          "id": "s_all_is_lost",
+          "name": "All Is Lost",
+          "description": "The lowest point. Something or someone dies (literally or figuratively).",
+          "psychological_function": "Ego death: the old self cannot survive. The nigredo.",
+          "jungian_concepts": [
+            "enantiodromia",
+            "shadow",
+            "individuation"
+          ]
+        },
+        {
+          "position": 12,
+          "id": "s_dark_night",
+          "name": "Dark Night of the Soul",
+          "description": "The hero sits with the loss. Grief, despair, the temptation to quit.",
+          "psychological_function": "The necessary darkness before rebirth. The space between death and resurrection.",
+          "jungian_concepts": [
+            "shadow",
+            "ego",
+            "self"
+          ]
+        },
+        {
+          "position": 13,
+          "id": "s_break_into_three",
+          "name": "Break into Three",
+          "description": "An insight from the B Story provides the key. The hero sees the solution.",
+          "psychological_function": "Anima/Animus integration provides the missing piece. The contrasexual function completes what the dominant function couldn't.",
+          "jungian_concepts": [
+            "anima_animus",
+            "integration"
+          ]
+        },
+        {
+          "position": 14,
+          "id": "s_finale",
+          "name": "Finale",
+          "description": "The hero confronts the antagonist using the lessons learned. Victory through transformation.",
+          "psychological_function": "Shadow confrontation with integrated resources. The hero who returns is not the hero who left.",
+          "jungian_concepts": [
+            "shadow",
+            "integration",
+            "hero"
+          ]
+        },
+        {
+          "position": 15,
+          "id": "s_final_image",
+          "name": "Final Image",
+          "description": "A visual that shows how the hero has changed, the mirror of the Opening Image.",
+          "psychological_function": "The new Persona: the adapted self reorganized around a larger center. Individuation made visible.",
+          "jungian_concepts": [
+            "persona",
+            "self",
+            "individuation"
+          ]
+        }
+      ],
+      "tags": [
+        "screenwriting",
+        "commercial",
+        "granular"
+      ]
+    }
+  ]
+}

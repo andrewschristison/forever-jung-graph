@@ -1,0 +1,413 @@
+{
+  "schema_version": "1.0",
+  "layer": "myths",
+  "description": "Myth, fairy tale, and literary references for amplification — connecting personal dreams to the human dream. Western and non-Western traditions unified. The psyche doesn't belong to any one culture.",
+  "total_count": 18,
+  "traditions_represented": {
+    "Multiple (Western literature, Danish fairy tale, Contemporary literature/film...)": 1,
+    "Multiple (Italian literature, Celtic/medieval romance, Greek mythology...)": 1,
+    "Multiple (Grimm fairy tale / Robert Bly's analysis, German literature / Buddhist influence, Greek epic)": 1,
+    "Multiple (English literature, Sumerian mythology, Anglo-Saxon epic)": 1,
+    "Multiple (West African / Caribbean, Norse mythology, Native American (multiple nations))": 1,
+    "Multiple (Greek mythology, Hindu mythology, Russian fairy tale)": 1,
+    "Multiple (Hebrew Bible, Egyptian mythology, Grimm fairy tale)": 1,
+    "Multiple (Contemporary literature, Zen Buddhism, Arthurian legend)": 1,
+    "Sumerian / Mesopotamian": 1,
+    "Hindu / Indian": 2,
+    "Aboriginal Australian": 1,
+    "Yoruba / West African / Afro-Caribbean diaspora": 1,
+    "Sufi / Islamic mystical": 1,
+    "Chinese / Taoist": 1,
+    "K'iche' Maya": 1,
+    "Buddhist": 1,
+    "Navajo / Diné": 1
+  },
+  "references": [
+    {
+      "id": "myth_shadow_jekyll",
+      "concept": "shadow",
+      "stories": [
+        {
+          "title": "Dr. Jekyll and Mr. Hyde",
+          "author": "Robert Louis Stevenson",
+          "year": 1886,
+          "tradition": "Western literature",
+          "summary": "A respected doctor creates a potion that releases his Shadow as a separate personality. The Shadow, once freed, grows stronger and more autonomous until it destroys the host. The definitive literary Shadow parable: what you repress doesn't disappear. It develops independently.",
+          "key_insight": "Hyde doesn't emerge from nowhere. He was always there. Jekyll's 'goodness' required Hyde's existence."
+        },
+        {
+          "title": "The Shadow (Andersen)",
+          "author": "Hans Christian Andersen",
+          "year": 1847,
+          "tradition": "Danish fairy tale",
+          "summary": "A scholar's shadow separates from him, becomes more successful, and eventually takes his place, reducing the original to the shadow. A story about what happens when the Shadow is more vital than the Persona.",
+          "key_insight": "The Shadow can be more alive than the ego that cast it."
+        },
+        {
+          "title": "Fight Club",
+          "author": "Chuck Palahniuk",
+          "year": 1996,
+          "tradition": "Contemporary literature/film",
+          "summary": "A repressed office worker's Shadow manifests as a separate, charismatic personality who creates an anarchic movement. The Shadow represents everything the Persona has suppressed: vitality, aggression, authenticity.",
+          "key_insight": "Tyler Durden IS the narrator's golden shadow: everything he's afraid to be."
+        },
+        {
+          "title": "Star Wars: The Empire Strikes Back",
+          "tradition": "Film/modern mythology",
+          "summary": "Luke enters the cave on Dagobah and fights a phantom of Darth Vader, whose mask, when broken, reveals Luke's own face. 'What's in there?' 'Only what you take with you.'",
+          "key_insight": "The cave is the unconscious. The enemy's face is your own. Yoda tried to tell him."
+        }
+      ],
+      "tradition": "Multiple (Western literature, Danish fairy tale, Contemporary literature/film...)"
+    },
+    {
+      "id": "myth_anima_dante",
+      "concept": "anima_animus",
+      "stories": [
+        {
+          "title": "The Divine Comedy",
+          "author": "Dante Alighieri",
+          "year": 1320,
+          "tradition": "Italian literature",
+          "summary": "Beatrice, Dante's idealized beloved, guides him through Paradise after Virgil (the Wise Old Man) guides him through Hell and Purgatory. Beatrice IS the Anima as Sophia: the feminine soul-image that leads to the divine.",
+          "key_insight": "The Anima develops: Virgil (intellect/Wise Old Man) can only take you so far. The final ascent requires Beatrice (soul/Anima at her highest development)."
+        },
+        {
+          "title": "Tristan and Isolde",
+          "tradition": "Celtic/medieval romance",
+          "summary": "The love potion makes literal what is psychological: Anima projection experienced as fate, as divine compulsion, as love that destroys the social order because it serves a deeper order.",
+          "key_insight": "The love potion IS the projection. You don't choose to project. It happens to you."
+        },
+        {
+          "title": "Psyche and Eros",
+          "tradition": "Greek mythology",
+          "summary": "Psyche (soul) must complete impossible tasks to reunite with Eros (love). She descends to the underworld, sorts impossible quantities, and ultimately achieves divine status. The myth of the feminine psyche's individuation through love and ordeal.",
+          "key_insight": "Psyche must NOT look at Eros in the light at first: the projection must be experienced before it can be understood."
+        },
+        {
+          "title": "The Frog Prince",
+          "tradition": "Grimm fairy tale",
+          "summary": "The princess must keep her promise to the repulsive frog; in the Grimm original she finally hurls it against the wall, and even that honest fury breaks the spell. The Animus in its undeveloped form is repulsive: real engagement precedes transformation.",
+          "key_insight": "You don't get the prince by finding a prince. You get the prince by accepting the frog."
+        }
+      ],
+      "tradition": "Multiple (Italian literature, Celtic/medieval romance, Greek mythology...)"
+    },
+    {
+      "id": "myth_individuation_odyssey",
+      "concept": "individuation",
+      "stories": [
+        {
+          "title": "The Odyssey",
+          "author": "Homer",
+          "tradition": "Greek epic",
+          "summary": "Odysseus's ten-year journey home after Troy is the archetypal individuation narrative: encounters with the Terrible Mother (Scylla, Charybdis, Calypso), the Anima (Circe, Nausicaa, Penelope at different levels), the descent to the underworld, and the final return as a transformed man who must reclaim his own house.",
+          "key_insight": "The journey home IS the individuation. Ithaca doesn't change. Odysseus does."
+        },
+        {
+          "title": "Siddhartha",
+          "author": "Hermann Hesse",
+          "year": 1922,
+          "tradition": "German literature / Buddhist influence",
+          "summary": "Siddhartha must live through every stage (asceticism, hedonism, despair) before arriving at the river (the unconscious) where the ferryman (Wise Old Man) teaches him to listen. The whole life is the individuation.",
+          "key_insight": "No stage can be skipped. The hedonism was as necessary as the asceticism."
+        },
+        {
+          "title": "Iron John",
+          "tradition": "Grimm fairy tale / Robert Bly's analysis",
+          "summary": "A boy's golden ball rolls into the cage of the captive Wild Man, who will return it only if the boy frees him, using the key stolen from under his mother's pillow. He must separate from the Mother, bond with the Wild Man (the masculine shadow), serve in the kitchen (humility), and fight in the war (hero stage) before achieving kingship.",
+          "key_insight": "The key is under the mother's pillow. You cannot individuate without separating from the mother complex."
+        }
+      ],
+      "tradition": "Multiple (Grimm fairy tale / Robert Bly's analysis, German literature / Buddhist influence, Greek epic)"
+    },
+    {
+      "id": "myth_hero_dragon",
+      "concept": "hero",
+      "stories": [
+        {
+          "title": "Beowulf",
+          "tradition": "Anglo-Saxon epic",
+          "summary": "Beowulf fights three monsters: Grendel (the shadow), then Grendel's mother deeper in the mere (the Great Mother), and, fifty years later as an old king, the dragon (death at old age). Each battle represents a different stage of the Hero's individuation.",
+          "key_insight": "The last battle kills the hero. Individuation ultimately requires the Hero to die: the ego to surrender its heroic identity."
+        },
+        {
+          "title": "The Descent of Inanna",
+          "tradition": "Sumerian mythology",
+          "summary": "The goddess Inanna descends to the underworld, is stripped of everything at each of seven gates, dies, and is reborn. The feminine hero's journey: individuation through surrender rather than conquest.",
+          "key_insight": "This is the non-Western hero's journey. The hero doesn't conquer. She is stripped, dies, and is reborn. The gates strip the Persona."
+        },
+        {
+          "title": "The Lord of the Rings",
+          "author": "J.R.R. Tolkien",
+          "year": 1954,
+          "tradition": "English literature",
+          "summary": "The hero is not the warrior (Aragorn) but the humble hobbit (Frodo) whose task is not to seize power but to SURRENDER it. The ring is inflation: the ego's identification with archetypal power. The quest is to throw it away.",
+          "key_insight": "The real hero's journey is the renunciation of power, not its acquisition. Frodo doesn't become king. He goes home wounded."
+        }
+      ],
+      "tradition": "Multiple (English literature, Sumerian mythology, Anglo-Saxon epic)"
+    },
+    {
+      "id": "myth_trickster_coyote",
+      "concept": "trickster",
+      "stories": [
+        {
+          "title": "Coyote stories",
+          "tradition": "Native American (multiple nations)",
+          "summary": "Coyote creates and destroys, is wise and foolish, helps humanity and stumbles over his own appetites. The Trickster in his purest form: sacred and profane, creative and destructive, the divine fool.",
+          "key_insight": "Coyote's mistakes are often more creative than others' successes. The Trickster's failures produce more than the conventional person's plans."
+        },
+        {
+          "title": "Loki",
+          "tradition": "Norse mythology",
+          "summary": "Loki is the gods' necessary irritant: the boundary-crosser who creates as much as he destroys, whose final act of chaos triggers Ragnarök, which is also renewal.",
+          "key_insight": "The system needs its Trickster. Without Loki, Asgard calcifies. The destruction is also the renewal."
+        },
+        {
+          "title": "Anansi stories",
+          "tradition": "West African / Caribbean",
+          "summary": "The spider-trickster who wins through cleverness rather than strength, who earns the Sky God's stories by paying an impossible price and gives them to humanity. The Trickster as the source of narrative itself.",
+          "key_insight": "All stories belong to Anansi. The Trickster is the archetype of storytelling, and storytelling is how the psyche processes itself."
+        }
+      ],
+      "tradition": "Multiple (West African / Caribbean, Norse mythology, Native American (multiple nations))"
+    },
+    {
+      "id": "myth_great_mother_kali",
+      "concept": "great_mother",
+      "stories": [
+        {
+          "title": "Kali",
+          "tradition": "Hindu mythology",
+          "summary": "The Dark Mother who wears a necklace of skulls and dances on corpses, and is also the liberator, the destroyer of ignorance, the fierce protector. Creation and destruction as inseparable aspects of the feminine divine.",
+          "key_insight": "Kali doesn't destroy despite being the Mother. She destroys BECAUSE she is the Mother. Destruction is an act of love when what's being destroyed is illusion."
+        },
+        {
+          "title": "Demeter and Persephone",
+          "tradition": "Greek mythology",
+          "summary": "The Mother who loses her daughter to the underworld and grieves so deeply that the world turns to winter. Persephone's descent IS the daughter's individuation: separation from the Mother that the Mother experiences as death.",
+          "key_insight": "Individuation hurts the Mother. The daughter's growth is the Mother's grief. Both are necessary."
+        },
+        {
+          "title": "Baba Yaga",
+          "tradition": "Russian fairy tale",
+          "summary": "The terrifying old woman in the house on chicken legs who either helps or devours those who come to her, depending on their readiness. The Great Mother as gatekeeper of the unconscious.",
+          "key_insight": "Baba Yaga's question is always some version of: do you know why you have come? In the tales it is the truthful, wide-awake answer that survives her. The unconscious tests sincerity, not credentials."
+        }
+      ],
+      "tradition": "Multiple (Greek mythology, Hindu mythology, Russian fairy tale)"
+    },
+    {
+      "id": "myth_death_rebirth_osiris",
+      "concept": "individuation",
+      "subconcept": "death_rebirth",
+      "stories": [
+        {
+          "title": "Osiris",
+          "tradition": "Egyptian mythology",
+          "summary": "Osiris is murdered, dismembered, and scattered by Set (the Shadow brother). Isis (the Anima) reassembles him. He is reborn as lord of the underworld, not of the living world, but of the depth world. Death doesn't return you to the old life. It gives you sovereignty over the inner world.",
+          "key_insight": "You don't come back as who you were. You come back as lord of a different kingdom: the inner one."
+        },
+        {
+          "title": "Jonah and the Whale",
+          "tradition": "Hebrew Bible",
+          "summary": "The prophet who refuses his calling is swallowed by a great fish, spends three days in its belly, and is vomited back onto land to fulfill his purpose. The belly of the whale as the nigredo, the necessary swallowing before rebirth.",
+          "key_insight": "The whale doesn't kill Jonah. It incubates him. The belly is the alchemical vessel."
+        },
+        {
+          "title": "The Handless Maiden",
+          "tradition": "Grimm fairy tale",
+          "summary": "A girl's father cuts off her hands (loss of agency) as a pact with the devil. She wanders through years of suffering; a king who loves her has silver hands made for her, and in time her own hands grow back. The long, slow restoration of what was taken.",
+          "key_insight": "Some individuation journeys don't begin with a call. They begin with a wounding. And healing doesn't mean getting the old hands back. It means growing new ones."
+        }
+      ],
+      "tradition": "Multiple (Hebrew Bible, Egyptian mythology, Grimm fairy tale)"
+    },
+    {
+      "id": "myth_self_mandala",
+      "concept": "self",
+      "stories": [
+        {
+          "title": "The Grail Quest",
+          "tradition": "Arthurian legend",
+          "summary": "The knights of the Round Table quest for the Holy Grail, the vessel of wholeness that can heal the wounded king and restore the wasteland. The Grail is the Self. The wasteland is the psyche without the Self. The quest IS individuation.",
+          "key_insight": "Each knight enters the forest 'where it was darkest and there was no path.' Individuation has no map. You must find your own way in."
+        },
+        {
+          "title": "Zen Ox-Herding Pictures",
+          "tradition": "Zen Buddhism",
+          "summary": "Ten stages of seeking, finding, taming, and transcending the ox (the Self, the true nature). The eighth picture is an empty circle, the Enso: ox and seeker both forgotten. Wholeness transcends the seeker and the sought, and the path keeps going.",
+          "key_insight": "The tenth picture is the return to the marketplace with open hands. Individuation ends not in the monastery but in ordinary life, transformed."
+        },
+        {
+          "title": "The Alchemist",
+          "author": "Paulo Coelho",
+          "year": 1988,
+          "tradition": "Contemporary literature",
+          "summary": "Santiago's treasure was buried under the very spot where his journey began. The quest took him around the world to discover that the gold was always at home.",
+          "key_insight": "The circumambulation: you travel the entire world to find what was always here. But you couldn't have found it without the journey."
+        }
+      ],
+      "tradition": "Multiple (Contemporary literature, Zen Buddhism, Arthurian legend)"
+    },
+    {
+      "id": "myth_gilgamesh",
+      "concept": "individuation",
+      "tradition": "Sumerian / Mesopotamian",
+      "title": "The Epic of Gilgamesh",
+      "period": "~2100 BCE",
+      "summary": "Among the oldest written stories in human history. Gilgamesh, king of Uruk, is two-thirds divine and one-third human, but he's a tyrant. The gods create Enkidu, a wild man, as his mirror and equal. They fight, become brothers, and journey together. After Enkidu dies, Gilgamesh seeks immortality, fails, and returns home having accepted his mortality. The story of individuation through friendship, loss, and the acceptance of human limits.",
+      "key_insight": "Enkidu is both Shadow (the wild self) and the soul-companion (the inner Other). Gilgamesh's individuation begins not with a call from the gods but with the arrival of his equal opposite. The psyche sends you the friend you need to break you open.",
+      "relevant_concepts": [
+        "shadow",
+        "hero",
+        "individuation",
+        "inner_other"
+      ]
+    },
+    {
+      "id": "myth_ramayana",
+      "concept": "hero",
+      "tradition": "Hindu / Indian",
+      "title": "The Ramayana",
+      "period": "~500-100 BCE (written); oral tradition far older",
+      "summary": "Prince Rama is exiled from his kingdom, loses his wife Sita to the demon king Ravana, wins the help of an army of vanaras, monkey-people whose greatest hero is the monkey god Hanuman, and fights to reclaim her. But upon reunion, he subjects Sita to a trial by fire to prove her purity, and later banishes her despite her innocence. A hero's journey that includes the hero's FAILURES of individuation.",
+      "key_insight": "The Ramayana doesn't idealize its hero. Rama is both the ideal and the flawed: his treatment of Sita reveals the Shadow within the Hero archetype. The greatest hero story in Hindu tradition includes the hero's moral failure. That's more honest than most Western hero narratives.",
+      "relevant_concepts": [
+        "hero",
+        "anima_animus",
+        "shadow",
+        "persona"
+      ]
+    },
+    {
+      "id": "myth_aboriginal_dreamtime",
+      "concept": "collective_unconscious",
+      "tradition": "Aboriginal Australian",
+      "title": "The Dreaming / Dreamtime (called Tjukurpa by the Anangu)",
+      "period": "60,000+ years of continuous tradition",
+      "summary": "In Aboriginal Australian cosmology, the Dreaming is not the past. It is the ever-present foundation of reality. Ancestral beings shaped the land, and their creative acts continue through song, story, and ceremony. Dreams are not merely personal experiences. In many Aboriginal traditions they can open onto the Dreaming, the underlying creative order. The land IS the story. The story IS the land.",
+      "key_insight": "Aboriginal Dreamtime is the most ancient and sophisticated dream cosmology on Earth. It doesn't separate dream from reality, inner from outer, past from present. It holds dreams as living connection to a deeper order. This tradition deserves deep respect. It got there tens of thousands of years before Jung.",
+      "relevant_concepts": [
+        "collective_unconscious",
+        "synchronicity",
+        "self"
+      ],
+      "cultural_note": "Aboriginal Australian sacred knowledge is not freely available for appropriation. Many Dreamtime stories are restricted by tradition and belong to specific communities. Aboriginal Australian sacred knowledge is not freely available for retelling. Many Dreaming stories are restricted by tradition and belong to specific communities. We speak here about the concept of the Dreaming, with respect, and do not reproduce sacred narratives."
+    },
+    {
+      "id": "myth_yoruba_orisha",
+      "concept": "collective_unconscious",
+      "tradition": "Yoruba / West African / Afro-Caribbean diaspora",
+      "title": "The Orishas",
+      "period": "Ancient, with living contemporary practice",
+      "summary": "The Orishas are divine presences in Yoruba tradition: Ogun (the warrior/builder), Oshun (love/beauty/river), Yemoja (the ocean mother), Eshu/Elegba (the trickster/crossroads), Obatala (wisdom/creation), Shango (thunder/justice/passion). Each Orisha embodies a fundamental pattern of human experience. Practitioners don't just study the Orishas. They are claimed by them, carry their energy, and honor them through ceremony.",
+      "key_insight": "The Orisha system is arguably the closest living parallel to Jungian archetypal psychology, with the crucial difference that it's a LIVING tradition practiced by millions of people, not an academic framework. Where Jung described archetypes as patterns, Yoruba tradition relates to them as presences. The Orishas are not metaphors.",
+      "relevant_concepts": [
+        "shadow",
+        "hero",
+        "trickster",
+        "great_mother",
+        "anima_animus",
+        "self"
+      ],
+      "cultural_note": "Yoruba/Orisha tradition is a living religion practiced by communities worldwide. Reference with respect for its practitioners. Do not reduce the Orishas to 'the Yoruba equivalent of Jungian archetypes': they are not equivalents; they are living sacred beings to their devotees."
+    },
+    {
+      "id": "myth_sufi_beloved",
+      "concept": "anima_animus",
+      "tradition": "Sufi / Islamic mystical",
+      "title": "Rumi and the Beloved",
+      "period": "13th century CE; tradition ongoing",
+      "summary": "Rumi's poetry is organized around the relationship with the Beloved: the divine Other who is simultaneously the human beloved (Shams-i-Tabrizi), the divine, and the innermost Self. The Sufi path is the path of love: annihilation of the ego (fana) in union with the Beloved, followed by return to the world transformed (baqa).",
+      "key_insight": "Sufi poetry is the most sustained, beautiful, and psychologically precise exploration of Anima/Animus projection in world literature. The Beloved is simultaneously a person, a divine presence, and the Self. Rumi doesn't need to choose between these readings because in Sufi psychology, they're all true simultaneously. This is the transcendent function in poetic form.",
+      "relevant_concepts": [
+        "anima_animus",
+        "inner_other",
+        "self",
+        "individuation",
+        "transcendent_function"
+      ]
+    },
+    {
+      "id": "myth_tao_opposites",
+      "concept": "enantiodromia",
+      "tradition": "Chinese / Taoist",
+      "title": "The Tao Te Ching and Yin-Yang",
+      "period": "~6th century BCE",
+      "summary": "The Tao Te Ching describes a reality organized around the dynamic interplay of opposites: yin and yang, dark and light, feminine and masculine, receptive and active. These opposites are not enemies; they are partners. Each contains the seed of the other. Pushing too far in one direction inevitably produces reversal. 'The Tao that can be told is not the eternal Tao.'",
+      "key_insight": "Jung acknowledged his debt to Taoism explicitly. He took the word enantiodromia from Heraclitus, but the yin-yang principle expresses the same law: each extreme turns into its opposite. The Taoist framework provides the most elegant expression of compensatory balance in world philosophy. It also models what individuation aims for: not the victory of one side over another, but the dynamic dance of both.",
+      "relevant_concepts": [
+        "enantiodromia",
+        "compensation",
+        "self",
+        "individuation",
+        "transcendent_function"
+      ]
+    },
+    {
+      "id": "myth_mayan_popol_vuh",
+      "concept": "hero",
+      "tradition": "K'iche' Maya",
+      "title": "The Popol Vuh: The Hero Twins",
+      "period": "Pre-colonial; written version 1554-1558",
+      "summary": "The Hero Twins, Hunahpu and Xbalanque, descend to Xibalba (the underworld) to avenge their father. They survive trials through cleverness, sacrifice themselves voluntarily, are reborn, and ultimately defeat the Lords of Death through trickery, not force. They become the sun and moon.",
+      "key_insight": "The Mesoamerican hero's journey is fundamentally different from the Western version: victory comes through VOLUNTARY DEATH AND REBIRTH, not through combat. The Hero Twins succeed by dying intentionally and returning. This maps to the alchemical mortificatio more precisely than any Greek or Norse hero myth. Also: the heroes are TWINS. The journey requires a partner, an inner other, not a lone hero.",
+      "relevant_concepts": [
+        "hero",
+        "shadow",
+        "trickster",
+        "individuation",
+        "inner_other"
+      ]
+    },
+    {
+      "id": "myth_buddhist_mara",
+      "concept": "shadow",
+      "tradition": "Buddhist",
+      "title": "The Buddha and Mara",
+      "period": "~5th century BCE",
+      "summary": "On the night of his enlightenment, the Buddha is visited by Mara, the personification of desire, fear, and delusion. Mara sends his armies, his beautiful daughters, and his most terrifying visions. The Buddha doesn't fight. He touches the earth and says: 'The earth is my witness.' Mara dissolves. But Mara returns throughout the Buddha's life, and each time the Buddha simply recognizes him: 'I see you, Mara.' (A beloved modern retelling has him go further: 'Come, sit. Have tea.')",
+      "key_insight": "'I see you, Mara. Come, have tea.' is the most perfect description of Shadow integration in world mythology. The Shadow is not defeated, not destroyed, not exiled. It is RECOGNIZED, INVITED IN, and given a seat. It is a model worth aspiring to: not conquering the Shadow but sitting down with it.",
+      "relevant_concepts": [
+        "shadow",
+        "integration",
+        "ego",
+        "self",
+        "individuation"
+      ]
+    },
+    {
+      "id": "myth_navajo_beauty_way",
+      "concept": "individuation",
+      "tradition": "Navajo / Diné",
+      "title": "The Beautyway / Walking in Beauty",
+      "period": "Ancient, living tradition",
+      "summary": "The Navajo concept of Hózhó (often translated as 'beauty' but meaning wholeness, harmony, balance, and health in all dimensions) is the goal of Navajo ceremonial life. Navajo ceremonies restore Hózhó when it has been disrupted. The famous closing prayer of the Night Chant runs: 'In beauty I walk. With beauty before me I walk. With beauty behind me I walk. With beauty all around me I walk. It has become beauty again.'",
+      "key_insight": "Hózhó resonates deeply with what Jung called individuation, but on a far larger canvas: not psychological wholeness but cosmological wholeness. The individual, the community, the land, and the sacred are all part of one fabric. When any part is out of balance, ceremony restores it. Restoring attention to the inner life so that outer life can walk in beauty is an aspiration this tradition names better than psychology ever has.",
+      "relevant_concepts": [
+        "self",
+        "individuation",
+        "integration"
+      ],
+      "cultural_note": "Navajo ceremonial knowledge is sacred and belongs to the Navajo people. The concept of Hózhó is shared here as a philosophical reference, not as appropriable content."
+    },
+    {
+      "id": "myth_hindu_arjuna",
+      "concept": "ego_self_axis",
+      "tradition": "Hindu / Indian",
+      "title": "The Bhagavad Gita: Arjuna and Krishna",
+      "period": "~200 BCE - 200 CE",
+      "summary": "The warrior Arjuna stands between two armies, paralyzed by the moral impossibility of the battle. His charioteer Krishna, who is also the supreme divine being, reveals the nature of reality, duty, and the relationship between the individual self (Atman) and the cosmic Self (Brahman). The dialogue teaches Arjuna to act from his deepest nature rather than from ego calculations.",
+      "key_insight": "Krishna IS the Self. Arjuna IS the ego. The chariot IS the body. The entire Gita is a dialogue between ego and Self about how to live. The ego must ACT, but it must act in service of the Self, not in service of its own fears and desires. This is the ego-Self axis described with perfect precision 2,000 years before Jung.",
+      "relevant_concepts": [
+        "ego_self_axis",
+        "self",
+        "hero",
+        "shadow",
+        "individuation"
+      ]
+    }
+  ]
+}
