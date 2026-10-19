@@ -15,7 +15,7 @@ Seventeen JSON files, written and audited by Andrew Christison, that together ho
 - **A ten-step analysis protocol**, a longitudinal tracking protocol, **12 integration practices**, and dream patterns for recovery, grief, lifespan, relationships, lucid dreaming, nightmares, and recurring dreams
 - **Boundaries and Jung's limitations** stated plainly, interpretive humility, body and contemplative context, and the living system: the companion voice, onboarding, and dream incubation
 
-The same files render every page at foreverju.ng. The site is the reference. The companion, described below, is the full method running on your own AI.
+The same files render every page at foreverju.ng. The site is the reference. The companion, described below and at [foreverju.ng/companion](https://foreverju.ng/companion), is the full method running on your own AI.
 
 ## What this is not
 
